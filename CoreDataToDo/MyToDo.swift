@@ -59,25 +59,5 @@ struct MyToDo:View {
             
             .navigationBarTitle(Text("My ToDo's"), displayMode: .inline)
         .navigationBarItems(trailing: EditButton())
-//                
-//                .foregroundColor(Color(red: 139/255, green: 125/255, blue: 105/255))
-//              .navigationBarItems(leading:
-//                  NavigationLink(
-//                      destination: TimerView()
-//                        .navigationBarTitle(Text("Session 1"), displayMode: .inline)
-//                    .navigationBarItems(trailing:
-//                        NavigationLink("Settings", destination: ContentView())
-//                    )
-//                    )
-//                        {
-//                          Image(systemName: "house")
-//                          .resizable()
-//                          .scaledToFit()
-//                          .frame(width: 40, height: 40)
-//                          .clipped()
-//
-//              }, trailing: EditButton())
-
-//            }
         }
     }

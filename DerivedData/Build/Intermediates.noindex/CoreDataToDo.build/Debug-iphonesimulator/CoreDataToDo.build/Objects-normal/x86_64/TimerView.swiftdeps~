@@ -28,9 +28,7 @@ depends-top-level:
 - !private "Button"
 - !private "CGFloat"
 - !private "Color"
-- !private "ContentView"
 - !private "DispatchQueue"
-- !private "EditMeditation"
 - "Environment"
 - "EnvironmentObject"
 - "FloatLiteralType"
@@ -41,7 +39,6 @@ depends-top-level:
 - "IntegerLiteralType"
 - !private "MusicDeviceComponent"
 - !private "NavigationConfigurator"
-- !private "NavigationLink"
 - !private "NavigationView"
 - "ObservedObject"
 - "PreviewProvider"
@@ -56,7 +53,6 @@ depends-top-level:
 - "Timer"
 - "TimerView"
 - "TimerView_Previews"
-- !private "ToDoItemView"
 - !private "UIColor"
 - !private "URL"
 - "UnicodeScalarType"
@@ -105,9 +101,6 @@ depends-member:
 - !private ["SL", "all"]
 - !private ["SL", "now"]
 - ["7Combine20ConnectablePublisherP", "autoconnect"]
-- !private ["12CoreDataToDo11ContentViewV", "deinit"]
-- !private ["12CoreDataToDo11ContentViewV", "init"]
-- !private ["12CoreDataToDo11ContentViewV", "navigationBarTitle"]
 - !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
 - !private ["s28CustomDebugStringConvertibleP", "barTintColor"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -160,9 +153,6 @@ depends-member:
 - ["7SwiftUI15DynamicPropertyP", "init"]
 - ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - !private ["7SwiftUI10EdgeInsetsV", "all"]
-- !private ["12CoreDataToDo14EditMeditationV", "deinit"]
-- !private ["12CoreDataToDo14EditMeditationV", "init"]
-- !private ["12CoreDataToDo14EditMeditationV", "navigationBarTitle"]
 - !private ["SE", "all"]
 - !private ["SE", "init"]
 - !private ["SE", "largeTitle"]
@@ -236,6 +226,26 @@ depends-member:
 - !private ["SH", "vibrate"]
 - !private ["SH", "white"]
 - !private ["7SwiftUI19HorizontalAlignmentV", "center"]
+- !private ["s12IdentifiableP", "durationIntervalTime"]
+- !private ["s12IdentifiableP", "durationMedTime"]
+- !private ["s12IdentifiableP", "durationPrepTime"]
+- !private ["s12IdentifiableP", "durationRestTime"]
+- !private ["s12IdentifiableP", "end_med_chime"]
+- !private ["s12IdentifiableP", "end_rest_chime"]
+- !private ["s12IdentifiableP", "interval_chime"]
+- !private ["s12IdentifiableP", "interval_time"]
+- !private ["s12IdentifiableP", "med_name"]
+- !private ["s12IdentifiableP", "med_time"]
+- !private ["s12IdentifiableP", "prep_chime"]
+- !private ["s12IdentifiableP", "prep_time"]
+- !private ["s12IdentifiableP", "repeat_end_med_chime"]
+- !private ["s12IdentifiableP", "repeat_end_rest_chime"]
+- !private ["s12IdentifiableP", "repeat_interval_chime"]
+- !private ["s12IdentifiableP", "repeat_prep_chime"]
+- !private ["s12IdentifiableP", "repeat_start_med_chime"]
+- !private ["s12IdentifiableP", "rest_time"]
+- !private ["s12IdentifiableP", "start_med_chime"]
+- !private ["s12IdentifiableP", "total_med_time"]
 - !private ["7SwiftUI5ImageV", "init"]
 - !private ["7SwiftUI5ImageV", "resizable"]
 - !private ["7SwiftUI5ImageV", "scaledToFill"]
@@ -283,7 +293,6 @@ depends-member:
 - !private ["So14NSSecureCodingP", "white"]
 - !private ["12CoreDataToDo22NavigationConfiguratorV", "deinit"]
 - !private ["12CoreDataToDo22NavigationConfiguratorV", "init"]
-- !private ["7SwiftUI14NavigationLinkV", "init"]
 - !private ["7SwiftUI14NavigationViewV", "init"]
 - !private ["7SwiftUI14NavigationViewV", "onAppear"]
 - !private ["Sj", "all"]
@@ -380,9 +389,7 @@ depends-member:
 - !private ["12CoreDataToDo9TimerViewV", "Button"]
 - !private ["12CoreDataToDo9TimerViewV", "CGFloat"]
 - !private ["12CoreDataToDo9TimerViewV", "Color"]
-- !private ["12CoreDataToDo9TimerViewV", "ContentView"]
 - !private ["12CoreDataToDo9TimerViewV", "DispatchQueue"]
-- !private ["12CoreDataToDo9TimerViewV", "EditMeditation"]
 - ["12CoreDataToDo9TimerViewV", "Environment"]
 - ["12CoreDataToDo9TimerViewV", "EnvironmentObject"]
 - !private ["12CoreDataToDo9TimerViewV", "Group"]
@@ -391,7 +398,6 @@ depends-member:
 - ["12CoreDataToDo9TimerViewV", "Int"]
 - !private ["12CoreDataToDo9TimerViewV", "MusicDeviceComponent"]
 - !private ["12CoreDataToDo9TimerViewV", "NavigationConfigurator"]
-- !private ["12CoreDataToDo9TimerViewV", "NavigationLink"]
 - !private ["12CoreDataToDo9TimerViewV", "NavigationView"]
 - ["12CoreDataToDo9TimerViewV", "ObservedObject"]
 - !private ["12CoreDataToDo9TimerViewV", "RoundedRectangle"]
@@ -401,7 +407,6 @@ depends-member:
 - !private ["12CoreDataToDo9TimerViewV", "TapGesture"]
 - !private ["12CoreDataToDo9TimerViewV", "Text"]
 - ["12CoreDataToDo9TimerViewV", "Timer"]
-- !private ["12CoreDataToDo9TimerViewV", "ToDoItemView"]
 - !private ["12CoreDataToDo9TimerViewV", "UIColor"]
 - !private ["12CoreDataToDo9TimerViewV", "URL"]
 - ["12CoreDataToDo9TimerViewV", "UserMedSets"]
@@ -451,8 +456,6 @@ depends-member:
 - ["12CoreDataToDo18TimerView_PreviewsV", "platform"]
 - ["12CoreDataToDo18TimerView_PreviewsV", "previews"]
 - !private ["7SwiftUI17NavigationBarItemV16TitleDisplayModeO", "inline"]
-- !private ["12CoreDataToDo0cD8ItemViewV", "deinit"]
-- !private ["12CoreDataToDo0cD8ItemViewV", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "barTintColor"]
 - !private ["So29UIAccessibilityIdentificationP", "titleTextAttributes"]
 - !private ["So12UIAppearanceP", "barTintColor"]
@@ -535,22 +538,18 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "Button"]
 - !private ["7SwiftUI4ViewP", "CGFloat"]
 - !private ["7SwiftUI4ViewP", "Color"]
-- !private ["7SwiftUI4ViewP", "ContentView"]
 - !private ["7SwiftUI4ViewP", "DispatchQueue"]
-- !private ["7SwiftUI4ViewP", "EditMeditation"]
 - !private ["7SwiftUI4ViewP", "Group"]
 - !private ["7SwiftUI4ViewP", "HStack"]
 - !private ["7SwiftUI4ViewP", "Image"]
 - !private ["7SwiftUI4ViewP", "MusicDeviceComponent"]
 - !private ["7SwiftUI4ViewP", "NavigationConfigurator"]
-- !private ["7SwiftUI4ViewP", "NavigationLink"]
 - !private ["7SwiftUI4ViewP", "NavigationView"]
 - !private ["7SwiftUI4ViewP", "RoundedRectangle"]
 - !private ["7SwiftUI4ViewP", "Spacer"]
 - !private ["7SwiftUI4ViewP", "TapGesture"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - ["7SwiftUI4ViewP", "Timer"]
-- !private ["7SwiftUI4ViewP", "ToDoItemView"]
 - !private ["7SwiftUI4ViewP", "UIColor"]
 - !private ["7SwiftUI4ViewP", "URL"]
 - !private ["7SwiftUI4ViewP", "VStack"]
@@ -576,7 +575,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "largeTitle"]
 - !private ["7SwiftUI4ViewP", "medPart"]
 - !private ["7SwiftUI4ViewP", "myInervalCounter"]
-- !private ["7SwiftUI4ViewP", "navigationBarItems"]
 - !private ["7SwiftUI4ViewP", "navigationBarTitle"]
 - !private ["7SwiftUI4ViewP", "numberOfLoops"]
 - !private ["7SwiftUI4ViewP", "onAppear"]
@@ -683,7 +681,6 @@ depends-nominal:
 - !private "7SwiftUI5ColorV"
 - !private "SL"
 - "7Combine20ConnectablePublisherP"
-- !private "12CoreDataToDo11ContentViewV"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -694,7 +691,6 @@ depends-nominal:
 - !private "8Dispatch0A4TimeV"
 - "7SwiftUI15DynamicPropertyP"
 - !private "7SwiftUI10EdgeInsetsV"
-- !private "12CoreDataToDo14EditMeditationV"
 - !private "SE"
 - "7SwiftUI11EnvironmentV"
 - "7SwiftUI17EnvironmentObjectV"
@@ -712,6 +708,7 @@ depends-nominal:
 - !private "7SwiftUI6HStackV"
 - "SH"
 - !private "7SwiftUI19HorizontalAlignmentV"
+- !private "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
 - !private "7SwiftUI15InsettableShapeP"
 - !private "So21NSAttributedStringKeya"
@@ -726,7 +723,6 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "12CoreDataToDo22NavigationConfiguratorV"
-- !private "7SwiftUI14NavigationLinkV"
 - !private "7SwiftUI14NavigationViewV"
 - !private "Sj"
 - !private "So9OS_objectC"
@@ -761,7 +757,6 @@ depends-nominal:
 - "12CoreDataToDo9TimerViewV"
 - "12CoreDataToDo18TimerView_PreviewsV"
 - !private "7SwiftUI17NavigationBarItemV16TitleDisplayModeO"
-- !private "12CoreDataToDo0cD8ItemViewV"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"

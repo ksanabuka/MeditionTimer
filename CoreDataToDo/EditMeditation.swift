@@ -13,45 +13,6 @@ import AVFoundation
 import Combine
 
 
-class UserMedSets: ObservableObject {
-
-@Published var med_name: String = "My Meditation Name"
-
-@Published var total_med_time: Int = 12
-
-   
-   
-@Published var prep_time: Int = 2
-@Published var med_time: Int = 10
-@Published var interval_time: Int = 3
-@Published var rest_time: Int = 1
-
-   
-@Published var prep_chime: Int = 0
-@Published var repeat_prep_chime: Int = 1
-
-@Published var start_med_chime: Int = 0
-@Published var repeat_start_med_chime: Int = 1
-   
-@Published var interval_chime: Int = 0
-@Published var repeat_interval_chime: Int = 1
-
-@Published var end_med_chime: Int = 0
-@Published var repeat_end_med_chime: Int = 1
-
-@Published var end_rest_chime: Int = 0
-@Published var repeat_end_rest_chime: Int = 1
-
-   
-   
-   @ObservedObject var durationPrepTime = SelectedDuration()
-   
-   @ObservedObject var durationMedTime = SelectedDuration()
-   @ObservedObject var durationIntervalTime = SelectedDuration()
-   @ObservedObject var durationRestTime = SelectedDuration()
-
-}
-
 
 class udUserMeditationSettings: ObservableObject {
 
@@ -124,6 +85,9 @@ var repeat_start_med_chime: Int = UserDefaults.standard.integer(forKey: "k_repea
 struct EditMeditation: View {
 
     @EnvironmentObject var userMedSets: UserMedSets
+   
+   @EnvironmentObject var userMedSets1: UserMedSets
+
 
     @ObservedObject var udUserMedSets = udUserMeditationSettings()
 
@@ -134,7 +98,7 @@ struct EditMeditation: View {
     
     @State var showingDetail = false
 
-    //@Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
 
     
     

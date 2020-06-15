@@ -76,6 +76,9 @@ depends-member:
 - !private ["SH", "init"]
 - !private ["SH", "kSystemSoundID_Vibrate"]
 - !private ["SH", "navigationController"]
+- !private ["s12IdentifiableP", "med_time"]
+- !private ["s12IdentifiableP", "prep_time"]
+- !private ["s12IdentifiableP", "rest_time"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "init"]
@@ -203,6 +206,7 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SH"
+- !private "s12IdentifiableP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "So8NSCodingP"

@@ -208,31 +208,31 @@ NavigationView {
     .navigationBarTitle(Text("Session name"), displayMode: .inline)
                    
                    .foregroundColor(Color(red: 139/255, green: 125/255, blue: 105/255))
-                 .navigationBarItems(leading:
-                     NavigationLink(
-                        destination: ContentView()
-                           .navigationBarTitle(Text("Settings"), displayMode: .inline)
-                            .navigationBarItems(trailing:
-                           NavigationLink("Sponsor", destination: ToDoItemView())
-                       )
-                       )
-                           {
-                             Image(systemName: "gear")
-                             .resizable()
-                             .scaledToFit()
-                             .frame(width: 40, height: 40)
-                             .clipped()
-
-                 }, trailing:
-                    NavigationLink(
-                             destination: EditMeditation()
-                                .navigationBarTitle(Text("Edit Meditation"), displayMode: .inline)
-                                
-                            )
-                                {
-                                  Text("Edit")
-
-                      })
+// 3                .navigationBarItems(leading:
+//                     NavigationLink(
+//                        destination: ContentView()
+//                           .navigationBarTitle(Text("Settings"), displayMode: .inline)
+//                            .navigationBarItems(trailing:
+//                           NavigationLink("Sponsor", destination: ToDoItemView())
+//                       )
+//                       )
+//                           {
+//                             Image(systemName: "gear")
+//                             .resizable()
+//                             .scaledToFit()
+//                             .frame(width: 40, height: 40)
+//                             .clipped()
+//
+//                 }, trailing:
+//                    NavigationLink(
+//                             destination: EditMeditation()
+//                                .navigationBarTitle(Text("Edit Meditation"), displayMode: .inline)
+//
+//                            )
+//                                {
+//                                  Text("Edit")
+//
+//                      })
 }
 .onAppear {
    print("On Appear!!!\n\n")

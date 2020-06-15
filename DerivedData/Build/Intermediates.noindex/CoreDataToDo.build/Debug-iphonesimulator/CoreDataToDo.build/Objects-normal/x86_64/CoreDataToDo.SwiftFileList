@@ -2,6 +2,7 @@
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/AppDelegate.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/diff.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItemView.swift
+/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SessionsView.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SceneDelegate.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItem.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ContentView.swift
@@ -9,3 +10,4 @@
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ChimePicker.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/TimePicker.swift
 /Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/EditMeditation.swift
+/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/sessionClass.swift

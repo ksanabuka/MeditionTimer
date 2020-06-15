@@ -95,22 +95,6 @@ struct ContentView: View {
                 }
             }
             
-//        .navigationBarTitle(Text("Settings"), displayMode: .inline)
-//            .foregroundColor(Color(red: 139/255, green: 125/255, blue: 105/255))
-////            .navigationBarItems(leading:
-////                NavigationLink(
-////                    destination: HomeView()) {
-////                        Image(systemName: "house")
-////                        .resizable()
-////                        .scaledToFit()
-////                        .frame(width: 40, height: 40)
-////                        .clipped()
-////
-////            }, trailing: Text("Hi"))
-//            .navigationBarItems(trailing: Text("Hi"))
-//           // .foregroundColor(.red)
-//            .background(Image(uiImage: imageInBlackBox))
-//        }
     }
     
 }

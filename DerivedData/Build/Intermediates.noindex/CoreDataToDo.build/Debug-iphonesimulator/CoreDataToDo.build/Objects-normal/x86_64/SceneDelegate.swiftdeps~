@@ -18,7 +18,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 - "SceneDelegate"
-- !private "TimerView"
+- !private "SessionsView"
 - !private "UIApplication"
 - !private "UIHostingController"
 - "UIResponder"
@@ -35,7 +35,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - ["s7CVarArgP", "ConnectionOptions"]
-- !private ["s7CVarArgP", "TimerView"]
+- !private ["s7CVarArgP", "SessionsView"]
 - !private ["s7CVarArgP", "UIApplication"]
 - !private ["s7CVarArgP", "UIHostingController"]
 - !private ["s7CVarArgP", "UIWindow"]
@@ -60,7 +60,7 @@ depends-member:
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", "windowScene"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
-- !private ["s28CustomDebugStringConvertibleP", "TimerView"]
+- !private ["s28CustomDebugStringConvertibleP", "SessionsView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
 - !private ["s28CustomDebugStringConvertibleP", "UIHostingController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
@@ -85,7 +85,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", "windowScene"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
-- !private ["s23CustomStringConvertibleP", "TimerView"]
+- !private ["s23CustomStringConvertibleP", "SessionsView"]
 - !private ["s23CustomStringConvertibleP", "UIApplication"]
 - !private ["s23CustomStringConvertibleP", "UIHostingController"]
 - !private ["s23CustomStringConvertibleP", "UIWindow"]
@@ -112,7 +112,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "windowScene"]
 - !private ["7SwiftUI17EnvironmentValuesV", "managedObjectContext"]
 - ["SQ", "ConnectionOptions"]
-- !private ["SQ", "TimerView"]
+- !private ["SQ", "SessionsView"]
 - !private ["SQ", "UIApplication"]
 - !private ["SQ", "UIHostingController"]
 - !private ["SQ", "UIWindow"]
@@ -137,7 +137,7 @@ depends-member:
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
 - ["SH", "ConnectionOptions"]
-- !private ["SH", "TimerView"]
+- !private ["SH", "SessionsView"]
 - !private ["SH", "UIApplication"]
 - !private ["SH", "UIHostingController"]
 - !private ["SH", "UIWindow"]
@@ -161,13 +161,14 @@ depends-member:
 - !private ["SH", "viewContext"]
 - ["SH", "window"]
 - ["SH", "windowScene"]
+- !private ["s12IdentifiableP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "makeKeyAndVisible"]
 - !private ["So8NSCodingP", "rootViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So8NSObjectC", "AppDelegate"]
 - ["So8NSObjectC", "ConnectionOptions"]
-- !private ["So8NSObjectC", "TimerView"]
+- !private ["So8NSObjectC", "SessionsView"]
 - !private ["So8NSObjectC", "UIApplication"]
 - !private ["So8NSObjectC", "UIHostingController"]
 - ["So8NSObjectC", "UIScene"]
@@ -194,7 +195,7 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
 - ["So8NSObjectP", "ConnectionOptions"]
-- !private ["So8NSObjectP", "TimerView"]
+- !private ["So8NSObjectP", "SessionsView"]
 - !private ["So8NSObjectP", "UIApplication"]
 - !private ["So8NSObjectP", "UIHostingController"]
 - !private ["So8NSObjectP", "UIWindow"]
@@ -222,7 +223,7 @@ depends-member:
 - !private ["So21NSPersistentContainerC", "viewContext"]
 - !private ["7Combine16ObservableObjectP", "init"]
 - !private ["12CoreDataToDo13SceneDelegateC", "AppDelegate"]
-- !private ["12CoreDataToDo13SceneDelegateC", "TimerView"]
+- !private ["12CoreDataToDo13SceneDelegateC", "SessionsView"]
 - !private ["12CoreDataToDo13SceneDelegateC", "UIApplication"]
 - !private ["12CoreDataToDo13SceneDelegateC", "UIHostingController"]
 - ["12CoreDataToDo13SceneDelegateC", "UIScene"]
@@ -242,10 +243,10 @@ depends-member:
 - ["12CoreDataToDo13SceneDelegateC", "stateRestorationActivityForScene"]
 - ["12CoreDataToDo13SceneDelegateC", "window"]
 - ["12CoreDataToDo13SceneDelegateC", "windowScene"]
-- !private ["12CoreDataToDo9TimerViewV", "deinit"]
-- !private ["12CoreDataToDo9TimerViewV", "environment"]
-- !private ["12CoreDataToDo9TimerViewV", "environmentObject"]
-- !private ["12CoreDataToDo9TimerViewV", "init"]
+- !private ["12CoreDataToDo12SessionsViewV", "deinit"]
+- !private ["12CoreDataToDo12SessionsViewV", "environment"]
+- !private ["12CoreDataToDo12SessionsViewV", "environmentObject"]
+- !private ["12CoreDataToDo12SessionsViewV", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
@@ -280,7 +281,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "makeKeyAndVisible"]
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
-- !private ["So30UIPasteConfigurationSupportingP", "TimerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "SessionsView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIHostingController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
@@ -305,7 +306,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "windowScene"]
 - !private ["So11UIResponderC", "AppDelegate"]
 - ["So11UIResponderC", "ConnectionOptions"]
-- !private ["So11UIResponderC", "TimerView"]
+- !private ["So11UIResponderC", "SessionsView"]
 - !private ["So11UIResponderC", "UIApplication"]
 - !private ["So11UIResponderC", "UIHostingController"]
 - ["So11UIResponderC", "UIScene"]
@@ -332,7 +333,7 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", "windowScene"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
-- !private ["So30UIResponderStandardEditActionsP", "TimerView"]
+- !private ["So30UIResponderStandardEditActionsP", "SessionsView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - !private ["So30UIResponderStandardEditActionsP", "UIHostingController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
@@ -356,7 +357,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", "windowScene"]
 - ["So7UISceneC", "ConnectionOptions"]
-- !private ["So15UISceneDelegateP", "TimerView"]
+- !private ["So15UISceneDelegateP", "SessionsView"]
 - !private ["So15UISceneDelegateP", "UIApplication"]
 - !private ["So15UISceneDelegateP", "UIHostingController"]
 - !private ["So15UISceneDelegateP", "UIWindow"]
@@ -377,7 +378,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
-- !private ["So23UIUserActivityRestoringP", "TimerView"]
+- !private ["So23UIUserActivityRestoringP", "SessionsView"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
 - !private ["So23UIUserActivityRestoringP", "UIHostingController"]
 - !private ["So23UIUserActivityRestoringP", "UIWindow"]
@@ -406,7 +407,7 @@ depends-member:
 - !private ["So8UIWindowC", "init"]
 - !private ["So8UIWindowC", "makeKeyAndVisible"]
 - !private ["So8UIWindowC", "rootViewController"]
-- !private ["So21UIWindowSceneDelegateP", "TimerView"]
+- !private ["So21UIWindowSceneDelegateP", "SessionsView"]
 - !private ["So21UIWindowSceneDelegateP", "UIApplication"]
 - !private ["So21UIWindowSceneDelegateP", "UIHostingController"]
 - !private ["So21UIWindowSceneDelegateP", "UIWindow"]
@@ -428,7 +429,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "environmentObject"]
 - !private ["7SwiftUI4ViewP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SessionsView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIHostingController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
@@ -453,7 +454,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TimerView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SessionsView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIHostingController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIWindow"]
@@ -490,6 +491,7 @@ depends-nominal:
 - !private "7SwiftUI17EnvironmentValuesV"
 - "SQ"
 - "SH"
+- !private "s12IdentifiableP"
 - !private "So8NSCodingP"
 - !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
@@ -498,7 +500,7 @@ depends-nominal:
 - !private "So21NSPersistentContainerC"
 - !private "7Combine16ObservableObjectP"
 - "12CoreDataToDo13SceneDelegateC"
-- !private "12CoreDataToDo9TimerViewV"
+- !private "12CoreDataToDo12SessionsViewV"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"

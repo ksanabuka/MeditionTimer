@@ -108,6 +108,40 @@
 			<key>uniqueIdentifier</key>
 			<string>03B0B7A8-13FF-43ED-A31C-4CE4A5DA3E51</string>
 		</dict>
+		<key>063D4D8D-1774-4500-8B68-0E5FD951084D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>063D4D8D-1774-4500-8B68-0E5FD951084D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613943365.92617595</real>
+			<key>timeStoppedRecording</key>
+			<real>613943366.03243101</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>063D4D8D-1774-4500-8B68-0E5FD951084D</string>
+		</dict>
 		<key>07A87167-E837-498C-B74A-96EF2F43C136</key>
 		<dict>
 			<key>className</key>
@@ -176,6 +210,40 @@
 			<key>uniqueIdentifier</key>
 			<string>09DCA397-C77E-4645-A692-123866A7EB10</string>
 		</dict>
+		<key>0B08535D-131A-46E1-9D62-ACD04107E222</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0B08535D-131A-46E1-9D62-ACD04107E222.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613936078.624861</real>
+			<key>timeStoppedRecording</key>
+			<real>613936080.138237</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>0B08535D-131A-46E1-9D62-ACD04107E222</string>
+		</dict>
 		<key>13D4FDD4-3F7E-4E7C-84D9-81C381D1B85C</key>
 		<dict>
 			<key>className</key>
@@ -209,6 +277,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>13D4FDD4-3F7E-4E7C-84D9-81C381D1B85C</string>
+		</dict>
+		<key>151FC7E8-E679-4917-B918-5A155DC696FF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>151FC7E8-E679-4917-B918-5A155DC696FF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613936121.26086795</real>
+			<key>timeStoppedRecording</key>
+			<real>613936126.67421901</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>151FC7E8-E679-4917-B918-5A155DC696FF</string>
 		</dict>
 		<key>167D925F-A047-4985-93BA-1A7F54876E75</key>
 		<dict>
@@ -277,6 +379,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>1D162B56-E0B9-4975-93D4-C4E949BF1A0D</string>
+		</dict>
+		<key>1D3E187A-F52C-400D-9784-016AE156155D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1D3E187A-F52C-400D-9784-016AE156155D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613934366.84755397</real>
+			<key>timeStoppedRecording</key>
+			<real>613934366.93013</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>1D3E187A-F52C-400D-9784-016AE156155D</string>
 		</dict>
 		<key>1F234346-7DDA-457A-B9B1-3AF4E49E18E8</key>
 		<dict>
@@ -618,6 +754,40 @@
 			<key>uniqueIdentifier</key>
 			<string>34FA599B-5772-4E87-8471-A7468998097A</string>
 		</dict>
+		<key>3BE56A20-1D70-47EE-8882-4B3AB2BF5AE6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3BE56A20-1D70-47EE-8882-4B3AB2BF5AE6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613940077.86772501</real>
+			<key>timeStoppedRecording</key>
+			<real>613940077.98399603</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>3BE56A20-1D70-47EE-8882-4B3AB2BF5AE6</string>
+		</dict>
 		<key>3C32D38D-2DCD-4107-A1A0-EB04AB8D7039</key>
 		<dict>
 			<key>className</key>
@@ -652,6 +822,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3C32D38D-2DCD-4107-A1A0-EB04AB8D7039</string>
 		</dict>
+		<key>40161368-6626-4077-806C-1A95FC557F2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40161368-6626-4077-806C-1A95FC557F2F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613936478.95064998</real>
+			<key>timeStoppedRecording</key>
+			<real>613936482.54459202</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>40161368-6626-4077-806C-1A95FC557F2F</string>
+		</dict>
 		<key>4C320893-2673-403E-BD5C-159C3DD18FB3</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +889,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>4C320893-2673-403E-BD5C-159C3DD18FB3</string>
+		</dict>
+		<key>4C7348C1-EF92-4487-8BE2-288453A59B39</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4C7348C1-EF92-4487-8BE2-288453A59B39.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613939906.69107294</real>
+			<key>timeStoppedRecording</key>
+			<real>613939909.51521504</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>4C7348C1-EF92-4487-8BE2-288453A59B39</string>
 		</dict>
 		<key>4E80E222-4CC3-422B-A65E-4A7A0B2966EA</key>
 		<dict>
@@ -788,6 +1026,40 @@
 			<key>uniqueIdentifier</key>
 			<string>52F4D5D9-6126-4865-9F92-CD2191D7D812</string>
 		</dict>
+		<key>54E88BD7-ED32-4645-863A-2B19C24B3F01</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>54E88BD7-ED32-4645-863A-2B19C24B3F01.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613937932.49320495</real>
+			<key>timeStoppedRecording</key>
+			<real>613937937.93395197</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>54E88BD7-ED32-4645-863A-2B19C24B3F01</string>
+		</dict>
 		<key>5531114E-F4DD-4D35-8329-A79EFC7535F9</key>
 		<dict>
 			<key>className</key>
@@ -889,6 +1161,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>575D21EE-E9CF-4D70-8A35-96D7CC8D6B68</string>
+		</dict>
+		<key>5A5CE6A6-3462-469D-9243-BEFF310C05DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5A5CE6A6-3462-469D-9243-BEFF310C05DE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613938104.25206995</real>
+			<key>timeStoppedRecording</key>
+			<real>613938109.86458504</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>5A5CE6A6-3462-469D-9243-BEFF310C05DE</string>
 		</dict>
 		<key>5AC8B412-187F-4242-992E-B4F6F6DC962E</key>
 		<dict>
@@ -1059,6 +1365,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>60B0512B-AB03-444D-80A5-922D6FD77EE9</string>
+		</dict>
+		<key>6897FE15-F7D3-43B4-85B9-D86F2A32DC39</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6897FE15-F7D3-43B4-85B9-D86F2A32DC39.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613933943.17829204</real>
+			<key>timeStoppedRecording</key>
+			<real>613933944.51536202</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>6897FE15-F7D3-43B4-85B9-D86F2A32DC39</string>
 		</dict>
 		<key>6ABAF90D-AE18-4880-B5BD-7CEAA744BCCA</key>
 		<dict>
@@ -1298,6 +1638,40 @@
 			<key>uniqueIdentifier</key>
 			<string>7D8E9BCB-0D2F-496B-BA19-93507C7E2962</string>
 		</dict>
+		<key>7F40F633-CDD8-4619-AF21-1BAB5DD27954</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7F40F633-CDD8-4619-AF21-1BAB5DD27954.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613934345.34792495</real>
+			<key>timeStoppedRecording</key>
+			<real>613934347.979509</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>7F40F633-CDD8-4619-AF21-1BAB5DD27954</string>
+		</dict>
 		<key>80DD3F02-4553-4D2A-B4F0-4802345D54B2</key>
 		<dict>
 			<key>className</key>
@@ -1365,6 +1739,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>83F4F4DB-BA34-4965-AB5B-D55E4EA8ACF4</string>
+		</dict>
+		<key>85A2BCE2-E6A8-4B0E-AA89-26E307833E8F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>85A2BCE2-E6A8-4B0E-AA89-26E307833E8F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613943204.81338894</real>
+			<key>timeStoppedRecording</key>
+			<real>613943204.94445002</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>85A2BCE2-E6A8-4B0E-AA89-26E307833E8F</string>
 		</dict>
 		<key>865C6A33-0D03-4985-ADDD-591FDC65CCD5</key>
 		<dict>
@@ -1468,6 +1876,40 @@
 			<key>uniqueIdentifier</key>
 			<string>8A73A6BB-EF68-4A70-8737-EAE98378D7AB</string>
 		</dict>
+		<key>8D2F0269-B6C7-486E-848B-1B10DD4FF251</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8D2F0269-B6C7-486E-848B-1B10DD4FF251.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613939366.03883302</real>
+			<key>timeStoppedRecording</key>
+			<real>613939369.73148203</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>8D2F0269-B6C7-486E-848B-1B10DD4FF251</string>
+		</dict>
 		<key>909A1A63-61AA-4A91-B0F7-07AED3C8E0C0</key>
 		<dict>
 			<key>className</key>
@@ -1535,6 +1977,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>909C3586-4BF6-415F-B7B9-A12750F3E9F9</string>
+		</dict>
+		<key>974001FB-B658-4B2A-935D-B922E7C9DE52</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>974001FB-B658-4B2A-935D-B922E7C9DE52.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613943078.97425795</real>
+			<key>timeStoppedRecording</key>
+			<real>613943084.78997099</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>974001FB-B658-4B2A-935D-B922E7C9DE52</string>
 		</dict>
 		<key>98EEC1CC-CEBA-4E8E-9354-1905A3C1E6A6</key>
 		<dict>
@@ -1740,6 +2216,40 @@
 			<key>uniqueIdentifier</key>
 			<string>9C5A5F54-81C3-40DC-B2BC-359CFA4727F8</string>
 		</dict>
+		<key>9F232185-4B4B-440B-825D-127263B9AE68</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9F232185-4B4B-440B-825D-127263B9AE68.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613943460.999295</real>
+			<key>timeStoppedRecording</key>
+			<real>613943466.59194398</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>9F232185-4B4B-440B-825D-127263B9AE68</string>
+		</dict>
 		<key>9FC8E857-0FC3-4A33-BEA9-F7CAF32AE14D</key>
 		<dict>
 			<key>className</key>
@@ -1774,6 +2284,74 @@
 			<key>uniqueIdentifier</key>
 			<string>9FC8E857-0FC3-4A33-BEA9-F7CAF32AE14D</string>
 		</dict>
+		<key>A19EB572-232F-4290-B77E-4A8EE0131050</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A19EB572-232F-4290-B77E-4A8EE0131050.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613934271.25122201</real>
+			<key>timeStoppedRecording</key>
+			<real>613934274.55380297</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>A19EB572-232F-4290-B77E-4A8EE0131050</string>
+		</dict>
+		<key>A4C45633-CE82-4633-AC22-C21A0190525D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A4C45633-CE82-4633-AC22-C21A0190525D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613939572.37821603</real>
+			<key>timeStoppedRecording</key>
+			<real>613939573.79911995</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>A4C45633-CE82-4633-AC22-C21A0190525D</string>
+		</dict>
 		<key>A6D6B15D-B7C3-44CB-A87B-9C7C05914919</key>
 		<dict>
 			<key>className</key>
@@ -1807,6 +2385,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>A6D6B15D-B7C3-44CB-A87B-9C7C05914919</string>
+		</dict>
+		<key>AC3C7098-1359-4041-98F3-95D5261D86A6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AC3C7098-1359-4041-98F3-95D5261D86A6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613934397.00108695</real>
+			<key>timeStoppedRecording</key>
+			<real>613934397.08324003</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>AC3C7098-1359-4041-98F3-95D5261D86A6</string>
 		</dict>
 		<key>ACFAB721-D16B-4DFF-9691-D7FAF55D2E7F</key>
 		<dict>
@@ -1876,6 +2488,40 @@
 			<key>uniqueIdentifier</key>
 			<string>AD741817-1B5F-4289-A506-7496C0034E70</string>
 		</dict>
+		<key>B41AE9FD-FF49-42E5-B1B7-FD70A4801241</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B41AE9FD-FF49-42E5-B1B7-FD70A4801241.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613936086.34902</real>
+			<key>timeStoppedRecording</key>
+			<real>613936087.51862204</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>B41AE9FD-FF49-42E5-B1B7-FD70A4801241</string>
+		</dict>
 		<key>B53F592B-1FE8-4FC8-8213-E34CC2F8B578</key>
 		<dict>
 			<key>className</key>
@@ -1943,6 +2589,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>B58BCE1F-5B8C-4DD8-B08D-969AAA8F97DB</string>
+		</dict>
+		<key>B78D091F-13C5-4851-9F18-A4E1951AD2CF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B78D091F-13C5-4851-9F18-A4E1951AD2CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613943128.48562205</real>
+			<key>timeStoppedRecording</key>
+			<real>613943128.56877005</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>B78D091F-13C5-4851-9F18-A4E1951AD2CF</string>
 		</dict>
 		<key>B7ACBA7B-53A1-4E44-89C0-987DDD2CEE91</key>
 		<dict>
@@ -2080,6 +2760,74 @@
 			<key>uniqueIdentifier</key>
 			<string>BF04EC63-7C97-4325-8CDE-E1EDC46466A2</string>
 		</dict>
+		<key>BF6FD4F6-A496-4EFC-B743-493577F7EFB0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BF6FD4F6-A496-4EFC-B743-493577F7EFB0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613943534.54574203</real>
+			<key>timeStoppedRecording</key>
+			<real>613943539.97442806</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>BF6FD4F6-A496-4EFC-B743-493577F7EFB0</string>
+		</dict>
+		<key>BFEAB576-9B94-4DC5-86EC-93AB28F7B8D4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BFEAB576-9B94-4DC5-86EC-93AB28F7B8D4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613933981.47669899</real>
+			<key>timeStoppedRecording</key>
+			<real>613933981.60550201</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>BFEAB576-9B94-4DC5-86EC-93AB28F7B8D4</string>
+		</dict>
 		<key>C0E8751F-0B6F-4087-905A-77FC826E5A6E</key>
 		<dict>
 			<key>className</key>
@@ -2113,6 +2861,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>C0E8751F-0B6F-4087-905A-77FC826E5A6E</string>
+		</dict>
+		<key>C4AB1210-A526-4BF8-84B5-7295DAAAA3CD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C4AB1210-A526-4BF8-84B5-7295DAAAA3CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613937866.07422996</real>
+			<key>timeStoppedRecording</key>
+			<real>613937871.62794197</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>C4AB1210-A526-4BF8-84B5-7295DAAAA3CD</string>
 		</dict>
 		<key>C5DB6FC3-CA29-40E3-872E-D9E4E31D9FDC</key>
 		<dict>
@@ -2215,6 +2997,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>C98C54F6-C67F-4D52-AF57-66039796EBA1</string>
+		</dict>
+		<key>CB4301AC-167A-4980-8E54-A195E7C37DE8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CB4301AC-167A-4980-8E54-A195E7C37DE8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613937144.73033094</real>
+			<key>timeStoppedRecording</key>
+			<real>613937148.76487505</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>CB4301AC-167A-4980-8E54-A195E7C37DE8</string>
 		</dict>
 		<key>CE7E7967-6A1D-40DF-8C3D-28687994AE7B</key>
 		<dict>
@@ -2590,6 +3406,40 @@
 			<key>uniqueIdentifier</key>
 			<string>F90DB8C2-C68B-4A45-99A1-2A2BB13A3D3F</string>
 		</dict>
+		<key>F98ACD32-26D7-4BD5-8074-349323E25C4B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F98ACD32-26D7-4BD5-8074-349323E25C4B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613934494.39389205</real>
+			<key>timeStoppedRecording</key>
+			<real>613934500.49161994</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>F98ACD32-26D7-4BD5-8074-349323E25C4B</string>
+		</dict>
 		<key>F9FBE9AE-CDCD-4EDF-80D1-DD5F1E8DD85F</key>
 		<dict>
 			<key>className</key>
@@ -2623,6 +3473,40 @@
 			<string>Build CoreDataToDo</string>
 			<key>uniqueIdentifier</key>
 			<string>F9FBE9AE-CDCD-4EDF-80D1-DD5F1E8DD85F</string>
+		</dict>
+		<key>FBA55EE0-649C-4B0D-A417-12F6A5D2BD78</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FBA55EE0-649C-4B0D-A417-12F6A5D2BD78.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataToDo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataToDo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoreDataToDo</string>
+			<key>timeStartedRecording</key>
+			<real>613939066.11667395</real>
+			<key>timeStoppedRecording</key>
+			<real>613939069.55224395</real>
+			<key>title</key>
+			<string>Build CoreDataToDo</string>
+			<key>uniqueIdentifier</key>
+			<string>FBA55EE0-649C-4B0D-A417-12F6A5D2BD78</string>
 		</dict>
 	</dict>
 </dict>

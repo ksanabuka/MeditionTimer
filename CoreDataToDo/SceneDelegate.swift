@@ -24,7 +24,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-        let contentView = TimerView().environment(\.managedObjectContext, context)
+      
+      //3
+      let contentView = SessionsView().environment(\.managedObjectContext, context)
 //        let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
@@ -33,9 +35,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
             let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             var userMedSets = UserMedSets()
-            let contentView = TimerView()
+            var userMedSets1 = UserMedSets()
+
+         //3
+
+         let contentView = SessionsView()
             
-            .environmentObject(userMedSets).environment(\.managedObjectContext, managedObjectContext)
+            .environmentObject(userMedSets)
+         .environmentObject(userMedSets1)
+            .environment(\.managedObjectContext, managedObjectContext)
 //            let contentView = ContentView()
 
             window.rootViewController = UIHostingController(rootView: contentView)

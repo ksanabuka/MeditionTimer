@@ -1,0 +1,410 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Session"
+- "SessionRow"
+- "UserMedSets"
+provides-nominal:
+- "12CoreDataToDo7SessionV"
+- "12CoreDataToDo10SessionRowV"
+- "12CoreDataToDo11UserMedSetsC"
+provides-member:
+- ["12CoreDataToDo7SessionV", ""]
+- ["12CoreDataToDo10SessionRowV", ""]
+- ["12CoreDataToDo11UserMedSetsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "<"
+- "Double"
+- "FloatLiteralType"
+- !private "HStack"
+- "Identifiable"
+- "Int"
+- "IntegerLiteralType"
+- "ObservableObject"
+- "ObservedObject"
+- "Published"
+- "SelectedDuration"
+- "Session"
+- "SessionRow"
+- !private "Spacer"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "Text"
+- "UUID"
+- "UnicodeScalarType"
+- "UserMedSets"
+- !private "VStack"
+- "View"
+depends-member:
+- !private ["7SwiftUI5ColorV", "gray"]
+- !private ["s28CustomDebugStringConvertibleP", "gray"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subheadline"]
+- !private ["s17CustomReflectableP", "gray"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subheadline"]
+- !private ["s23CustomStringConvertibleP", "gray"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "gray"]
+- ["Se", "init"]
+- !private ["Se", "subheadline"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["SE", "gray"]
+- ["SE", "init"]
+- !private ["SE", "subheadline"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "gray"]
+- ["SQ", "init"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "subheadline"]
+- !private ["s23ExpressibleByNilLiteralP", "gray"]
+- !private ["s23ExpressibleByNilLiteralP", "subheadline"]
+- !private ["7SwiftUI4FontV", "subheadline"]
+- !private ["7SwiftUI7GestureP", "gray"]
+- !private ["7SwiftUI7GestureP", "subheadline"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "gray"]
+- ["SH", "init"]
+- !private ["SH", "subheadline"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
+- ["s12IdentifiableP", "ID"]
+- ["s12IdentifiableP", "ObjectWillChangePublisher"]
+- ["s12IdentifiableP", "SelectedDuration"]
+- ["s12IdentifiableP", "UUID"]
+- ["s12IdentifiableP", ""]
+- ["s12IdentifiableP", "_Default_ID"]
+- ["s12IdentifiableP", "_Default_ObjectWillChangePublisher"]
+- !private ["s12IdentifiableP", "_end_med_chime"]
+- !private ["s12IdentifiableP", "_end_rest_chime"]
+- !private ["s12IdentifiableP", "_interval_chime"]
+- !private ["s12IdentifiableP", "_interval_time"]
+- !private ["s12IdentifiableP", "_med_name"]
+- !private ["s12IdentifiableP", "_med_time"]
+- !private ["s12IdentifiableP", "_note"]
+- !private ["s12IdentifiableP", "_prep_chime"]
+- !private ["s12IdentifiableP", "_prep_time"]
+- !private ["s12IdentifiableP", "_repeat_end_med_chime"]
+- !private ["s12IdentifiableP", "_repeat_end_rest_chime"]
+- !private ["s12IdentifiableP", "_repeat_interval_chime"]
+- !private ["s12IdentifiableP", "_repeat_prep_chime"]
+- !private ["s12IdentifiableP", "_repeat_start_med_chime"]
+- !private ["s12IdentifiableP", "_rest_time"]
+- !private ["s12IdentifiableP", "_start_med_chime"]
+- !private ["s12IdentifiableP", "_total_med_time"]
+- !private ["s12IdentifiableP", "durationPrepTime"]
+- !private ["s12IdentifiableP", "end_med_chime"]
+- !private ["s12IdentifiableP", "end_rest_chime"]
+- ["s12IdentifiableP", "id"]
+- !private ["s12IdentifiableP", "interval_chime"]
+- !private ["s12IdentifiableP", "interval_time"]
+- !private ["s12IdentifiableP", "med_name"]
+- !private ["s12IdentifiableP", "med_time"]
+- !private ["s12IdentifiableP", "note"]
+- ["s12IdentifiableP", "objectWillChange"]
+- !private ["s12IdentifiableP", "prep_chime"]
+- !private ["s12IdentifiableP", "prep_time"]
+- !private ["s12IdentifiableP", "repeat_end_med_chime"]
+- !private ["s12IdentifiableP", "repeat_end_rest_chime"]
+- !private ["s12IdentifiableP", "repeat_interval_chime"]
+- !private ["s12IdentifiableP", "repeat_prep_chime"]
+- !private ["s12IdentifiableP", "repeat_start_med_chime"]
+- !private ["s12IdentifiableP", "rest_time"]
+- !private ["s12IdentifiableP", "start_med_chime"]
+- !private ["s12IdentifiableP", "total_med_time"]
+- ["7Combine16ObservableObjectP", "ID"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "SelectedDuration"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ID"]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_end_med_chime"]
+- !private ["7Combine16ObservableObjectP", "_end_rest_chime"]
+- !private ["7Combine16ObservableObjectP", "_interval_chime"]
+- !private ["7Combine16ObservableObjectP", "_interval_time"]
+- !private ["7Combine16ObservableObjectP", "_med_name"]
+- !private ["7Combine16ObservableObjectP", "_med_time"]
+- !private ["7Combine16ObservableObjectP", "_note"]
+- !private ["7Combine16ObservableObjectP", "_prep_chime"]
+- !private ["7Combine16ObservableObjectP", "_prep_time"]
+- !private ["7Combine16ObservableObjectP", "_repeat_end_med_chime"]
+- !private ["7Combine16ObservableObjectP", "_repeat_end_rest_chime"]
+- !private ["7Combine16ObservableObjectP", "_repeat_interval_chime"]
+- !private ["7Combine16ObservableObjectP", "_repeat_prep_chime"]
+- !private ["7Combine16ObservableObjectP", "_repeat_start_med_chime"]
+- !private ["7Combine16ObservableObjectP", "_rest_time"]
+- !private ["7Combine16ObservableObjectP", "_start_med_chime"]
+- !private ["7Combine16ObservableObjectP", "_total_med_time"]
+- !private ["7Combine16ObservableObjectP", "durationPrepTime"]
+- !private ["7Combine16ObservableObjectP", "end_med_chime"]
+- !private ["7Combine16ObservableObjectP", "end_rest_chime"]
+- ["7Combine16ObservableObjectP", "id"]
+- ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "interval_chime"]
+- !private ["7Combine16ObservableObjectP", "interval_time"]
+- !private ["7Combine16ObservableObjectP", "med_name"]
+- !private ["7Combine16ObservableObjectP", "med_time"]
+- !private ["7Combine16ObservableObjectP", "note"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "prep_chime"]
+- !private ["7Combine16ObservableObjectP", "prep_time"]
+- !private ["7Combine16ObservableObjectP", "repeat_end_med_chime"]
+- !private ["7Combine16ObservableObjectP", "repeat_end_rest_chime"]
+- !private ["7Combine16ObservableObjectP", "repeat_interval_chime"]
+- !private ["7Combine16ObservableObjectP", "repeat_prep_chime"]
+- !private ["7Combine16ObservableObjectP", "repeat_start_med_chime"]
+- !private ["7Combine16ObservableObjectP", "rest_time"]
+- !private ["7Combine16ObservableObjectP", "selectedHour"]
+- !private ["7Combine16ObservableObjectP", "selectedMin"]
+- !private ["7Combine16ObservableObjectP", "selectedSecond"]
+- !private ["7Combine16ObservableObjectP", "start_med_chime"]
+- !private ["7Combine16ObservableObjectP", "total_med_time"]
+- ["7SwiftUI14ObservedObjectV", "init"]
+- ["7SwiftUI14ObservedObjectV", "wrappedValue"]
+- !private ["Sq", "gray"]
+- !private ["Sq", "subheadline"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["12CoreDataToDo16SelectedDurationC", "deinit"]
+- ["12CoreDataToDo16SelectedDurationC", "init"]
+- !private ["12CoreDataToDo16SelectedDurationC", "selectedHour"]
+- !private ["12CoreDataToDo16SelectedDurationC", "selectedMin"]
+- !private ["12CoreDataToDo16SelectedDurationC", "selectedSecond"]
+- ["12CoreDataToDo7SessionV", "Double"]
+- ["12CoreDataToDo7SessionV", "ID"]
+- ["12CoreDataToDo7SessionV", "String"]
+- ["12CoreDataToDo7SessionV", "UUID"]
+- ["12CoreDataToDo7SessionV", "_Default_ID"]
+- ["12CoreDataToDo7SessionV", "deinit"]
+- ["12CoreDataToDo7SessionV", "duration"]
+- ["12CoreDataToDo7SessionV", "id"]
+- ["12CoreDataToDo7SessionV", "init"]
+- ["12CoreDataToDo7SessionV", "medSession"]
+- ["12CoreDataToDo7SessionV", "name"]
+- ["12CoreDataToDo7SessionV", "note"]
+- ["12CoreDataToDo10SessionRowV", "Body"]
+- !private ["12CoreDataToDo10SessionRowV", "HStack"]
+- !private ["12CoreDataToDo10SessionRowV", "Spacer"]
+- !private ["12CoreDataToDo10SessionRowV", "Text"]
+- ["12CoreDataToDo10SessionRowV", "UserMedSets"]
+- !private ["12CoreDataToDo10SessionRowV", "VStack"]
+- ["12CoreDataToDo10SessionRowV", "View"]
+- ["12CoreDataToDo10SessionRowV", "_Default_Body"]
+- ["12CoreDataToDo10SessionRowV", "_makeView"]
+- ["12CoreDataToDo10SessionRowV", "_makeViewList"]
+- ["12CoreDataToDo10SessionRowV", "body"]
+- ["12CoreDataToDo10SessionRowV", "deinit"]
+- ["12CoreDataToDo10SessionRowV", "init"]
+- ["12CoreDataToDo10SessionRowV", "session"]
+- !private ["7SwiftUI10ShapeStyleP", "gray"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["7SwiftUI4TextV", "font"]
+- !private ["7SwiftUI4TextV", "foregroundColor"]
+- !private ["7SwiftUI4TextV", "init"]
+- ["10Foundation4UUIDV", "init"]
+- ["12CoreDataToDo11UserMedSetsC", "$durationIntervalTime"]
+- ["12CoreDataToDo11UserMedSetsC", "$durationMedTime"]
+- ["12CoreDataToDo11UserMedSetsC", "$durationPrepTime"]
+- ["12CoreDataToDo11UserMedSetsC", "$durationRestTime"]
+- ["12CoreDataToDo11UserMedSetsC", "$end_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$end_rest_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$interval_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$interval_time"]
+- ["12CoreDataToDo11UserMedSetsC", "$med_name"]
+- ["12CoreDataToDo11UserMedSetsC", "$med_time"]
+- ["12CoreDataToDo11UserMedSetsC", "$note"]
+- ["12CoreDataToDo11UserMedSetsC", "$prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$prep_time"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_end_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_end_rest_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_interval_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_start_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$rest_time"]
+- ["12CoreDataToDo11UserMedSetsC", "$start_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$total_med_time"]
+- ["12CoreDataToDo11UserMedSetsC", "ID"]
+- ["12CoreDataToDo11UserMedSetsC", "Int"]
+- ["12CoreDataToDo11UserMedSetsC", "ObjectWillChangePublisher"]
+- ["12CoreDataToDo11UserMedSetsC", "ObservedObject"]
+- ["12CoreDataToDo11UserMedSetsC", "Published"]
+- ["12CoreDataToDo11UserMedSetsC", "SelectedDuration"]
+- ["12CoreDataToDo11UserMedSetsC", "String"]
+- ["12CoreDataToDo11UserMedSetsC", "_Default_ID"]
+- ["12CoreDataToDo11UserMedSetsC", "_Default_ObjectWillChangePublisher"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_durationIntervalTime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_durationMedTime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_durationPrepTime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_durationRestTime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_end_med_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_end_rest_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_interval_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_interval_time"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_med_name"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_med_time"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_note"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_prep_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_prep_time"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_end_med_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_end_rest_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_interval_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_prep_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_start_med_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_rest_time"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_start_med_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_total_med_time"]
+- ["12CoreDataToDo11UserMedSetsC", "deinit"]
+- ["12CoreDataToDo11UserMedSetsC", "durationIntervalTime"]
+- ["12CoreDataToDo11UserMedSetsC", "durationMedTime"]
+- ["12CoreDataToDo11UserMedSetsC", "durationPrepTime"]
+- ["12CoreDataToDo11UserMedSetsC", "durationRestTime"]
+- ["12CoreDataToDo11UserMedSetsC", "end_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "end_rest_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "id"]
+- ["12CoreDataToDo11UserMedSetsC", "init"]
+- ["12CoreDataToDo11UserMedSetsC", "interval_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "interval_time"]
+- ["12CoreDataToDo11UserMedSetsC", "med_name"]
+- ["12CoreDataToDo11UserMedSetsC", "med_time"]
+- ["12CoreDataToDo11UserMedSetsC", "note"]
+- ["12CoreDataToDo11UserMedSetsC", "objectWillChange"]
+- ["12CoreDataToDo11UserMedSetsC", "prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "prep_time"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_end_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_end_rest_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_interval_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_start_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "rest_time"]
+- ["12CoreDataToDo11UserMedSetsC", "start_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "total_med_time"]
+- !private ["7SwiftUI6VStackV", "init"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "font"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "gray"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "session"]
+- !private ["7SwiftUI4ViewP", "subheadline"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["s21_ObjectiveCBridgeableP", "gray"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subheadline"]
+depends-nominal:
+- !private "7SwiftUI5ColorV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "7SwiftUI15DynamicPropertyP"
+- "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI4FontV"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI6HStackV"
+- "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- "s12IdentifiableP"
+- "7Combine16ObservableObjectP"
+- "7SwiftUI14ObservedObjectV"
+- !private "Sq"
+- "7Combine9PublishedV"
+- "10Foundation20ReferenceConvertibleP"
+- "12CoreDataToDo16SelectedDurationC"
+- "12CoreDataToDo7SessionV"
+- "12CoreDataToDo10SessionRowV"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "7SwiftUI6SpacerV"
+- !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
+- !private "s27StringInterpolationProtocolP"
+- !private "7SwiftUI4TextV"
+- "10Foundation4UUIDV"
+- "12CoreDataToDo11UserMedSetsC"
+- !private "7SwiftUI6VStackV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b4b72d584dfc78d47eeba2fa9091c67f"

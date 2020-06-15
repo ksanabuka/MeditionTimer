@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3238CD029FDFC970F58ADA12ED609A396023E59F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3238CD029FDFC970F58ADA12ED609A396023E59F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F2FF7570-E4AC-4A11-B245-A99A4585C433",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3238CD029FDFC970F58ADA12ED609A396023E59F" : "CoreDataToDo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoreDataToDo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CoreDataToDo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ksanabuka\/MeditionTimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3238CD029FDFC970F58ADA12ED609A396023E59F"
+    }
+  ]
+}
