@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "53dfbcd42998efcfcd1347e984a74117"
+build_time: [1591982759, 986002000]
+inputs:
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/MyToDo.swift": [1576530074, 966598957]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/AppDelegate.swift": [1585707776, 553846242]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/diff.swift": [1591054723, 947784940]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItemView.swift": [1575489790, 198234141]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SceneDelegate.swift": [1583182763, 403206344]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItem.swift": [1575413044, 124926915]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ContentView.swift": [1576529754, 348351570]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/TimerView.swift": [1591810771, 850058043]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ChimePicker.swift": [1591217113, 712350189]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/TimePicker.swift": [1585707776, 567552066]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/EditMeditation.swift": [1591982759, 637017114]

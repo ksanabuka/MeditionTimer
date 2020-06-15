@@ -1,0 +1,541 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserMedSets"
+- "udUserMeditationSettings"
+- "EditMeditation"
+- "EditMeditation_Previews"
+provides-nominal:
+- "12CoreDataToDo11UserMedSetsC"
+- "12CoreDataToDo24udUserMeditationSettingsC"
+- "12CoreDataToDo14EditMeditationV"
+- "12CoreDataToDo23EditMeditation_PreviewsV"
+provides-member:
+- ["12CoreDataToDo11UserMedSetsC", ""]
+- ["12CoreDataToDo24udUserMeditationSettingsC", ""]
+- ["12CoreDataToDo14EditMeditationV", ""]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- "??"
+- "Binding"
+- "BooleanLiteralType"
+- "EditMeditation"
+- "EditMeditation_Previews"
+- "Environment"
+- "FloatLiteralType"
+- !private "ForEach"
+- !private "Form"
+- !private "Group"
+- !private "HStack"
+- "Int"
+- "IntegerLiteralType"
+- !private "NavigationLink"
+- "ObservableObject"
+- "ObservedObject"
+- !private "Picker"
+- "PresentationMode"
+- "PreviewProvider"
+- "Published"
+- !private "Section"
+- !private "SegmentedPickerStyle"
+- "SelectedDuration"
+- !private "Spacer"
+- "State"
+- "String"
+- "StringLiteralType"
+- !private "Text"
+- !private "TextField"
+- !private "TimePicker"
+- "UnicodeScalarType"
+- "UserDefaults"
+- "UserMedSets"
+- !private "VStack"
+- "View"
+- "udUserMeditationSettings"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "integer"]
+- !private ["s7CVarArgP", "set"]
+- ["s7CVarArgP", "standard"]
+- ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s12CaseIterableP", "trailing"]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "integer"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- ["s28CustomDebugStringConvertibleP", "standard"]
+- ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "integer"]
+- ["s23CustomStringConvertibleP", "presentationMode"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- ["s23CustomStringConvertibleP", "standard"]
+- ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "subscript"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI18DynamicViewContentP", "init"]
+- !private ["12CoreDataToDo14EditMeditationV", "$chimeIndex"]
+- ["12CoreDataToDo14EditMeditationV", "$duration"]
+- !private ["12CoreDataToDo14EditMeditationV", "$repeat_options"]
+- ["12CoreDataToDo14EditMeditationV", "$selectedHour"]
+- ["12CoreDataToDo14EditMeditationV", "$selectedMin"]
+- ["12CoreDataToDo14EditMeditationV", "$selectedSecond"]
+- !private ["12CoreDataToDo14EditMeditationV", "$selectorIndex"]
+- ["12CoreDataToDo14EditMeditationV", "$showingDetail"]
+- !private ["12CoreDataToDo14EditMeditationV", "$showingTimer"]
+- ["12CoreDataToDo14EditMeditationV", "$udUMeditationSettings"]
+- ["12CoreDataToDo14EditMeditationV", "Binding"]
+- ["12CoreDataToDo14EditMeditationV", "Body"]
+- ["12CoreDataToDo14EditMeditationV", "Environment"]
+- !private ["12CoreDataToDo14EditMeditationV", "ForEach"]
+- !private ["12CoreDataToDo14EditMeditationV", "Form"]
+- !private ["12CoreDataToDo14EditMeditationV", "Group"]
+- !private ["12CoreDataToDo14EditMeditationV", "HStack"]
+- ["12CoreDataToDo14EditMeditationV", "Int"]
+- !private ["12CoreDataToDo14EditMeditationV", "NavigationLink"]
+- ["12CoreDataToDo14EditMeditationV", "ObservedObject"]
+- !private ["12CoreDataToDo14EditMeditationV", "Picker"]
+- ["12CoreDataToDo14EditMeditationV", "PresentationMode"]
+- !private ["12CoreDataToDo14EditMeditationV", "Section"]
+- !private ["12CoreDataToDo14EditMeditationV", "SegmentedPickerStyle"]
+- ["12CoreDataToDo14EditMeditationV", "SelectedDuration"]
+- !private ["12CoreDataToDo14EditMeditationV", "Spacer"]
+- ["12CoreDataToDo14EditMeditationV", "State"]
+- !private ["12CoreDataToDo14EditMeditationV", "Text"]
+- !private ["12CoreDataToDo14EditMeditationV", "TextField"]
+- !private ["12CoreDataToDo14EditMeditationV", "TimePicker"]
+- !private ["12CoreDataToDo14EditMeditationV", "VStack"]
+- ["12CoreDataToDo14EditMeditationV", "View"]
+- ["12CoreDataToDo14EditMeditationV", "_Default_Body"]
+- !private ["12CoreDataToDo14EditMeditationV", "_chimeIndex"]
+- !private ["12CoreDataToDo14EditMeditationV", "_duration"]
+- ["12CoreDataToDo14EditMeditationV", "_makeView"]
+- ["12CoreDataToDo14EditMeditationV", "_makeViewList"]
+- !private ["12CoreDataToDo14EditMeditationV", "_presentationMode"]
+- !private ["12CoreDataToDo14EditMeditationV", "_repeat_options"]
+- !private ["12CoreDataToDo14EditMeditationV", "_selectedHour"]
+- !private ["12CoreDataToDo14EditMeditationV", "_selectedMin"]
+- !private ["12CoreDataToDo14EditMeditationV", "_selectedSecond"]
+- !private ["12CoreDataToDo14EditMeditationV", "_selectorIndex"]
+- !private ["12CoreDataToDo14EditMeditationV", "_showingDetail"]
+- !private ["12CoreDataToDo14EditMeditationV", "_showingTimer"]
+- !private ["12CoreDataToDo14EditMeditationV", "_udUMeditationSettings"]
+- ["12CoreDataToDo14EditMeditationV", "body"]
+- !private ["12CoreDataToDo14EditMeditationV", "chimeIndex"]
+- ["12CoreDataToDo14EditMeditationV", "chimes"]
+- ["12CoreDataToDo14EditMeditationV", "deinit"]
+- ["12CoreDataToDo14EditMeditationV", "del"]
+- ["12CoreDataToDo14EditMeditationV", "duration"]
+- ["12CoreDataToDo14EditMeditationV", "init"]
+- ["12CoreDataToDo14EditMeditationV", "presentationMode"]
+- !private ["12CoreDataToDo14EditMeditationV", "repeat_options"]
+- ["12CoreDataToDo14EditMeditationV", "selectedHour"]
+- ["12CoreDataToDo14EditMeditationV", "selectedMin"]
+- ["12CoreDataToDo14EditMeditationV", "selectedSecond"]
+- !private ["12CoreDataToDo14EditMeditationV", "selectorIndex"]
+- ["12CoreDataToDo14EditMeditationV", "showingDetail"]
+- !private ["12CoreDataToDo14EditMeditationV", "showingTimer"]
+- ["12CoreDataToDo14EditMeditationV", "udUMeditationSettings"]
+- ["12CoreDataToDo14EditMeditationV", "udUserMeditationSettings"]
+- !private ["12CoreDataToDo23EditMeditation_PreviewsV", "EditMeditation"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "Previews"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "View"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "_Default_Previews"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "_platform"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "_previews"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "deinit"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "init"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "platform"]
+- ["12CoreDataToDo23EditMeditation_PreviewsV", "previews"]
+- !private ["SE", "count"]
+- !private ["SE", "subscript"]
+- ["7SwiftUI11EnvironmentV", "init"]
+- ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- ["7SwiftUI17EnvironmentValuesV", "presentationMode"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- ["SQ", "integer"]
+- !private ["SQ", "padding"]
+- !private ["SQ", "set"]
+- ["SQ", "standard"]
+- ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tag"]
+- !private ["SQ", "trailing"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["7SwiftUI7ForEachV", "init"]
+- !private ["7SwiftUI4FormV", "init"]
+- !private ["7SwiftUI5GroupV", "init"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "count"]
+- ["SH", "integer"]
+- !private ["SH", "set"]
+- ["SH", "standard"]
+- ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "trailing"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSObjectC", "integer"]
+- !private ["So8NSObjectC", "set"]
+- ["So8NSObjectC", "standard"]
+- ["So8NSObjectC", "string"]
+- ["So8NSObjectP", "integer"]
+- !private ["So8NSObjectP", "set"]
+- ["So8NSObjectP", "standard"]
+- ["So8NSObjectP", "string"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "UserDefaults"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_med_name"]
+- !private ["7Combine16ObservableObjectP", "_med_time"]
+- !private ["7Combine16ObservableObjectP", "_prep_chime"]
+- !private ["7Combine16ObservableObjectP", "_prep_time"]
+- !private ["7Combine16ObservableObjectP", "_repeat_med_chime"]
+- !private ["7Combine16ObservableObjectP", "_repeat_prep_chime"]
+- !private ["7Combine16ObservableObjectP", "_start_chime"]
+- ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "med_name"]
+- !private ["7Combine16ObservableObjectP", "med_time"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "prep_chime"]
+- !private ["7Combine16ObservableObjectP", "prep_time"]
+- !private ["7Combine16ObservableObjectP", "repeat_med_chime"]
+- !private ["7Combine16ObservableObjectP", "repeat_prep_chime"]
+- !private ["7Combine16ObservableObjectP", "selectedHour"]
+- !private ["7Combine16ObservableObjectP", "selectedMin"]
+- !private ["7Combine16ObservableObjectP", "selectedSecond"]
+- !private ["7Combine16ObservableObjectP", "start_chime"]
+- ["7SwiftUI14ObservedObjectV", "init"]
+- ["7SwiftUI14ObservedObjectV", "wrappedValue"]
+- !private ["7SwiftUI6PickerV", "init"]
+- !private ["7SwiftUI6PickerV", "pickerStyle"]
+- !private ["7SwiftUI11PickerStyleP", "init"]
+- !private ["7SwiftUI15PreviewProviderP", "EditMeditation"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["7SwiftUI7SectionV", "init"]
+- !private ["7SwiftUI20SegmentedPickerStyleV", "init"]
+- ["12CoreDataToDo16SelectedDurationC", "deinit"]
+- ["12CoreDataToDo16SelectedDurationC", "init"]
+- !private ["12CoreDataToDo16SelectedDurationC", "selectedHour"]
+- !private ["12CoreDataToDo16SelectedDurationC", "selectedMin"]
+- !private ["12CoreDataToDo16SelectedDurationC", "selectedSecond"]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI4TextV", "padding"]
+- !private ["7SwiftUI4TextV", "tag"]
+- !private ["7SwiftUI13TextAlignmentO", "trailing"]
+- !private ["7SwiftUI9TextFieldV", "init"]
+- !private ["7SwiftUI9TextFieldV", "padding"]
+- !private ["12CoreDataToDo10TimePickerV", "deinit"]
+- !private ["12CoreDataToDo10TimePickerV", "init"]
+- ["So14NSUserDefaultsC", "integer"]
+- !private ["So14NSUserDefaultsC", "set"]
+- ["So14NSUserDefaultsC", "standard"]
+- ["So14NSUserDefaultsC", "string"]
+- ["12CoreDataToDo11UserMedSetsC", "$med_name"]
+- ["12CoreDataToDo11UserMedSetsC", "$med_time"]
+- ["12CoreDataToDo11UserMedSetsC", "$prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$prep_time"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$repeat_prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "$start_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "Int"]
+- ["12CoreDataToDo11UserMedSetsC", "ObjectWillChangePublisher"]
+- ["12CoreDataToDo11UserMedSetsC", "Published"]
+- ["12CoreDataToDo11UserMedSetsC", "String"]
+- ["12CoreDataToDo11UserMedSetsC", "_Default_ObjectWillChangePublisher"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_med_name"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_med_time"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_prep_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_prep_time"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_med_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_repeat_prep_chime"]
+- !private ["12CoreDataToDo11UserMedSetsC", "_start_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "deinit"]
+- ["12CoreDataToDo11UserMedSetsC", "init"]
+- ["12CoreDataToDo11UserMedSetsC", "med_name"]
+- ["12CoreDataToDo11UserMedSetsC", "med_time"]
+- ["12CoreDataToDo11UserMedSetsC", "objectWillChange"]
+- ["12CoreDataToDo11UserMedSetsC", "prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "prep_time"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_med_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "repeat_prep_chime"]
+- ["12CoreDataToDo11UserMedSetsC", "start_chime"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI4ViewP", "$chimeIndex"]
+- !private ["7SwiftUI4ViewP", "$duration"]
+- !private ["7SwiftUI4ViewP", "$selectorIndex"]
+- !private ["7SwiftUI4ViewP", "$udUMeditationSettings"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "Form"]
+- !private ["7SwiftUI4ViewP", "Group"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
+- !private ["7SwiftUI4ViewP", "Picker"]
+- !private ["7SwiftUI4ViewP", "Section"]
+- !private ["7SwiftUI4ViewP", "SegmentedPickerStyle"]
+- ["7SwiftUI4ViewP", "SelectedDuration"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "TextField"]
+- !private ["7SwiftUI4ViewP", "TimePicker"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "chimeIndex"]
+- !private ["7SwiftUI4ViewP", "chimes"]
+- !private ["7SwiftUI4ViewP", "duration"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "multilineTextAlignment"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "pickerStyle"]
+- !private ["7SwiftUI4ViewP", "repeat_options"]
+- !private ["7SwiftUI4ViewP", "selectorIndex"]
+- !private ["7SwiftUI4ViewP", "tag"]
+- ["7SwiftUI4ViewP", "udUserMeditationSettings"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "med_name"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "med_time"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "prep_chime"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "selectedHour"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "selectedMin"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "selectedSecond"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "start_chime"]
+- !private ["7SwiftUI14ObservedObjectV7WrapperV", "subscript"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "integer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "integer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["7SwiftUI16_PreviewProviderP", "EditMeditation"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$med_name"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$med_time"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$prep_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$prep_time"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$repeat_med_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$repeat_prep_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "$start_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "Int"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "ObjectWillChangePublisher"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "Published"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "String"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "UserDefaults"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "_Default_ObjectWillChangePublisher"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_med_name"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_med_time"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_prep_chime"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_prep_time"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_repeat_med_chime"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_repeat_prep_chime"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "_start_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "deinit"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "init"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "med_name"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "med_time"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "objectWillChange"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_med_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime"]
+- ["12CoreDataToDo24udUserMeditationSettingsC", "start_chime"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "7SwiftUI7BindingV"
+- "s7CVarArgP"
+- !private "s12CaseIterableP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI18DynamicViewContentP"
+- "12CoreDataToDo14EditMeditationV"
+- "12CoreDataToDo23EditMeditation_PreviewsV"
+- !private "SE"
+- "7SwiftUI11EnvironmentV"
+- "7SwiftUI17EnvironmentValuesV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "7SwiftUI7ForEachV"
+- !private "7SwiftUI4FormV"
+- !private "7SwiftUI5GroupV"
+- !private "7SwiftUI6HStackV"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7SwiftUI14NavigationLinkV"
+- "7Combine16ObservableObjectP"
+- "7SwiftUI14ObservedObjectV"
+- !private "7SwiftUI6PickerV"
+- !private "7SwiftUI11PickerStyleP"
+- "7SwiftUI15PreviewProviderP"
+- "7Combine9PublishedV"
+- !private "Sk"
+- !private "Sm"
+- !private "7SwiftUI7SectionV"
+- !private "7SwiftUI20SegmentedPickerStyleV"
+- "12CoreDataToDo16SelectedDurationC"
+- !private "ST"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
+- !private "s27StringInterpolationProtocolP"
+- !private "7SwiftUI4TextV"
+- !private "7SwiftUI13TextAlignmentO"
+- !private "7SwiftUI9TextFieldV"
+- !private "12CoreDataToDo10TimePickerV"
+- "So14NSUserDefaultsC"
+- "12CoreDataToDo11UserMedSetsC"
+- !private "7SwiftUI6VStackV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI14ObservedObjectV7WrapperV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- "12CoreDataToDo24udUserMeditationSettingsC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e15fa1629e5215491511151c608b4d7"
