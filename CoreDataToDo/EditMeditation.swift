@@ -61,7 +61,7 @@ struct EditMeditation: View {
                                        }
                                    }
                         
-                     ChimePicker(chime: self.$userMedSets2.sessionList[0].prep_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_prep_chime, textLabel: "Preparation Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].prep_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_prep_chime, textLabel: { Text("Preparation Chime")})
 
                      Group {
                       NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets2.durationMedTime1.selectedHour, selectedMin: self.$userMedSets2.durationMedTime1.selectedMin, selectedSecond: self.$userMedSets2.durationMedTime1.selectedSecond)){
@@ -72,7 +72,7 @@ struct EditMeditation: View {
                                                                   + (userMedSets2.durationMedTime1.selectedSecond < 9 ? Text("0\(userMedSets2.durationMedTime1.selectedSecond)"): Text("\(userMedSets2.durationMedTime1.selectedSecond)"))
                                                             }
                                                         }
-                     ChimePicker(chime: self.$userMedSets2.sessionList[0].start_med_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_start_med_chime, textLabel: "Start Chime")
+                        ChimePicker(chime: self.$userMedSets2.sessionList[0].start_med_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_start_med_chime, textLabel:{ Text("Start Chime")})
 
                      }
                      
@@ -89,9 +89,9 @@ struct EditMeditation: View {
 
                                                             }
                                                         }
-                     ChimePicker(chime: self.$userMedSets2.sessionList[0].interval_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_interval_chime, textLabel: "Interval Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].interval_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_interval_chime, textLabel: { Text("Interval Chime")})
 
-                     ChimePicker(chime: self.$userMedSets2.sessionList[0].end_med_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_end_med_chime, textLabel: "End Alert")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].end_med_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_end_med_chime, textLabel: { Text("End Alert")})
 
                      
                       NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets2.durationRestTime1.selectedHour, selectedMin: self.$userMedSets2.durationRestTime1.selectedMin, selectedSecond: self.$userMedSets2.durationRestTime1.selectedSecond)){
@@ -110,7 +110,7 @@ struct EditMeditation: View {
 
                      
                      
-                     ChimePicker(chime: self.$userMedSets2.sessionList[0].end_rest_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_end_rest_chime, textLabel: "Rest Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].end_rest_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_end_rest_chime, textLabel: { Text("Rest Chime")})
                                    }
                     }
                 }

@@ -22,6 +22,7 @@
 		C36279DA23A060EB00111220 /* EditMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36279D923A060EB00111220 /* EditMeditation.swift */; };
 		C36279DC23A0814200111220 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36279DB23A0814200111220 /* TimePicker.swift */; };
 		C3627A0423A19C4000111220 /* bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3627A0323A19C4000111220 /* bells.mp3 */; };
+		C373C379249D3AC80058B158 /* avMediaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373C378249D3AC80058B158 /* avMediaClass.swift */; };
 		C37EE8012497F1F20006CF92 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EE8002497F1F20006CF92 /* SessionsView.swift */; };
 		C37EE8032497F3420006CF92 /* sessionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EE8022497F3420006CF92 /* sessionClass.swift */; };
 		C37EE82924994D1D0006CF92 /* classes_try.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EE82824994D1D0006CF92 /* classes_try.swift */; };
@@ -52,6 +53,7 @@
 		C36279D923A060EB00111220 /* EditMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeditation.swift; sourceTree = "<group>"; };
 		C36279DB23A0814200111220 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 		C3627A0323A19C4000111220 /* bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bells.mp3; sourceTree = "<group>"; };
+		C373C378249D3AC80058B158 /* avMediaClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avMediaClass.swift; sourceTree = "<group>"; };
 		C37EE8002497F1F20006CF92 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
 		C37EE8022497F3420006CF92 /* sessionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessionClass.swift; sourceTree = "<group>"; };
 		C37EE82824994D1D0006CF92 /* classes_try.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes_try.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		C35D261D2397185D00C0DDB6 = {
 			isa = PBXGroup;
 			children = (
+				C373C378249D3AC80058B158 /* avMediaClass.swift */,
 				C3627A0323A19C4000111220 /* bells.mp3 */,
 				C3CF32FA24830CCB0025FC8E /* bowl.mp3 */,
 				C3CF32F924830CCB0025FC8E /* clap.wav */,
@@ -225,6 +228,7 @@
 				C36279DC23A0814200111220 /* TimePicker.swift in Sources */,
 				C36279DA23A060EB00111220 /* EditMeditation.swift in Sources */,
 				C37EE8032497F3420006CF92 /* sessionClass.swift in Sources */,
+				C373C379249D3AC80058B158 /* avMediaClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

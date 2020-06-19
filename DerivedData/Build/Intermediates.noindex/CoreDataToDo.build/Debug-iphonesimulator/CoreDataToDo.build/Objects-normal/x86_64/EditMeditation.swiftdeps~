@@ -16,7 +16,7 @@ depends-top-level:
 - !private "AssignmentPrecedence"
 - "Binding"
 - "BooleanLiteralType"
-- !private "ChimePicker"
+- !private "ChimePicker1"
 - "DataRep"
 - "EditMeditation"
 - "EditMeditation_Previews"
@@ -89,8 +89,8 @@ depends-member:
 - !private ["s7CVarArgP", "standard"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s12CaseIterableP", "trailing"]
-- !private ["12CoreDataToDo11ChimePickerV", "deinit"]
-- !private ["12CoreDataToDo11ChimePickerV", "init"]
+- !private ["12CoreDataToDo12ChimePicker1V", "deinit"]
+- !private ["12CoreDataToDo12ChimePicker1V", "init"]
 - !private ["Sl", "end_med_chime"]
 - !private ["Sl", "end_rest_chime"]
 - !private ["Sl", "interval_chime"]
@@ -219,7 +219,7 @@ depends-member:
 - ["12CoreDataToDo14EditMeditationV", "$userMedSets2"]
 - ["12CoreDataToDo14EditMeditationV", "Binding"]
 - ["12CoreDataToDo14EditMeditationV", "Body"]
-- !private ["12CoreDataToDo14EditMeditationV", "ChimePicker"]
+- !private ["12CoreDataToDo14EditMeditationV", "ChimePicker1"]
 - ["12CoreDataToDo14EditMeditationV", "DataRep"]
 - ["12CoreDataToDo14EditMeditationV", "Environment"]
 - ["12CoreDataToDo14EditMeditationV", "EnvironmentObject"]
@@ -514,7 +514,7 @@ depends-member:
 - ["12CoreDataToDo11UserMedSetsC", "deinit"]
 - !private ["7SwiftUI4ViewP", "$userMedSets2"]
 - ["7SwiftUI4ViewP", "Body"]
-- !private ["7SwiftUI4ViewP", "ChimePicker"]
+- !private ["7SwiftUI4ViewP", "ChimePicker1"]
 - !private ["7SwiftUI4ViewP", "Form"]
 - !private ["7SwiftUI4ViewP", "Group"]
 - !private ["7SwiftUI4ViewP", "HStack"]
@@ -608,7 +608,7 @@ depends-nominal:
 - !private "7SwiftUI7BindingV"
 - !private "s7CVarArgP"
 - !private "s12CaseIterableP"
-- !private "12CoreDataToDo11ChimePickerV"
+- !private "12CoreDataToDo12ChimePicker1V"
 - !private "Sl"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"

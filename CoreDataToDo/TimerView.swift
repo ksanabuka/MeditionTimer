@@ -39,48 +39,48 @@ struct TimerView: View {
    @State var intervalCounter = 0
    @State var myInervalCounter = 0
     
-   func playChimeVibrate(chimeName: Int, repeatPlay: Int) {
-   
-      var name: String
-      var type: String
-      switch chimeName {
-      case 0:
-         name = ""
-         type = ""
-      case 1:
-      name = "bells"
-      type = "mp3"
-      case 2:
-         name = "bowl"
-         type = "mp3"
-      case 3:
-         name = "clap"
-         type = "wav"
-      case 4:
-         name = "cymbal"
-         type = "wav"
-      case 5:
-         name = "wooden"
-         type = "wav"
-      case 6:
-         name = "bells2"
-         type = "mp3"
-      
-      default:
-         name = ""
-         type = ""
-      }
-   if (name != "")
-   {
-         print(name)
-         let url = Bundle.main.path(forResource: name, ofType: type)
-            self.player = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: url!))
-         self.player.numberOfLoops = repeatPlay
-            self.player.play()
-         MusicDeviceComponent.vibrate()
-      
-      }
-   }
+//   func playChimeVibrate(chimeName: Int, repeatPlay: Int) {
+//
+//      var name: String
+//      var type: String
+//      switch chimeName {
+//      case 0:
+//         name = ""
+//         type = ""
+//      case 1:
+//      name = "bells"
+//      type = "mp3"
+//      case 2:
+//         name = "bowl"
+//         type = "mp3"
+//      case 3:
+//         name = "clap"
+//         type = "wav"
+//      case 4:
+//         name = "cymbal"
+//         type = "wav"
+//      case 5:
+//         name = "wooden"
+//         type = "wav"
+//      case 6:
+//         name = "bells2"
+//         type = "mp3"
+//
+//      default:
+//         name = ""
+//         type = ""
+//      }
+//   if (name != "")
+//   {
+//         print(name)
+//         let url = Bundle.main.path(forResource: name, ofType: type)
+//            self.player = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: url!))
+//         self.player.numberOfLoops = repeatPlay
+//            self.player.play()
+//       //  MusicDeviceComponent.vibrate()
+//
+//      }
+//   }
    
    
 var body: some View {
@@ -112,13 +112,18 @@ NavigationView {
          if (self.counter == 0 && self.allSession.sessionList[0].prep_time != 0)
          {
             print(" beginning of Prep Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[0].total_med_time)")
-            self.playChimeVibrate(chimeName: self.allSession.sessionList[0].prep_chime, repeatPlay: self.allSession.sessionList[0].repeat_prep_chime)
+            
+            MyAVPlayer(chimeName: self.allSession.sessionList[0].prep_chime, repeatPlay: self.allSession.sessionList[0].repeat_prep_chime, player: self.$player).playChimeVibrate()
+
+//            self.playChimeVibrate(chimeName: self.allSession.sessionList[0].prep_chime, repeatPlay: self.allSession.sessionList[0].repeat_prep_chime)
          }
                   
          if (self.counter == self.allSession.sessionList[0].prep_time && self.allSession.sessionList[0].med_time != 0) {
             self.myInervalCounter = 0
             print(" beginning med Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[0].total_med_time)")
-            self.playChimeVibrate(chimeName: self.allSession.sessionList[0].start_med_chime, repeatPlay: self.allSession.sessionList[0].repeat_start_med_chime)
+           
+            
+            MyAVPlayer(chimeName: self.allSession.sessionList[0].start_med_chime, repeatPlay: self.allSession.sessionList[0].repeat_start_med_chime, player: self.$player).playChimeVibrate()
 
             }
            if inMeditationPart(userMedSets: self.allSession.sessionList[0], counter: self.counter)
@@ -127,14 +132,19 @@ NavigationView {
             if (self.allSession.sessionList[0].interval_time > 0) {
                if self.myInervalCounter == self.allSession.sessionList[0].interval_time && self.counter < self.allSession.sessionList[0].prep_time + self.allSession.sessionList[0].med_time {
                   print("BUUM In med Session at c: \(self.counter) \t cds: \(self.allSession.sessionList[0].total_med_time)")
-                  self.playChimeVibrate(chimeName: self.allSession.sessionList[0].interval_chime, repeatPlay: self.allSession.sessionList[0].repeat_interval_chime)
+                 
+                  
+                  MyAVPlayer(chimeName: self.allSession.sessionList[0].interval_chime, repeatPlay: self.allSession.sessionList[0].repeat_interval_chime, player: self.$player).playChimeVibrate()
+
+                  
                   self.myInervalCounter = 0
                }
                self.myInervalCounter += 1
             }}
             if (self.counter == self.allSession.sessionList[0].prep_time + self.allSession.sessionList[0].med_time && self.allSession.sessionList[0].rest_time != 0) {
                print(" beginning Rest Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[0].total_med_time)")
-               self.playChimeVibrate(chimeName: self.allSession.sessionList[0].end_med_chime, repeatPlay: self.allSession.sessionList[0].repeat_end_med_chime)
+              
+               MyAVPlayer(chimeName: self.allSession.sessionList[0].end_med_chime, repeatPlay: self.allSession.sessionList[0].repeat_end_med_chime, player: self.$player).playChimeVibrate()
 
             }
             
@@ -145,7 +155,11 @@ NavigationView {
          else if (self.counter == self.allSession.sessionList[0].prep_time + self.allSession.sessionList[0].med_time + self.allSession.sessionList[0].rest_time && self.paused == false && (self.allSession.sessionList[0].rest_time != 0 || self.allSession.sessionList[0].med_time != 0 || self.allSession.sessionList[0].prep_time != 0))
          {
             print(" End of nonempty session at c: \(self.counter) \t cds: \(self.allSession.sessionList[0].total_med_time)")
-            self.playChimeVibrate(chimeName: self.allSession.sessionList[0].end_rest_chime, repeatPlay: self.allSession.sessionList[0].repeat_end_rest_chime)
+       
+            MyAVPlayer(chimeName: self.allSession.sessionList[0].end_rest_chime, repeatPlay: self.allSession.sessionList[0].repeat_end_rest_chime, player: self.$player).playChimeVibrate()
+
+                  
+            
             self.counter = 0
             self.myInervalCounter = 0
 

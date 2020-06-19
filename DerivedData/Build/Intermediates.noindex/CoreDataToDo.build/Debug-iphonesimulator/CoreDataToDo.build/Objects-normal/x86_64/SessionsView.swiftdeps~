@@ -282,7 +282,7 @@ depends-member:
 - !private ["7SwiftUI4TextV", "init"]
 - !private ["12CoreDataToDo9TimerViewV", "deinit"]
 - !private ["12CoreDataToDo9TimerViewV", "init"]
-- !private ["12CoreDataToDo9TimerViewV", "navigationBarItems"]
+- !private ["12CoreDataToDo9TimerViewV", "navigationBarTitle"]
 - !private ["7SwiftUI17NavigationBarItemV16TitleDisplayModeO", "inline"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "Button"]

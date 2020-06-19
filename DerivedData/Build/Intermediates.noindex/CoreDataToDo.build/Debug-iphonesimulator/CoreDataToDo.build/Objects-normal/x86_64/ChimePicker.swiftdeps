@@ -1,12 +1,9 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "ChimePicker1"
 - "ChimePicker"
 provides-nominal:
-- "12CoreDataToDo12ChimePicker1V"
 - "12CoreDataToDo11ChimePickerV"
 provides-member:
-- ["12CoreDataToDo12ChimePicker1V", ""]
 - ["12CoreDataToDo11ChimePickerV", ""]
 provides-dynamic-lookup:
 depends-top-level:
@@ -17,7 +14,6 @@ depends-top-level:
 - "Binding"
 - "Bool"
 - "ChimePicker"
-- "ChimePicker1"
 - !private "Color"
 - "Environment"
 - !private "FloatLiteralType"
@@ -51,13 +47,11 @@ depends-member:
 - ["12CoreDataToDo11ChimePickerV", "$repeatChime"]
 - ["12CoreDataToDo11ChimePickerV", "Binding"]
 - ["12CoreDataToDo11ChimePickerV", "Body"]
-- !private ["12CoreDataToDo11ChimePickerV", "ForEach"]
 - ["12CoreDataToDo11ChimePickerV", "Int"]
-- !private ["12CoreDataToDo11ChimePickerV", "Picker"]
-- !private ["12CoreDataToDo11ChimePickerV", "SegmentedPickerStyle"]
+- !private ["12CoreDataToDo11ChimePickerV", "ListPickerContent"]
+- !private ["12CoreDataToDo11ChimePickerV", "ListPickerLabel"]
+- !private ["12CoreDataToDo11ChimePickerV", "NavigationLink"]
 - ["12CoreDataToDo11ChimePickerV", "String"]
-- !private ["12CoreDataToDo11ChimePickerV", "Text"]
-- !private ["12CoreDataToDo11ChimePickerV", "VStack"]
 - ["12CoreDataToDo11ChimePickerV", "View"]
 - ["12CoreDataToDo11ChimePickerV", "_Default_Body"]
 - !private ["12CoreDataToDo11ChimePickerV", "_chime"]
@@ -66,35 +60,12 @@ depends-member:
 - !private ["12CoreDataToDo11ChimePickerV", "_repeatChime"]
 - ["12CoreDataToDo11ChimePickerV", "body"]
 - ["12CoreDataToDo11ChimePickerV", "chime"]
-- ["12CoreDataToDo11ChimePickerV", "chimes"]
+- ["12CoreDataToDo11ChimePickerV", "data"]
 - ["12CoreDataToDo11ChimePickerV", "deinit"]
 - ["12CoreDataToDo11ChimePickerV", "init"]
 - ["12CoreDataToDo11ChimePickerV", "repeatChime"]
-- ["12CoreDataToDo11ChimePickerV", "repeat_options"]
+- ["12CoreDataToDo11ChimePickerV", "selectedLabel"]
 - ["12CoreDataToDo11ChimePickerV", "textLabel"]
-- ["12CoreDataToDo12ChimePicker1V", "$repeatChimeIndex"]
-- ["12CoreDataToDo12ChimePicker1V", "$selectedChimeIndex"]
-- ["12CoreDataToDo12ChimePicker1V", "Binding"]
-- ["12CoreDataToDo12ChimePicker1V", "Body"]
-- ["12CoreDataToDo12ChimePicker1V", "Int"]
-- !private ["12CoreDataToDo12ChimePicker1V", "ListPickerContent"]
-- !private ["12CoreDataToDo12ChimePicker1V", "ListPickerLabel"]
-- !private ["12CoreDataToDo12ChimePicker1V", "NavigationLink"]
-- ["12CoreDataToDo12ChimePicker1V", "String"]
-- ["12CoreDataToDo12ChimePicker1V", "View"]
-- ["12CoreDataToDo12ChimePicker1V", "_Default_Body"]
-- ["12CoreDataToDo12ChimePicker1V", "_makeView"]
-- ["12CoreDataToDo12ChimePicker1V", "_makeViewList"]
-- !private ["12CoreDataToDo12ChimePicker1V", "_repeatChimeIndex"]
-- !private ["12CoreDataToDo12ChimePicker1V", "_selectedChimeIndex"]
-- ["12CoreDataToDo12ChimePicker1V", "body"]
-- ["12CoreDataToDo12ChimePicker1V", "data"]
-- ["12CoreDataToDo12ChimePicker1V", "deinit"]
-- ["12CoreDataToDo12ChimePicker1V", "init"]
-- ["12CoreDataToDo12ChimePicker1V", "label"]
-- ["12CoreDataToDo12ChimePicker1V", "repeatChimeIndex"]
-- ["12CoreDataToDo12ChimePicker1V", "selectedChimeIndex"]
-- ["12CoreDataToDo12ChimePicker1V", "selectedLabel"]
 - !private ["Sl", "count"]
 - !private ["Sl", "subscript"]
 - !private ["7SwiftUI5ColorV", "accentColor"]
@@ -196,8 +167,6 @@ depends-member:
 - !private ["7SwiftUI10ShapeStyleP", "accentColor"]
 - !private ["7SwiftUI10ShapeStyleP", "white"]
 - !private ["7SwiftUI6SpacerV", "init"]
-- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
-- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["7SwiftUI4TextV", "init"]
@@ -209,9 +178,7 @@ depends-member:
 - !private ["7SwiftUI17VerticalAlignmentV", "center"]
 - !private ["7SwiftUI4ViewP", "$chime"]
 - !private ["7SwiftUI4ViewP", "$repeatChime"]
-- !private ["7SwiftUI4ViewP", "$repeatChimeIndex"]
 - !private ["7SwiftUI4ViewP", "$repeatChimesIndex"]
-- !private ["7SwiftUI4ViewP", "$selectedChimeIndex"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "Color"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
@@ -234,7 +201,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "accentColor"]
 - !private ["7SwiftUI4ViewP", "background"]
 - ["7SwiftUI4ViewP", "body"]
-- !private ["7SwiftUI4ViewP", "chimes"]
+- !private ["7SwiftUI4ViewP", "chime"]
 - !private ["7SwiftUI4ViewP", "data"]
 - !private ["7SwiftUI4ViewP", "foregroundColor"]
 - !private ["7SwiftUI4ViewP", "init"]
@@ -245,8 +212,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "onTapGesture"]
 - !private ["7SwiftUI4ViewP", "padding"]
 - !private ["7SwiftUI4ViewP", "pickerStyle"]
-- !private ["7SwiftUI4ViewP", "repeatChime"]
-- !private ["7SwiftUI4ViewP", "repeat_options"]
 - !private ["7SwiftUI4ViewP", "selectedChimeIndex"]
 - !private ["7SwiftUI4ViewP", "selectedLabel"]
 - !private ["7SwiftUI4ViewP", "some"]
@@ -274,7 +239,6 @@ depends-nominal:
 - !private "SK"
 - !private "s7CVarArgP"
 - "12CoreDataToDo11ChimePickerV"
-- "12CoreDataToDo12ChimePicker1V"
 - !private "Sl"
 - !private "7SwiftUI5ColorV"
 - !private "10Foundation15ContiguousBytesP"
@@ -314,7 +278,6 @@ depends-nominal:
 - !private "s10SetAlgebraP"
 - !private "7SwiftUI10ShapeStyleP"
 - !private "7SwiftUI6SpacerV"
-- !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
 - !private "s27StringInterpolationProtocolP"
 - !private "7SwiftUI4TextV"
 - !private "s16TextOutputStreamP"
@@ -392,4 +355,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "14fa7525b0a25822160f6f2ce14f8391"
+interface-hash: "7d21926713a1b484e2453c17f42ff2cd"

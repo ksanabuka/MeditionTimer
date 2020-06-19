@@ -11,20 +11,20 @@ import Combine
 import SwiftUI
 
 
-struct ChimePicker1<Content: View>: View {
-    @Binding var selectedChimeIndex: Int
-   @Binding var repeatChimeIndex: Int
+struct ChimePicker<Content: View>: View {
+    @Binding var chime: Int
+   @Binding var repeatChime: Int
 
-    var label: () -> Content
+    var textLabel: () -> Content
     var data: [Any] = ["None", "Bells", "Bowl", "Clap", "Cymbal", "Wooden", "Bells 2"]
 
     var selectedLabel: String {
-        selectedChimeIndex >= 0 ? "\(data[selectedChimeIndex])" : ""
+        chime >= 0 ? "\(data[chime])" : ""
     }
 
     var body: some View {
-      NavigationLink(destination: ListPickerContent(repeatChimesIndex: self.$repeatChimeIndex, selectedChimeIndex: self.$selectedChimeIndex, data: self.data)) {
-            ListPickerLabel(label: self.label, value: "\(self.selectedLabel)")
+      NavigationLink(destination: ListPickerContent(repeatChimesIndex: self.$repeatChime, selectedChimeIndex: self.$chime, data: self.data)) {
+            ListPickerLabel(label: self.textLabel, value: "\(self.selectedLabel)")
         }
     }
 }
@@ -85,44 +85,10 @@ private struct ListPickerContent: View {
             ForEach(0..<data.count) { index in
                 ListPickerContentItem(label: "\(self.data[index])", index: index, isSelected: index == self.selectedChimeIndex).onTapGesture {
                     self.selectedChimeIndex = index
+               
 //                    self.presentationMode.wrappedValue.dismiss()
                 }
             }
         }
     }
-}
-
-
-
-struct ChimePicker: View {
-   @Binding var chime: Int
-   @Binding var repeatChime: Int
-   let repeat_options = ["1 time", "2 times", "3 times"]
-   let chimes = ["None", "Bells", "Bowl", "Clap", "Cymbal", "Wooden", "Bells 2"]
-   var textLabel: String
-   
-   var body: some View {
-            
-Picker (selection: self.$chime, label: Text("\(textLabel)")) {
-//                            1 picker
-VStack {
-Picker("Numbers", selection:
-self.$repeatChime
-) {
- ForEach(0 ..< repeat_options.count) { index in
-   Text(self.repeat_options[index]).tag(index)
- }
-}
-
-.pickerStyle(SegmentedPickerStyle())
-
-
-Text("Selected value is: \(repeat_options[self.repeatChime])").padding()
-}
-//                            2picker
-ForEach(0 ..< chimes.count){
-Text(self.chimes[$0]).tag($0)
-}
-}
-   }
 }
