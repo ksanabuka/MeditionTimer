@@ -14,77 +14,15 @@ import Combine
 
 
 
-class udUserMeditationSettings: ObservableObject {
-
-   var prep_time: Int = UserDefaults.standard.integer(forKey: "k_prep_time")  {
-       didSet { UserDefaults.standard.set(self.prep_time, forKey: "k_prep_time") }
-   }
-
-   
-   var med_time: Int = UserDefaults.standard.integer(forKey: "k_med_time")  {
-       didSet { UserDefaults.standard.set(self.med_time, forKey: "k_med_time") }
-   }
-   var interval_time: Int = UserDefaults.standard.integer(forKey: "k_interval_time")  {
-       didSet { UserDefaults.standard.set(self.interval_time, forKey: "k_interval_time") }
-   }
-   var rest_time: Int = UserDefaults.standard.integer(forKey: "k_rest_time")  {
-       didSet { UserDefaults.standard.set(self.rest_time, forKey: "k_rest_time") }
-   }
-
-   
-var med_name: String = UserDefaults.standard.string(forKey: "k_med_name") ?? "My Meditation Name"  {
-    didSet { UserDefaults.standard.set(self.med_name, forKey: "k_med_name") }
-}
-    
-    
-var prep_chime: Int = UserDefaults.standard.integer(forKey: "k_prep_chime") {
-    didSet { UserDefaults.standard.set(self.prep_chime, forKey: "k_prep_chime") }
-   
-}
-   
-   
-   var repeat_prep_chime: Int = UserDefaults.standard.integer(forKey: "k_repeat_prep_chime")  {
-       didSet { UserDefaults.standard.set(self.repeat_prep_chime, forKey: "k_repeat_prep_chime") }
-   }
-
-
-var start_med_chime: Int = UserDefaults.standard.integer(forKey: "k_start_med_chime") {
-    didSet { UserDefaults.standard.set(self.start_med_chime, forKey: "k_start_med_chime") }
-}
-
-var repeat_start_med_chime: Int = UserDefaults.standard.integer(forKey: "k_repeat_start_med_chime")  {
-    didSet { UserDefaults.standard.set(self.repeat_start_med_chime, forKey: "k_repeat_start_med_chime") }
-}
-
-    var interval_chime: Int = UserDefaults.standard.integer(forKey: "k_interval_chime") {
-        didSet { UserDefaults.standard.set(self.interval_chime, forKey: "k_interval_chime") }
-    }
-
-    var repeat_interval_chime: Int = UserDefaults.standard.integer(forKey: "k_repeat_interval_chime")  {
-        didSet { UserDefaults.standard.set(self.repeat_interval_chime, forKey: "k_repeat_interval_chime") }
-    }
-
-   var end_med_chime: Int = UserDefaults.standard.integer(forKey: "k_end_med_chime") {
-          didSet { UserDefaults.standard.set(self.end_med_chime, forKey: "k_end_med_chime") }
-      }
-
-      var repeat_end_med_chime: Int = UserDefaults.standard.integer(forKey: "k_repeat_end_med_chime")  {
-          didSet { UserDefaults.standard.set(self.repeat_end_med_chime, forKey: "k_repeat_end_med_chime") }
-      }
-
-   var end_rest_chime: Int = UserDefaults.standard.integer(forKey: "k_end_rest_chime") {
-       didSet { UserDefaults.standard.set(self.end_rest_chime, forKey: "k_end_rest_chime") }
-   }
-
-   var repeat_end_rest_chime: Int = UserDefaults.standard.integer(forKey: "k_repeat_end_rest_chime")  {
-       didSet { UserDefaults.standard.set(self.repeat_end_rest_chime, forKey: "k_repeat_rest_chime") }
-   }
-}
 
 
 struct EditMeditation: View {
+   
+   @EnvironmentObject var userMedSets2: DataRep
 
-    @EnvironmentObject var userMedSets: UserMedSets
+
+//    @EnvironmentObject var userMedSets: UserMedSets
+   
    
    @EnvironmentObject var userMedSets1: UserMedSets
 
@@ -108,43 +46,42 @@ struct EditMeditation: View {
                 Form {
                     Section {
 
-                        TextField("Enter Meditation name", text: self.$userMedSets.med_name)            .padding().multilineTextAlignment(.trailing)
+                        TextField("Enter Meditation name", text: self.$userMedSets2.sessionList[0].med_name)            .padding().multilineTextAlignment(.trailing)
                                                 
                      
                      
                     Group {
-                     NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets.durationPrepTime.selectedHour, selectedMin: self.$userMedSets.durationPrepTime.selectedMin, selectedSecond: self.$userMedSets.durationPrepTime.selectedSecond)){
+                     NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets2.durationPrepTime1.selectedHour, selectedMin: self.$userMedSets2.durationPrepTime1.selectedMin, selectedSecond: self.$userMedSets2.durationPrepTime1.selectedSecond)){
                                        HStack {
                                            Text("Preparation Time")
                                            Spacer()
-                                          (userMedSets.durationPrepTime.selectedHour < 9 ? Text("0\(userMedSets.durationPrepTime.selectedHour):"): Text("\(userMedSets.durationPrepTime.selectedHour):")) + (userMedSets.durationPrepTime.selectedMin < 9 ? Text("0\(userMedSets.durationPrepTime.selectedMin):"): Text("\(userMedSets.durationPrepTime.selectedMin):"))
-                                             + (userMedSets.durationPrepTime.selectedSecond < 9 ? Text("0\(userMedSets.durationPrepTime.selectedSecond)"): Text("\(userMedSets.durationPrepTime.selectedSecond)"))
-                                          
+                                    ((userMedSets2.durationPrepTime1.selectedHour < 9 ? Text("0\(userMedSets2.durationPrepTime1.selectedHour):"): Text("\(userMedSets2.durationPrepTime1.selectedHour):")) + (userMedSets2.durationPrepTime1.selectedMin < 9 ? Text("0\(userMedSets2.durationPrepTime1.selectedMin):"): Text("\(userMedSets2.durationPrepTime1.selectedMin):"))
+                                          + (userMedSets2.durationPrepTime1.selectedSecond < 9 ? Text("0\(userMedSets2.durationPrepTime1.selectedSecond)"): Text("\(userMedSets2.durationPrepTime1.selectedSecond)")))
                                           
                                        }
                                    }
                         
-                     ChimePicker(chime: self.$userMedSets.prep_chime, repeatChime: self.$userMedSets.repeat_prep_chime, textLabel: "Preparation Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].prep_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_prep_chime, textLabel: "Preparation Chime")
 
                      Group {
-                      NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets.durationMedTime.selectedHour, selectedMin: self.$userMedSets.durationMedTime.selectedMin, selectedSecond: self.$userMedSets.durationMedTime.selectedSecond)){
+                      NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets2.durationMedTime1.selectedHour, selectedMin: self.$userMedSets2.durationMedTime1.selectedMin, selectedSecond: self.$userMedSets2.durationMedTime1.selectedSecond)){
                                                             HStack {
                                                                 Text("Meditation Time")
                                                                 Spacer()
-                                                               (userMedSets.durationMedTime.selectedHour < 9 ? Text("0\(userMedSets.durationMedTime.selectedHour):"): Text("\(userMedSets.durationMedTime.selectedHour):")) + (userMedSets.durationMedTime.selectedMin < 9 ? Text("0\(userMedSets.durationMedTime.selectedMin):"): Text("\(userMedSets.durationMedTime.selectedMin):"))
-                                                                  + (userMedSets.durationMedTime.selectedSecond < 9 ? Text("0\(userMedSets.durationMedTime.selectedSecond)"): Text("\(userMedSets.durationMedTime.selectedSecond)"))
+                                                               (userMedSets2.durationMedTime1.selectedHour < 9 ? Text("0\(userMedSets2.durationMedTime1.selectedHour):"): Text("\(userMedSets2.durationMedTime1.selectedHour):")) + (userMedSets2.durationMedTime1.selectedMin < 9 ? Text("0\(userMedSets2.durationMedTime1.selectedMin):"): Text("\(userMedSets2.durationMedTime1.selectedMin):"))
+                                                                  + (userMedSets2.durationMedTime1.selectedSecond < 9 ? Text("0\(userMedSets2.durationMedTime1.selectedSecond)"): Text("\(userMedSets2.durationMedTime1.selectedSecond)"))
                                                             }
                                                         }
-                     ChimePicker(chime: self.$userMedSets.start_med_chime, repeatChime: self.$userMedSets.repeat_start_med_chime, textLabel: "Start Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].start_med_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_start_med_chime, textLabel: "Start Chime")
 
                      }
                      
-                      NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets.durationIntervalTime.selectedHour, selectedMin: self.$userMedSets.durationIntervalTime.selectedMin, selectedSecond: self.$userMedSets.durationIntervalTime.selectedSecond)){
+                      NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets2.durationIntervalTime1.selectedHour, selectedMin: self.$userMedSets2.durationIntervalTime1.selectedMin, selectedSecond: self.$userMedSets2.durationIntervalTime1.selectedSecond)){
                                                             HStack {
                                                                 Text("Interval Time")
                                                                 Spacer()
-                                                               (userMedSets.durationIntervalTime.selectedHour < 9 ? Text("0\(userMedSets.durationIntervalTime.selectedHour):"): Text("\(userMedSets.durationIntervalTime.selectedHour):")) + (userMedSets.durationIntervalTime.selectedMin < 9 ? Text("0\(userMedSets.durationIntervalTime.selectedMin):"): Text("\(userMedSets.durationIntervalTime.selectedMin):"))
-                                                                  + (userMedSets.durationIntervalTime.selectedSecond < 9 ? Text("0\(userMedSets.durationIntervalTime.selectedSecond)"): Text("\(userMedSets.durationIntervalTime.selectedSecond)"))
+                                                               (userMedSets2.durationIntervalTime1.selectedHour < 9 ? Text("0\(userMedSets2.durationIntervalTime1.selectedHour):"): Text("\(userMedSets2.durationIntervalTime1.selectedHour):")) + (userMedSets2.durationIntervalTime1.selectedMin < 9 ? Text("0\(userMedSets2.durationIntervalTime1.selectedMin):"): Text("\(userMedSets2.durationIntervalTime1.selectedMin):"))
+                                                                  + (userMedSets2.durationIntervalTime1.selectedSecond < 9 ? Text("0\(userMedSets2.durationIntervalTime1.selectedSecond)"): Text("\(userMedSets2.durationIntervalTime1.selectedSecond)"))
                                                                
                                                                
                      //                                          Text(durationToText(duration: self.duration))
@@ -152,17 +89,17 @@ struct EditMeditation: View {
 
                                                             }
                                                         }
-                     ChimePicker(chime: self.$userMedSets.interval_chime, repeatChime: self.$userMedSets.repeat_interval_chime, textLabel: "Interval Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].interval_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_interval_chime, textLabel: "Interval Chime")
 
-                     ChimePicker(chime: self.$userMedSets.end_med_chime, repeatChime: self.$userMedSets.repeat_end_med_chime, textLabel: "End Alert")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].end_med_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_end_med_chime, textLabel: "End Alert")
 
                      
-                      NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets.durationRestTime.selectedHour, selectedMin: self.$userMedSets.durationRestTime.selectedMin, selectedSecond: self.$userMedSets.durationRestTime.selectedSecond)){
+                      NavigationLink(destination: TimePicker(selectedHour: self.$userMedSets2.durationRestTime1.selectedHour, selectedMin: self.$userMedSets2.durationRestTime1.selectedMin, selectedSecond: self.$userMedSets2.durationRestTime1.selectedSecond)){
                                                             HStack {
                                                                 Text("Rest Time")
                                                                 Spacer()
-                                                               (userMedSets.durationRestTime.selectedHour < 9 ? Text("0\(userMedSets.durationRestTime.selectedHour):"): Text("\(userMedSets.durationRestTime.selectedHour):")) + (userMedSets.durationRestTime.selectedMin < 9 ? Text("0\(userMedSets.durationRestTime.selectedMin):"): Text("\(userMedSets.durationRestTime.selectedMin):"))
-                                                                  + (userMedSets.durationRestTime.selectedSecond < 9 ? Text("0\(userMedSets.durationRestTime.selectedSecond)"): Text("\(userMedSets.durationRestTime.selectedSecond)"))
+                                                               (userMedSets2.durationRestTime1.selectedHour < 9 ? Text("0\(userMedSets2.durationRestTime1.selectedHour):"): Text("\(userMedSets2.durationRestTime1.selectedHour):")) + (userMedSets2.durationRestTime1.selectedMin < 9 ? Text("0\(userMedSets2.durationRestTime1.selectedMin):"): Text("\(userMedSets2.durationRestTime1.selectedMin):"))
+                                                                  + (userMedSets2.durationRestTime1.selectedSecond < 9 ? Text("0\(userMedSets2.durationRestTime1.selectedSecond)"): Text("\(userMedSets2.durationRestTime1.selectedSecond)"))
                                                                
                                                                
                      //                                          Text(durationToText(duration: self.duration))
@@ -173,58 +110,58 @@ struct EditMeditation: View {
 
                      
                      
-                     ChimePicker(chime: self.$userMedSets.end_rest_chime, repeatChime: self.$userMedSets.repeat_end_rest_chime, textLabel: "Rest Chime")
+                     ChimePicker(chime: self.$userMedSets2.sessionList[0].end_rest_chime, repeatChime: self.$userMedSets2.sessionList[0].repeat_end_rest_chime, textLabel: "Rest Chime")
                                    }
                     }
                 }
                
         }
         .onDisappear{
-         self.userMedSets.prep_time = self.userMedSets.durationPrepTime.toSeconds()
-         self.userMedSets.med_time = self.userMedSets.durationMedTime.toSeconds()
-         self.userMedSets.interval_time = self.userMedSets.durationIntervalTime.toSeconds()
-         self.userMedSets.rest_time = self.userMedSets.durationRestTime.toSeconds()
+         self.userMedSets2.sessionList[0].prep_time = self.userMedSets2.durationPrepTime1.toSeconds()
+         self.userMedSets2.sessionList[0].med_time = self.userMedSets2.durationMedTime1.toSeconds()
+         self.userMedSets2.sessionList[0].interval_time = self.userMedSets2.durationIntervalTime1.toSeconds()
+         self.userMedSets2.sessionList[0].rest_time = self.userMedSets2.durationRestTime1.toSeconds()
 
 
-         self.userMedSets.total_med_time = self.userMedSets.prep_time + self.userMedSets.med_time + self.userMedSets.rest_time
+         self.userMedSets2.sessionList[0].total_med_time = self.userMedSets2.sessionList[0].prep_time + self.userMedSets2.sessionList[0].med_time + self.userMedSets2.sessionList[0].rest_time
          
          
-            if (self.userMedSets.med_name != self.udUserMedSets.med_name)
-               { UserDefaults.standard.set((self.userMedSets.med_name) , forKey: "k_med_name")
-                  print("OD:med_name & ud_med_name: \(self.userMedSets.med_name) \t \(self.udUserMedSets.med_name)")
+            if (self.userMedSets2.sessionList[0].med_name != self.udUserMedSets.med_name)
+               { UserDefaults.standard.set((self.userMedSets2.sessionList[0].med_name) , forKey: "k_med_name")
+                  print("OD:med_name & ud_med_name: \(self.userMedSets2.sessionList[0].med_name) \t \(self.udUserMedSets.med_name)")
 
                }
-         if self.userMedSets.prep_chime != self.udUserMedSets.prep_chime
-         { UserDefaults.standard.set((self.userMedSets.prep_chime) , forKey: "k_prep_chime")
-               print("prep_chime_in & ud_prep_chime: \(self.userMedSets.prep_chime) \t \(self.udUserMedSets.prep_chime)")}
+         if self.userMedSets2.sessionList[0].prep_chime != self.udUserMedSets.prep_chime
+         { UserDefaults.standard.set((self.userMedSets2.sessionList[0].prep_chime) , forKey: "k_prep_chime")
+               print("prep_chime_in & ud_prep_chime: \(self.userMedSets2.sessionList[0].prep_chime) \t \(self.udUserMedSets.prep_chime)")}
         
-         if (self.userMedSets.repeat_prep_chime != self.udUserMedSets.repeat_prep_chime)
-            { UserDefaults.standard.set((self.userMedSets.repeat_prep_chime) , forKey: "k_repeat_prep_chime")
-               print("OD:repeat_prep_chime & ud_repeat_prep_chime: \(self.userMedSets.repeat_prep_chime) \t \(self.udUserMedSets.repeat_prep_chime)")
+         if (self.userMedSets2.sessionList[0].repeat_prep_chime != self.udUserMedSets.repeat_prep_chime)
+            { UserDefaults.standard.set((self.userMedSets2.sessionList[0].repeat_prep_chime) , forKey: "k_repeat_prep_chime")
+               print("OD:repeat_prep_chime & ud_repeat_prep_chime: \(self.userMedSets2.sessionList[0].repeat_prep_chime) \t \(self.udUserMedSets.repeat_prep_chime)")
             }
          
          //__
   
-         if self.userMedSets.start_med_chime != self.udUserMedSets.start_med_chime
-            { UserDefaults.standard.set((self.userMedSets.start_med_chime) , forKey: "k_start_med_chime")
-                  print("start_med_chime & ud_start_med_chime \(self.userMedSets.start_med_chime) \t \(self.udUserMedSets.start_med_chime)")}
+         if self.userMedSets2.sessionList[0].start_med_chime != self.udUserMedSets.start_med_chime
+            { UserDefaults.standard.set((self.userMedSets2.sessionList[0].start_med_chime) , forKey: "k_start_med_chime")
+                  print("start_med_chime & ud_start_med_chime \(self.userMedSets2.sessionList[0].start_med_chime) \t \(self.udUserMedSets.start_med_chime)")}
            
-            if (self.userMedSets.repeat_start_med_chime != self.udUserMedSets.repeat_start_med_chime)
-               { UserDefaults.standard.set((self.userMedSets.repeat_start_med_chime) , forKey: "k_repeat_start_med_chime")
-                  print("OD:repeat_start_med_chime & ud_repeat_start_med_chime: \(self.userMedSets.repeat_start_med_chime) \t \(self.udUserMedSets.repeat_start_med_chime)")
+            if (self.userMedSets2.sessionList[0].repeat_start_med_chime != self.udUserMedSets.repeat_start_med_chime)
+               { UserDefaults.standard.set((self.userMedSets2.sessionList[0].repeat_start_med_chime) , forKey: "k_repeat_start_med_chime")
+                  print("OD:repeat_start_med_chime & ud_repeat_start_med_chime: \(self.userMedSets2.sessionList[0].repeat_start_med_chime) \t \(self.udUserMedSets.repeat_start_med_chime)")
                }
          
          //--
          
          //__
          
-                if self.userMedSets.interval_chime != self.udUserMedSets.interval_chime
-                   { UserDefaults.standard.set((self.userMedSets.interval_chime) , forKey: "k_interval_chime")
-                         print("interval_chime & ud_interval_chime: \(self.userMedSets.interval_chime) \t \(self.udUserMedSets.interval_chime)")}
+                if self.userMedSets2.sessionList[0].interval_chime != self.udUserMedSets.interval_chime
+                   { UserDefaults.standard.set((self.userMedSets2.sessionList[0].interval_chime) , forKey: "k_interval_chime")
+                         print("interval_chime & ud_interval_chime: \(self.userMedSets2.sessionList[0].interval_chime) \t \(self.udUserMedSets.interval_chime)")}
                   
-                   if (self.userMedSets.repeat_interval_chime != self.udUserMedSets.repeat_interval_chime)
-                      { UserDefaults.standard.set((self.userMedSets.repeat_interval_chime) , forKey: "k_repeat_interval_chime")
-                         print("OD:repeat_interval_chime & ud_repeat_interval_chime: \(self.userMedSets.repeat_interval_chime) \t \(self.udUserMedSets.repeat_interval_chime)")
+                   if (self.userMedSets2.sessionList[0].repeat_interval_chime != self.udUserMedSets.repeat_interval_chime)
+                      { UserDefaults.standard.set((self.userMedSets2.sessionList[0].repeat_interval_chime) , forKey: "k_repeat_interval_chime")
+                         print("OD:repeat_interval_chime & ud_repeat_interval_chime: \(self.userMedSets2.sessionList[0].repeat_interval_chime) \t \(self.udUserMedSets.repeat_interval_chime)")
                       }
                 
                 //--
@@ -232,48 +169,48 @@ struct EditMeditation: View {
          
          //__
          
-                if self.userMedSets.end_med_chime != self.udUserMedSets.end_med_chime
-                   { UserDefaults.standard.set((self.userMedSets.end_med_chime) , forKey: "k_end_med_chime")
-                         print("end_med_chime & ud_end_med_chime: \(self.userMedSets.end_med_chime) \t \(self.udUserMedSets.end_med_chime)")}
+                if self.userMedSets2.sessionList[0].end_med_chime != self.udUserMedSets.end_med_chime
+                   { UserDefaults.standard.set((self.userMedSets2.sessionList[0].end_med_chime) , forKey: "k_end_med_chime")
+                         print("end_med_chime & ud_end_med_chime: \(self.userMedSets2.sessionList[0].end_med_chime) \t \(self.udUserMedSets.end_med_chime)")}
                   
-                   if (self.userMedSets.repeat_end_med_chime != self.udUserMedSets.repeat_end_med_chime)
-                      { UserDefaults.standard.set((self.userMedSets.repeat_end_med_chime) , forKey: "k_repeat_end_med_chime")
-                         print("OD:repeat_end_med_chime & ud_repeat_end_med_chime: \(self.userMedSets.repeat_end_med_chime) \t \(self.udUserMedSets.repeat_end_med_chime)")
+                   if (self.userMedSets2.sessionList[0].repeat_end_med_chime != self.udUserMedSets.repeat_end_med_chime)
+                      { UserDefaults.standard.set((self.userMedSets2.sessionList[0].repeat_end_med_chime) , forKey: "k_repeat_end_med_chime")
+                         print("OD:repeat_end_med_chime & ud_repeat_end_med_chime: \(self.userMedSets2.sessionList[0].repeat_end_med_chime) \t \(self.udUserMedSets.repeat_end_med_chime)")
                       }
                 
                 //--
          //__
          
-                if self.userMedSets.end_rest_chime != self.udUserMedSets.end_rest_chime
-                   { UserDefaults.standard.set((self.userMedSets.end_rest_chime) , forKey: "k_end_rest_chime")
-                         print("end_rest_chime & ud_end_rest_chime: \(self.userMedSets.end_rest_chime) \t \(self.udUserMedSets.end_rest_chime)")}
+                if self.userMedSets2.sessionList[0].end_rest_chime != self.udUserMedSets.end_rest_chime
+                   { UserDefaults.standard.set((self.userMedSets2.sessionList[0].end_rest_chime) , forKey: "k_end_rest_chime")
+                         print("end_rest_chime & ud_end_rest_chime: \(self.userMedSets2.sessionList[0].end_rest_chime) \t \(self.udUserMedSets.end_rest_chime)")}
                   
-                   if (self.userMedSets.repeat_end_rest_chime != self.udUserMedSets.repeat_end_rest_chime)
-                      { UserDefaults.standard.set((self.userMedSets.repeat_end_rest_chime) , forKey: "k_repeat_end_rest_chime")
-                         print("OD:repeat_end_rest_chime & ud_repeat_end_rest_chime: \(self.userMedSets.repeat_end_rest_chime) \t \(self.udUserMedSets.repeat_end_rest_chime)")
+                   if (self.userMedSets2.sessionList[0].repeat_end_rest_chime != self.udUserMedSets.repeat_end_rest_chime)
+                      { UserDefaults.standard.set((self.userMedSets2.sessionList[0].repeat_end_rest_chime) , forKey: "k_repeat_end_rest_chime")
+                         print("OD:repeat_end_rest_chime & ud_repeat_end_rest_chime: \(self.userMedSets2.sessionList[0].repeat_end_rest_chime) \t \(self.udUserMedSets.repeat_end_rest_chime)")
                       }
                 
                 //--
          
          
-         if (self.userMedSets.durationPrepTime.toSeconds() != self.udUserMedSets.prep_time)
-            { UserDefaults.standard.set(self.userMedSets.durationPrepTime.toSeconds() , forKey: "k_prep_time")
-               print("OD:prep_time & ud_prep_time: \(self.userMedSets.durationPrepTime.toSeconds() ) \t \(self.udUserMedSets.prep_time)")
+         if (self.userMedSets2.durationPrepTime1.toSeconds() != self.udUserMedSets.prep_time)
+            { UserDefaults.standard.set(self.userMedSets2.durationPrepTime1.toSeconds() , forKey: "k_prep_time")
+               print("OD:prep_time & ud_prep_time: \(self.userMedSets2.durationPrepTime1.toSeconds() ) \t \(self.udUserMedSets.prep_time)")
 
          }
-         if (self.userMedSets.durationMedTime.toSeconds() != self.udUserMedSets.med_time)
-            { UserDefaults.standard.set(self.userMedSets.durationMedTime.toSeconds() , forKey: "k_med_time")
-               print("OD:med_time & ud_med_time: \(self.userMedSets.durationMedTime.toSeconds() ) \t \(self.udUserMedSets.med_time)")
+         if (self.userMedSets2.durationMedTime1.toSeconds() != self.udUserMedSets.med_time)
+            { UserDefaults.standard.set(self.userMedSets2.durationMedTime1.toSeconds() , forKey: "k_med_time")
+               print("OD:med_time & ud_med_time: \(self.userMedSets2.durationMedTime1.toSeconds() ) \t \(self.udUserMedSets.med_time)")
 
          }
-         if (self.userMedSets.durationIntervalTime.toSeconds() != self.udUserMedSets.interval_time)
-            { UserDefaults.standard.set(self.userMedSets.durationIntervalTime.toSeconds() , forKey: "k_interval_time")
-               print("OD:interval_time & ud_interval_time: \(self.userMedSets.durationIntervalTime.toSeconds() ) \t \(self.udUserMedSets.interval_time)")
+         if (self.userMedSets2.durationIntervalTime1.toSeconds() != self.udUserMedSets.interval_time)
+            { UserDefaults.standard.set(self.userMedSets2.durationIntervalTime1.toSeconds() , forKey: "k_interval_time")
+               print("OD:interval_time & ud_interval_time: \(self.userMedSets2.durationIntervalTime1.toSeconds() ) \t \(self.udUserMedSets.interval_time)")
 
          }
-         if (self.userMedSets.durationRestTime.toSeconds() != self.udUserMedSets.rest_time)
-            { UserDefaults.standard.set(self.userMedSets.durationRestTime.toSeconds() , forKey: "k_rest_time")
-               print("OD:rest_time & ud_rest_time: \(self.userMedSets.durationRestTime.toSeconds() ) \t \(self.udUserMedSets.rest_time)")
+         if (self.userMedSets2.durationRestTime1.toSeconds() != self.udUserMedSets.rest_time)
+            { UserDefaults.standard.set(self.userMedSets2.durationRestTime1.toSeconds() , forKey: "k_rest_time")
+               print("OD:rest_time & ud_rest_time: \(self.userMedSets2.durationRestTime1.toSeconds() ) \t \(self.udUserMedSets.rest_time)")
 
          }
          

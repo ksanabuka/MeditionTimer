@@ -17,6 +17,9 @@ depends-top-level:
 - !private "AppDelegate"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
+- !private "DataRep"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "SceneDelegate"
 - !private "SessionsView"
 - !private "UIApplication"
@@ -35,6 +38,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "DataRep"]
 - !private ["s7CVarArgP", "SessionsView"]
 - !private ["s7CVarArgP", "UIApplication"]
 - !private ["s7CVarArgP", "UIHostingController"]
@@ -60,6 +64,7 @@ depends-member:
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", "windowScene"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "DataRep"]
 - !private ["s28CustomDebugStringConvertibleP", "SessionsView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
 - !private ["s28CustomDebugStringConvertibleP", "UIHostingController"]
@@ -85,6 +90,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", "windowScene"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "DataRep"]
 - !private ["s23CustomStringConvertibleP", "SessionsView"]
 - !private ["s23CustomStringConvertibleP", "UIApplication"]
 - !private ["s23CustomStringConvertibleP", "UIHostingController"]
@@ -110,8 +116,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewContext"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "windowScene"]
+- !private ["12CoreDataToDo0B3RepC", "deinit"]
+- !private ["12CoreDataToDo0B3RepC", "init"]
 - !private ["7SwiftUI17EnvironmentValuesV", "managedObjectContext"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "DataRep"]
 - !private ["SQ", "SessionsView"]
 - !private ["SQ", "UIApplication"]
 - !private ["SQ", "UIHostingController"]
@@ -137,6 +146,7 @@ depends-member:
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "DataRep"]
 - !private ["SH", "SessionsView"]
 - !private ["SH", "UIApplication"]
 - !private ["SH", "UIHostingController"]
@@ -168,6 +178,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So8NSObjectC", "AppDelegate"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "DataRep"]
 - !private ["So8NSObjectC", "SessionsView"]
 - !private ["So8NSObjectC", "UIApplication"]
 - !private ["So8NSObjectC", "UIHostingController"]
@@ -195,6 +206,7 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "DataRep"]
 - !private ["So8NSObjectP", "SessionsView"]
 - !private ["So8NSObjectP", "UIApplication"]
 - !private ["So8NSObjectP", "UIHostingController"]
@@ -223,6 +235,7 @@ depends-member:
 - !private ["So21NSPersistentContainerC", "viewContext"]
 - !private ["7Combine16ObservableObjectP", "init"]
 - !private ["12CoreDataToDo13SceneDelegateC", "AppDelegate"]
+- !private ["12CoreDataToDo13SceneDelegateC", "DataRep"]
 - !private ["12CoreDataToDo13SceneDelegateC", "SessionsView"]
 - !private ["12CoreDataToDo13SceneDelegateC", "UIApplication"]
 - !private ["12CoreDataToDo13SceneDelegateC", "UIHostingController"]
@@ -281,6 +294,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "makeKeyAndVisible"]
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataRep"]
 - !private ["So30UIPasteConfigurationSupportingP", "SessionsView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIHostingController"]
@@ -306,6 +320,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "windowScene"]
 - !private ["So11UIResponderC", "AppDelegate"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "DataRep"]
 - !private ["So11UIResponderC", "SessionsView"]
 - !private ["So11UIResponderC", "UIApplication"]
 - !private ["So11UIResponderC", "UIHostingController"]
@@ -333,6 +348,7 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", "windowScene"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "DataRep"]
 - !private ["So30UIResponderStandardEditActionsP", "SessionsView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - !private ["So30UIResponderStandardEditActionsP", "UIHostingController"]
@@ -357,6 +373,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", "windowScene"]
 - ["So7UISceneC", "ConnectionOptions"]
+- !private ["So15UISceneDelegateP", "DataRep"]
 - !private ["So15UISceneDelegateP", "SessionsView"]
 - !private ["So15UISceneDelegateP", "UIApplication"]
 - !private ["So15UISceneDelegateP", "UIHostingController"]
@@ -378,6 +395,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "DataRep"]
 - !private ["So23UIUserActivityRestoringP", "SessionsView"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
 - !private ["So23UIUserActivityRestoringP", "UIHostingController"]
@@ -407,6 +425,7 @@ depends-member:
 - !private ["So8UIWindowC", "init"]
 - !private ["So8UIWindowC", "makeKeyAndVisible"]
 - !private ["So8UIWindowC", "rootViewController"]
+- !private ["So21UIWindowSceneDelegateP", "DataRep"]
 - !private ["So21UIWindowSceneDelegateP", "SessionsView"]
 - !private ["So21UIWindowSceneDelegateP", "UIApplication"]
 - !private ["So21UIWindowSceneDelegateP", "UIHostingController"]
@@ -429,6 +448,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "environmentObject"]
 - !private ["7SwiftUI4ViewP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataRep"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SessionsView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIHostingController"]
@@ -454,6 +474,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DataRep"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SessionsView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIHostingController"]
@@ -488,6 +509,7 @@ depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- !private "12CoreDataToDo0B3RepC"
 - !private "7SwiftUI17EnvironmentValuesV"
 - "SQ"
 - "SH"

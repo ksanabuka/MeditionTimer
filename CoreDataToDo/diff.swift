@@ -6,10 +6,19 @@
 //  Copyright © 2020 Oksana Buksha. All rights reserved.
 //
 
+
 import SwiftUI
 import AVKit
 import Foundation
 import AVFoundation
+
+extension Date {
+    func currentTimeMillis() -> Int64 {
+        return Int64(self.timeIntervalSince1970 * 1000)
+    }
+}
+
+
 
 extension MusicDeviceComponent {
     static func vibrate() {
@@ -21,7 +30,7 @@ func computeTotalMedTime (prep_time: Int, med_time: Int, rest_time:Int) -> Int {
    return prep_time + med_time + rest_time
 }
 
-func giveSessionPart(userMedSets: UserMedSets, counter: Int ) -> String {
+func giveSessionPart(userMedSets: Sessn, counter: Int ) -> String {
    var name = ""
    if (counter == 0 || counter > userMedSets.prep_time + userMedSets.med_time + userMedSets.rest_time) {
       if userMedSets.prep_time > 0 {name = "Preparation Time"}
@@ -34,12 +43,12 @@ func giveSessionPart(userMedSets: UserMedSets, counter: Int ) -> String {
 
    return name
 }
-
+// 3661 -Ю 1-1-1
 func countDownString(seconds: Int) -> String {
-return (String(format: "%02d:%02d", seconds / 60, seconds % 60))
+return (String(format: "%02d:%02d:%02d", seconds / 3600, seconds / 60, seconds % 60))
 }
 
-func inMeditationPart(userMedSets: UserMedSets, counter: Int ) -> Bool {
+func inMeditationPart(userMedSets: Sessn, counter: Int ) -> Bool {
    return (userMedSets.med_time != 0 && counter >= userMedSets.prep_time && counter <= userMedSets.prep_time + userMedSets.med_time) ? true : false
 }
 

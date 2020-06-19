@@ -1,6 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "SelectedDuration"
+- "durationToText"
 - "TimePicker"
 - "TimePicker_Previews"
 provides-nominal:
@@ -18,6 +19,7 @@ depends-top-level:
 - !private "+"
 - !private "..<"
 - !private "/"
+- !private "<"
 - "AssignmentPrecedence"
 - "Binding"
 - !private "Color"
@@ -32,11 +34,14 @@ depends-top-level:
 - "Published"
 - "SelectedDuration"
 - !private "StringLiteralType"
+- "TernaryPrecedence"
 - !private "Text"
 - "TimePicker"
 - "TimePicker_Previews"
+- !private "UnicodeScalarType"
 - !private "VStack"
 - "View"
+- "durationToText"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "infinity"]
 - !private ["SB", "infinity"]
@@ -315,4 +320,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7044fe96048e4b8d2f83985ccbe04128"
+interface-hash: "96ccf84ab028fc142273588df5691517"

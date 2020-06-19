@@ -1,23 +1,42 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "ChimePicker1"
 - "ChimePicker"
 provides-nominal:
+- "12CoreDataToDo12ChimePicker1V"
 - "12CoreDataToDo11ChimePickerV"
 provides-member:
+- ["12CoreDataToDo12ChimePicker1V", ""]
 - ["12CoreDataToDo11ChimePickerV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "..<"
+- !private "=="
+- !private ">="
+- !private "AssignmentPrecedence"
 - "Binding"
+- "Bool"
 - "ChimePicker"
+- "ChimePicker1"
+- !private "Color"
+- "Environment"
 - !private "FloatLiteralType"
 - !private "ForEach"
+- !private "HStack"
+- !private "Image"
 - "Int"
 - !private "IntegerLiteralType"
+- !private "List"
+- !private "ListPickerContent"
+- !private "ListPickerContentItem"
+- !private "ListPickerLabel"
+- !private "NavigationLink"
 - !private "Picker"
 - !private "SegmentedPickerStyle"
+- !private "Spacer"
 - "String"
 - "StringLiteralType"
+- "TernaryPrecedence"
 - !private "Text"
 - !private "VStack"
 - "View"
@@ -53,37 +72,114 @@ depends-member:
 - ["12CoreDataToDo11ChimePickerV", "repeatChime"]
 - ["12CoreDataToDo11ChimePickerV", "repeat_options"]
 - ["12CoreDataToDo11ChimePickerV", "textLabel"]
+- ["12CoreDataToDo12ChimePicker1V", "$repeatChimeIndex"]
+- ["12CoreDataToDo12ChimePicker1V", "$selectedChimeIndex"]
+- ["12CoreDataToDo12ChimePicker1V", "Binding"]
+- ["12CoreDataToDo12ChimePicker1V", "Body"]
+- ["12CoreDataToDo12ChimePicker1V", "Int"]
+- !private ["12CoreDataToDo12ChimePicker1V", "ListPickerContent"]
+- !private ["12CoreDataToDo12ChimePicker1V", "ListPickerLabel"]
+- !private ["12CoreDataToDo12ChimePicker1V", "NavigationLink"]
+- ["12CoreDataToDo12ChimePicker1V", "String"]
+- ["12CoreDataToDo12ChimePicker1V", "View"]
+- ["12CoreDataToDo12ChimePicker1V", "_Default_Body"]
+- ["12CoreDataToDo12ChimePicker1V", "_makeView"]
+- ["12CoreDataToDo12ChimePicker1V", "_makeViewList"]
+- !private ["12CoreDataToDo12ChimePicker1V", "_repeatChimeIndex"]
+- !private ["12CoreDataToDo12ChimePicker1V", "_selectedChimeIndex"]
+- ["12CoreDataToDo12ChimePicker1V", "body"]
+- ["12CoreDataToDo12ChimePicker1V", "data"]
+- ["12CoreDataToDo12ChimePicker1V", "deinit"]
+- ["12CoreDataToDo12ChimePicker1V", "init"]
+- ["12CoreDataToDo12ChimePicker1V", "label"]
+- ["12CoreDataToDo12ChimePicker1V", "repeatChimeIndex"]
+- ["12CoreDataToDo12ChimePicker1V", "selectedChimeIndex"]
+- ["12CoreDataToDo12ChimePicker1V", "selectedLabel"]
 - !private ["Sl", "count"]
 - !private ["Sl", "subscript"]
+- !private ["7SwiftUI5ColorV", "accentColor"]
+- !private ["7SwiftUI5ColorV", "white"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "accentColor"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "accentColor"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "some"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "accentColor"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "presentationMode"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "white"]
 - !private ["10Foundation12DataProtocolP", "count"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "accentColor"]
 - !private ["Se", "count"]
+- !private ["Se", "none"]
+- !private ["Se", "some"]
 - !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - !private ["7SwiftUI18DynamicViewContentP", "init"]
+- !private ["SE", "accentColor"]
 - !private ["SE", "count"]
+- !private ["SE", "none"]
+- !private ["SE", "some"]
 - !private ["SE", "subscript"]
+- ["7SwiftUI11EnvironmentV", "init"]
+- ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- ["7SwiftUI17EnvironmentValuesV", "presentationMode"]
+- !private ["SQ", "accentColor"]
+- !private ["SQ", "center"]
 - !private ["SQ", "count"]
+- !private ["SQ", "foregroundColor"]
 - !private ["SQ", "init"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "none"]
 - !private ["SQ", "padding"]
+- !private ["SQ", "some"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "tag"]
+- !private ["SQ", "white"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "leading"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "accentColor"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
 - !private ["7SwiftUI7ForEachV", "init"]
+- !private ["7SwiftUI7GestureP", "accentColor"]
+- !private ["7SwiftUI7GestureP", "none"]
+- !private ["7SwiftUI7GestureP", "some"]
+- !private ["7SwiftUI6HStackV", "background"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "accentColor"]
 - !private ["SH", "count"]
+- !private ["SH", "none"]
+- !private ["SH", "some"]
 - !private ["SH", "subscript"]
+- !private ["SH", "white"]
+- !private ["7SwiftUI5ImageV", "foregroundColor"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI4ListV", "init"]
 - !private ["SM", "count"]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- !private ["s9OptionSetP", "leading"]
+- !private ["Sq", "accentColor"]
+- !private ["Sq", "none"]
+- !private ["Sq", "some"]
 - !private ["7SwiftUI6PickerV", "init"]
 - !private ["7SwiftUI6PickerV", "pickerStyle"]
 - !private ["7SwiftUI11PickerStyleP", "init"]
@@ -91,9 +187,15 @@ depends-member:
 - !private ["Sk", "subscript"]
 - !private ["Sm", "count"]
 - !private ["Sm", "subscript"]
+- !private ["SY", "leading"]
 - !private ["7SwiftUI20SegmentedPickerStyleV", "init"]
 - !private ["ST", "count"]
 - !private ["ST", "subscript"]
+- !private ["7SwiftUI4EdgeO3SetV", "leading"]
+- !private ["s10SetAlgebraP", "leading"]
+- !private ["7SwiftUI10ShapeStyleP", "accentColor"]
+- !private ["7SwiftUI10ShapeStyleP", "white"]
+- !private ["7SwiftUI6SpacerV", "init"]
 - !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
 - !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
@@ -101,29 +203,59 @@ depends-member:
 - !private ["7SwiftUI4TextV", "init"]
 - !private ["7SwiftUI4TextV", "padding"]
 - !private ["7SwiftUI4TextV", "tag"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI17VerticalAlignmentV", "center"]
 - !private ["7SwiftUI4ViewP", "$chime"]
 - !private ["7SwiftUI4ViewP", "$repeatChime"]
+- !private ["7SwiftUI4ViewP", "$repeatChimeIndex"]
+- !private ["7SwiftUI4ViewP", "$repeatChimesIndex"]
+- !private ["7SwiftUI4ViewP", "$selectedChimeIndex"]
 - ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Color"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- !private ["7SwiftUI4ViewP", "List"]
+- !private ["7SwiftUI4ViewP", "ListPickerContent"]
+- !private ["7SwiftUI4ViewP", "ListPickerContentItem"]
+- !private ["7SwiftUI4ViewP", "ListPickerLabel"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
 - !private ["7SwiftUI4ViewP", "Picker"]
 - !private ["7SwiftUI4ViewP", "SegmentedPickerStyle"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - !private ["7SwiftUI4ViewP", "VStack"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
 - ["7SwiftUI4ViewP", "_makeViewList"]
+- !private ["7SwiftUI4ViewP", "accentColor"]
+- !private ["7SwiftUI4ViewP", "background"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "chimes"]
+- !private ["7SwiftUI4ViewP", "data"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "isSelected"]
+- !private ["7SwiftUI4ViewP", "label"]
+- !private ["7SwiftUI4ViewP", "none"]
+- !private ["7SwiftUI4ViewP", "numbers"]
+- !private ["7SwiftUI4ViewP", "onTapGesture"]
 - !private ["7SwiftUI4ViewP", "padding"]
 - !private ["7SwiftUI4ViewP", "pickerStyle"]
 - !private ["7SwiftUI4ViewP", "repeatChime"]
 - !private ["7SwiftUI4ViewP", "repeat_options"]
+- !private ["7SwiftUI4ViewP", "selectedChimeIndex"]
+- !private ["7SwiftUI4ViewP", "selectedLabel"]
+- !private ["7SwiftUI4ViewP", "some"]
 - !private ["7SwiftUI4ViewP", "tag"]
 - !private ["7SwiftUI4ViewP", "textLabel"]
+- !private ["7SwiftUI4ViewP", "value"]
+- !private ["7SwiftUI4ViewP", "white"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -132,38 +264,62 @@ depends-member:
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "accentColor"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - !private "Sa"
 - !private "SK"
 - !private "s7CVarArgP"
 - "12CoreDataToDo11ChimePickerV"
+- "12CoreDataToDo12ChimePicker1V"
 - !private "Sl"
+- !private "7SwiftUI5ColorV"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
-- !private "s23CustomStringConvertibleP"
+- "s23CustomStringConvertibleP"
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "7SwiftUI15DynamicPropertyP"
 - !private "7SwiftUI18DynamicViewContentP"
 - !private "SE"
+- "7SwiftUI11EnvironmentV"
+- "7SwiftUI17EnvironmentValuesV"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "7SwiftUI7ForEachV"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI6HStackV"
 - !private "SH"
+- !private "7SwiftUI5ImageV"
+- !private "7SwiftUI4ListV"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
+- !private "7SwiftUI14NavigationLinkV"
+- !private "s9OptionSetP"
+- !private "Sq"
 - !private "7SwiftUI6PickerV"
 - !private "7SwiftUI11PickerStyleP"
 - !private "Sk"
 - !private "Sm"
+- !private "SY"
 - !private "7SwiftUI20SegmentedPickerStyleV"
 - !private "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "7SwiftUI6SpacerV"
 - !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
 - !private "s27StringInterpolationProtocolP"
 - !private "7SwiftUI4TextV"
+- !private "s16TextOutputStreamP"
 - !private "7SwiftUI6VStackV"
+- !private "7SwiftUI17VerticalAlignmentV"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
 - !private "s14_ArrayProtocolP"
@@ -236,4 +392,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "00b99bbb38fc984af6de024055a4973d"
+interface-hash: "14fa7525b0a25822160f6f2ce14f8391"

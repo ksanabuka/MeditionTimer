@@ -66,7 +66,7 @@ struct TimePicker: View {
                 }
                 .frame(minWidth: 100, maxWidth: .infinity)
                 .clipped()
-                .border(Color.blue)
+                //.border(Color.blue)
 
                 VStack {
                     Picker(selection: self.$selectedMin, label: Text("Min")) {
@@ -77,7 +77,7 @@ struct TimePicker: View {
                 }
                 .frame(minWidth: 100, maxWidth: .infinity)
                 .clipped()
-                .border(Color.yellow)
+              //  .border(Color.yellow)
 
                 VStack {
                     Picker(selection: self.$selectedSecond, label: Text("Sed")) {
@@ -89,10 +89,9 @@ struct TimePicker: View {
 
                 .frame(minWidth: 100, maxWidth: .infinity)
                 .clipped()
-                .border(Color.purple)
+               // .border(Color.purple)
             }
-            Text("hour:min:sec: \(self.selectedHour)")
-
+            
         }
     }
 

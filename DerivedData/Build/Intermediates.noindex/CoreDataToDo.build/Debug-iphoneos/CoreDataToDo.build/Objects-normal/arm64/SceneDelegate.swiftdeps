@@ -1,0 +1,620 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SceneDelegate"
+provides-nominal:
+- "12CoreDataToDo13SceneDelegateC"
+provides-member:
+- ["12CoreDataToDo13SceneDelegateC", ""]
+provides-dynamic-lookup:
+- "scene"
+- "sceneDidBecomeActive"
+- "sceneDidDisconnect"
+- "sceneDidEnterBackground"
+- "sceneWillEnterForeground"
+- "sceneWillResignActive"
+- "window"
+depends-top-level:
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "DataRep"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SceneDelegate"
+- !private "SessionsView"
+- !private "UIApplication"
+- !private "UIHostingController"
+- "UIResponder"
+- "UIScene"
+- "UISceneSession"
+- "UIWindow"
+- !private "UIWindowScene"
+- "UIWindowSceneDelegate"
+- !private "UserMedSets"
+depends-member:
+- !private ["12CoreDataToDo11AppDelegateC", "persistentContainer"]
+- !private ["12CoreDataToDo11AppDelegateC", "saveContext"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "DataRep"]
+- !private ["s7CVarArgP", "SessionsView"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIHostingController"]
+- !private ["s7CVarArgP", "UIWindow"]
+- !private ["s7CVarArgP", "UserMedSets"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "persistentContainer"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "saveContext"]
+- ["s7CVarArgP", "scene"]
+- ["s7CVarArgP", "sceneDidBecomeActive"]
+- ["s7CVarArgP", "sceneDidDisconnect"]
+- ["s7CVarArgP", "sceneDidEnterBackground"]
+- ["s7CVarArgP", "sceneWillEnterForeground"]
+- ["s7CVarArgP", "sceneWillResignActive"]
+- !private ["s7CVarArgP", "shared"]
+- ["s7CVarArgP", "stateRestorationActivity"]
+- ["s7CVarArgP", "stateRestorationActivityForScene"]
+- !private ["s7CVarArgP", "viewContext"]
+- ["s7CVarArgP", "window"]
+- ["s7CVarArgP", "windowScene"]
+- ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "DataRep"]
+- !private ["s28CustomDebugStringConvertibleP", "SessionsView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIHostingController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "UserMedSets"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "saveContext"]
+- ["s28CustomDebugStringConvertibleP", "scene"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidDisconnect"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "sceneWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "sceneWillResignActive"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s28CustomDebugStringConvertibleP", "stateRestorationActivity"]
+- ["s28CustomDebugStringConvertibleP", "stateRestorationActivityForScene"]
+- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s28CustomDebugStringConvertibleP", "windowScene"]
+- ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "DataRep"]
+- !private ["s23CustomStringConvertibleP", "SessionsView"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIHostingController"]
+- !private ["s23CustomStringConvertibleP", "UIWindow"]
+- !private ["s23CustomStringConvertibleP", "UserMedSets"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "managedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "persistentContainer"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "saveContext"]
+- ["s23CustomStringConvertibleP", "scene"]
+- ["s23CustomStringConvertibleP", "sceneDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "sceneDidDisconnect"]
+- ["s23CustomStringConvertibleP", "sceneDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "sceneWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "sceneWillResignActive"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "stateRestorationActivity"]
+- ["s23CustomStringConvertibleP", "stateRestorationActivityForScene"]
+- !private ["s23CustomStringConvertibleP", "viewContext"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["s23CustomStringConvertibleP", "windowScene"]
+- !private ["12CoreDataToDo0B3RepC", "deinit"]
+- !private ["12CoreDataToDo0B3RepC", "init"]
+- !private ["7SwiftUI17EnvironmentValuesV", "managedObjectContext"]
+- ["SQ", "ConnectionOptions"]
+- !private ["SQ", "DataRep"]
+- !private ["SQ", "SessionsView"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UIHostingController"]
+- !private ["SQ", "UIWindow"]
+- !private ["SQ", "UserMedSets"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "makeKeyAndVisible"]
+- !private ["SQ", "persistentContainer"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "saveContext"]
+- ["SQ", "scene"]
+- ["SQ", "sceneDidBecomeActive"]
+- ["SQ", "sceneDidDisconnect"]
+- ["SQ", "sceneDidEnterBackground"]
+- ["SQ", "sceneWillEnterForeground"]
+- ["SQ", "sceneWillResignActive"]
+- !private ["SQ", "shared"]
+- ["SQ", "stateRestorationActivity"]
+- ["SQ", "stateRestorationActivityForScene"]
+- !private ["SQ", "viewContext"]
+- ["SQ", "window"]
+- ["SQ", "windowScene"]
+- ["SH", "ConnectionOptions"]
+- !private ["SH", "DataRep"]
+- !private ["SH", "SessionsView"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UIHostingController"]
+- !private ["SH", "UIWindow"]
+- !private ["SH", "UserMedSets"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "makeKeyAndVisible"]
+- !private ["SH", "persistentContainer"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "saveContext"]
+- ["SH", "scene"]
+- ["SH", "sceneDidBecomeActive"]
+- ["SH", "sceneDidDisconnect"]
+- ["SH", "sceneDidEnterBackground"]
+- ["SH", "sceneWillEnterForeground"]
+- ["SH", "sceneWillResignActive"]
+- !private ["SH", "shared"]
+- ["SH", "stateRestorationActivity"]
+- ["SH", "stateRestorationActivityForScene"]
+- !private ["SH", "viewContext"]
+- ["SH", "window"]
+- ["SH", "windowScene"]
+- !private ["s12IdentifiableP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "DataRep"]
+- !private ["So8NSObjectC", "SessionsView"]
+- !private ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIHostingController"]
+- ["So8NSObjectC", "UIScene"]
+- ["So8NSObjectC", "UISceneSession"]
+- ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "UIWindowScene"]
+- !private ["So8NSObjectC", "UserMedSets"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "persistentContainer"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "saveContext"]
+- ["So8NSObjectC", "scene"]
+- ["So8NSObjectC", "sceneDidBecomeActive"]
+- ["So8NSObjectC", "sceneDidDisconnect"]
+- ["So8NSObjectC", "sceneDidEnterBackground"]
+- ["So8NSObjectC", "sceneWillEnterForeground"]
+- ["So8NSObjectC", "sceneWillResignActive"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "stateRestorationActivity"]
+- ["So8NSObjectC", "stateRestorationActivityForScene"]
+- !private ["So8NSObjectC", "viewContext"]
+- ["So8NSObjectC", "window"]
+- ["So8NSObjectC", "windowScene"]
+- ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "DataRep"]
+- !private ["So8NSObjectP", "SessionsView"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UIHostingController"]
+- !private ["So8NSObjectP", "UIWindow"]
+- !private ["So8NSObjectP", "UserMedSets"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "makeKeyAndVisible"]
+- !private ["So8NSObjectP", "persistentContainer"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "saveContext"]
+- ["So8NSObjectP", "scene"]
+- ["So8NSObjectP", "sceneDidBecomeActive"]
+- ["So8NSObjectP", "sceneDidDisconnect"]
+- ["So8NSObjectP", "sceneDidEnterBackground"]
+- ["So8NSObjectP", "sceneWillEnterForeground"]
+- ["So8NSObjectP", "sceneWillResignActive"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "stateRestorationActivity"]
+- ["So8NSObjectP", "stateRestorationActivityForScene"]
+- !private ["So8NSObjectP", "viewContext"]
+- ["So8NSObjectP", "window"]
+- ["So8NSObjectP", "windowScene"]
+- !private ["So29NSPersistentCloudKitContainerC", "viewContext"]
+- !private ["So21NSPersistentContainerC", "viewContext"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["12CoreDataToDo13SceneDelegateC", "AppDelegate"]
+- !private ["12CoreDataToDo13SceneDelegateC", "DataRep"]
+- !private ["12CoreDataToDo13SceneDelegateC", "SessionsView"]
+- !private ["12CoreDataToDo13SceneDelegateC", "UIApplication"]
+- !private ["12CoreDataToDo13SceneDelegateC", "UIHostingController"]
+- ["12CoreDataToDo13SceneDelegateC", "UIScene"]
+- ["12CoreDataToDo13SceneDelegateC", "UISceneSession"]
+- ["12CoreDataToDo13SceneDelegateC", "UIWindow"]
+- !private ["12CoreDataToDo13SceneDelegateC", "UIWindowScene"]
+- !private ["12CoreDataToDo13SceneDelegateC", "UserMedSets"]
+- ["12CoreDataToDo13SceneDelegateC", "deinit"]
+- ["12CoreDataToDo13SceneDelegateC", "init"]
+- ["12CoreDataToDo13SceneDelegateC", "scene"]
+- ["12CoreDataToDo13SceneDelegateC", "sceneDidBecomeActive"]
+- ["12CoreDataToDo13SceneDelegateC", "sceneDidDisconnect"]
+- ["12CoreDataToDo13SceneDelegateC", "sceneDidEnterBackground"]
+- ["12CoreDataToDo13SceneDelegateC", "sceneWillEnterForeground"]
+- ["12CoreDataToDo13SceneDelegateC", "sceneWillResignActive"]
+- ["12CoreDataToDo13SceneDelegateC", "stateRestorationActivity"]
+- ["12CoreDataToDo13SceneDelegateC", "stateRestorationActivityForScene"]
+- ["12CoreDataToDo13SceneDelegateC", "window"]
+- ["12CoreDataToDo13SceneDelegateC", "windowScene"]
+- !private ["12CoreDataToDo12SessionsViewV", "deinit"]
+- !private ["12CoreDataToDo12SessionsViewV", "environment"]
+- !private ["12CoreDataToDo12SessionsViewV", "environmentObject"]
+- !private ["12CoreDataToDo12SessionsViewV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "persistentContainer"]
+- !private ["So21UIApplicationDelegateP", "saveContext"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "makeKeyAndVisible"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["7SwiftUI19UIHostingControllerC", "init"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "makeKeyAndVisible"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataRep"]
+- !private ["So30UIPasteConfigurationSupportingP", "SessionsView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIHostingController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserMedSets"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "saveContext"]
+- ["So30UIPasteConfigurationSupportingP", "scene"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidDisconnect"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "sceneWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "sceneWillResignActive"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "stateRestorationActivity"]
+- ["So30UIPasteConfigurationSupportingP", "stateRestorationActivityForScene"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", "windowScene"]
+- !private ["So11UIResponderC", "AppDelegate"]
+- ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "DataRep"]
+- !private ["So11UIResponderC", "SessionsView"]
+- !private ["So11UIResponderC", "UIApplication"]
+- !private ["So11UIResponderC", "UIHostingController"]
+- ["So11UIResponderC", "UIScene"]
+- ["So11UIResponderC", "UISceneSession"]
+- ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "UIWindowScene"]
+- !private ["So11UIResponderC", "UserMedSets"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "persistentContainer"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "saveContext"]
+- ["So11UIResponderC", "scene"]
+- ["So11UIResponderC", "sceneDidBecomeActive"]
+- ["So11UIResponderC", "sceneDidDisconnect"]
+- ["So11UIResponderC", "sceneDidEnterBackground"]
+- ["So11UIResponderC", "sceneWillEnterForeground"]
+- ["So11UIResponderC", "sceneWillResignActive"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "stateRestorationActivity"]
+- ["So11UIResponderC", "stateRestorationActivityForScene"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", "windowScene"]
+- ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "DataRep"]
+- !private ["So30UIResponderStandardEditActionsP", "SessionsView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIHostingController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "UserMedSets"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "saveContext"]
+- ["So30UIResponderStandardEditActionsP", "scene"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidDisconnect"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "sceneWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "sceneWillResignActive"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", "stateRestorationActivity"]
+- ["So30UIResponderStandardEditActionsP", "stateRestorationActivityForScene"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", "windowScene"]
+- ["So7UISceneC", "ConnectionOptions"]
+- !private ["So15UISceneDelegateP", "DataRep"]
+- !private ["So15UISceneDelegateP", "SessionsView"]
+- !private ["So15UISceneDelegateP", "UIApplication"]
+- !private ["So15UISceneDelegateP", "UIHostingController"]
+- !private ["So15UISceneDelegateP", "UIWindow"]
+- !private ["So15UISceneDelegateP", "UserMedSets"]
+- ["So15UISceneDelegateP", ""]
+- ["So15UISceneDelegateP", "scene"]
+- ["So15UISceneDelegateP", "sceneDidBecomeActive"]
+- ["So15UISceneDelegateP", "sceneDidDisconnect"]
+- ["So15UISceneDelegateP", "sceneDidEnterBackground"]
+- ["So15UISceneDelegateP", "sceneWillEnterForeground"]
+- ["So15UISceneDelegateP", "sceneWillResignActive"]
+- ["So15UISceneDelegateP", "stateRestorationActivity"]
+- ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
+- ["So15UISceneDelegateP", "window"]
+- ["So15UISceneDelegateP", "windowScene"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "DataRep"]
+- !private ["So23UIUserActivityRestoringP", "SessionsView"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- !private ["So23UIUserActivityRestoringP", "UIHostingController"]
+- !private ["So23UIUserActivityRestoringP", "UIWindow"]
+- !private ["So23UIUserActivityRestoringP", "UserMedSets"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "makeKeyAndVisible"]
+- !private ["So23UIUserActivityRestoringP", "persistentContainer"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "saveContext"]
+- ["So23UIUserActivityRestoringP", "scene"]
+- ["So23UIUserActivityRestoringP", "sceneDidBecomeActive"]
+- ["So23UIUserActivityRestoringP", "sceneDidDisconnect"]
+- ["So23UIUserActivityRestoringP", "sceneDidEnterBackground"]
+- ["So23UIUserActivityRestoringP", "sceneWillEnterForeground"]
+- ["So23UIUserActivityRestoringP", "sceneWillResignActive"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- ["So23UIUserActivityRestoringP", "stateRestorationActivity"]
+- ["So23UIUserActivityRestoringP", "stateRestorationActivityForScene"]
+- ["So23UIUserActivityRestoringP", "window"]
+- ["So23UIUserActivityRestoringP", "windowScene"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["So21UIWindowSceneDelegateP", "DataRep"]
+- !private ["So21UIWindowSceneDelegateP", "SessionsView"]
+- !private ["So21UIWindowSceneDelegateP", "UIApplication"]
+- !private ["So21UIWindowSceneDelegateP", "UIHostingController"]
+- !private ["So21UIWindowSceneDelegateP", "UIWindow"]
+- !private ["So21UIWindowSceneDelegateP", "UserMedSets"]
+- ["So21UIWindowSceneDelegateP", ""]
+- ["So21UIWindowSceneDelegateP", "scene"]
+- ["So21UIWindowSceneDelegateP", "sceneDidBecomeActive"]
+- ["So21UIWindowSceneDelegateP", "sceneDidDisconnect"]
+- ["So21UIWindowSceneDelegateP", "sceneDidEnterBackground"]
+- ["So21UIWindowSceneDelegateP", "sceneWillEnterForeground"]
+- ["So21UIWindowSceneDelegateP", "sceneWillResignActive"]
+- ["So21UIWindowSceneDelegateP", "stateRestorationActivity"]
+- ["So21UIWindowSceneDelegateP", "stateRestorationActivityForScene"]
+- ["So21UIWindowSceneDelegateP", "window"]
+- ["So21UIWindowSceneDelegateP", "windowScene"]
+- !private ["12CoreDataToDo11UserMedSetsC", "deinit"]
+- !private ["12CoreDataToDo11UserMedSetsC", "init"]
+- !private ["7SwiftUI4ViewP", "environment"]
+- !private ["7SwiftUI4ViewP", "environmentObject"]
+- !private ["7SwiftUI4ViewP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataRep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SessionsView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIHostingController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserMedSets"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidDisconnect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneWillResignActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateRestorationActivity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateRestorationActivityForScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DataRep"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SessionsView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIHostingController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserMedSets"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeKeyAndVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "persistentContainer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidBecomeActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidDisconnect"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidEnterBackground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneWillEnterForeground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneWillResignActive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivity"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivityForScene"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowScene"]
+- !private ["7SwiftUI18_UIHostingViewableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+depends-nominal:
+- !private "12CoreDataToDo11AppDelegateC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "12CoreDataToDo0B3RepC"
+- !private "7SwiftUI17EnvironmentValuesV"
+- "SQ"
+- "SH"
+- !private "s12IdentifiableP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So29NSPersistentCloudKitContainerC"
+- !private "So21NSPersistentContainerC"
+- !private "7Combine16ObservableObjectP"
+- "12CoreDataToDo13SceneDelegateC"
+- !private "12CoreDataToDo12SessionsViewV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "7SwiftUI19UIHostingControllerC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So7UISceneC"
+- "So15UISceneDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So8UIWindowC"
+- "So21UIWindowSceneDelegateP"
+- !private "12CoreDataToDo11UserMedSetsC"
+- !private "7SwiftUI4ViewP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "7SwiftUI18_UIHostingViewableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreData.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/simd.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e025702f27c9fdcd4ce59474fd01164"

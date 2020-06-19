@@ -1,20 +1,24 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "Session"
+- "SessionRow1"
 - "SessionRow"
 - "UserMedSets"
 provides-nominal:
 - "12CoreDataToDo7SessionV"
+- "12CoreDataToDo11SessionRow1V"
 - "12CoreDataToDo10SessionRowV"
 - "12CoreDataToDo11UserMedSetsC"
 provides-member:
 - ["12CoreDataToDo7SessionV", ""]
+- ["12CoreDataToDo11SessionRow1V", ""]
 - ["12CoreDataToDo10SessionRowV", ""]
 - ["12CoreDataToDo11UserMedSetsC", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - !private "<"
+- "AssignmentPrecedence"
 - "Double"
 - "FloatLiteralType"
 - !private "HStack"
@@ -27,6 +31,8 @@ depends-top-level:
 - "SelectedDuration"
 - "Session"
 - "SessionRow"
+- "SessionRow1"
+- "SessnUI"
 - !private "Spacer"
 - "String"
 - "StringLiteralType"
@@ -49,17 +55,23 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["Se", "gray"]
 - ["Se", "init"]
+- !private ["Se", "med_name"]
+- !private ["Se", "med_note"]
 - !private ["Se", "subheadline"]
 - ["7SwiftUI15DynamicPropertyP", "init"]
 - ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - !private ["SE", "gray"]
 - ["SE", "init"]
+- !private ["SE", "med_name"]
+- !private ["SE", "med_note"]
 - !private ["SE", "subheadline"]
 - !private ["SQ", "font"]
 - !private ["SQ", "foregroundColor"]
 - !private ["SQ", "gray"]
 - ["SQ", "init"]
 - !private ["SQ", "leading"]
+- !private ["SQ", "med_name"]
+- !private ["SQ", "med_note"]
 - !private ["SQ", "subheadline"]
 - !private ["s23ExpressibleByNilLiteralP", "gray"]
 - !private ["s23ExpressibleByNilLiteralP", "subheadline"]
@@ -69,6 +81,8 @@ depends-member:
 - !private ["7SwiftUI6HStackV", "init"]
 - !private ["SH", "gray"]
 - ["SH", "init"]
+- !private ["SH", "med_name"]
+- !private ["SH", "med_note"]
 - !private ["SH", "subheadline"]
 - !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
 - ["s12IdentifiableP", "ID"]
@@ -102,6 +116,7 @@ depends-member:
 - !private ["s12IdentifiableP", "interval_chime"]
 - !private ["s12IdentifiableP", "interval_time"]
 - !private ["s12IdentifiableP", "med_name"]
+- !private ["s12IdentifiableP", "med_note"]
 - !private ["s12IdentifiableP", "med_time"]
 - !private ["s12IdentifiableP", "note"]
 - ["s12IdentifiableP", "objectWillChange"]
@@ -200,6 +215,22 @@ depends-member:
 - ["12CoreDataToDo10SessionRowV", "deinit"]
 - ["12CoreDataToDo10SessionRowV", "init"]
 - ["12CoreDataToDo10SessionRowV", "session"]
+- ["12CoreDataToDo11SessionRow1V", "Body"]
+- !private ["12CoreDataToDo11SessionRow1V", "HStack"]
+- ["12CoreDataToDo11SessionRow1V", "SessnUI"]
+- !private ["12CoreDataToDo11SessionRow1V", "Spacer"]
+- !private ["12CoreDataToDo11SessionRow1V", "Text"]
+- !private ["12CoreDataToDo11SessionRow1V", "VStack"]
+- ["12CoreDataToDo11SessionRow1V", "View"]
+- ["12CoreDataToDo11SessionRow1V", "_Default_Body"]
+- ["12CoreDataToDo11SessionRow1V", "_makeView"]
+- ["12CoreDataToDo11SessionRow1V", "_makeViewList"]
+- ["12CoreDataToDo11SessionRow1V", "body"]
+- ["12CoreDataToDo11SessionRow1V", "deinit"]
+- ["12CoreDataToDo11SessionRow1V", "init"]
+- ["12CoreDataToDo11SessionRow1V", "session"]
+- !private ["12CoreDataToDo7SessnUIV", "med_name"]
+- !private ["12CoreDataToDo7SessnUIV", "med_note"]
 - !private ["7SwiftUI10ShapeStyleP", "gray"]
 - !private ["7SwiftUI6SpacerV", "init"]
 - !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
@@ -331,6 +362,8 @@ depends-nominal:
 - "12CoreDataToDo16SelectedDurationC"
 - "12CoreDataToDo7SessionV"
 - "12CoreDataToDo10SessionRowV"
+- "12CoreDataToDo11SessionRow1V"
+- !private "12CoreDataToDo7SessnUIV"
 - !private "7SwiftUI10ShapeStyleP"
 - !private "7SwiftUI6SpacerV"
 - !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
@@ -407,4 +440,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b4b72d584dfc78d47eeba2fa9091c67f"
+interface-hash: "f22c8264d9b39456800b9fa6f8121228"

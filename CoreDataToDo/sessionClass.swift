@@ -18,6 +18,27 @@ struct Session: Identifiable {
    var medSession: [String : Any] = ["id" : UUID(), "name" : "", "note" : "", "duration" : 0.0]
 }
 
+struct SessionRow1: View {
+var session: SessnUI
+
+var body: some View {
+    HStack {
+        VStack(alignment: .leading) {
+            Text(session.med_name)
+            Text(session.med_note).font(.subheadline).foregroundColor(.gray)
+        }
+        Spacer()
+//
+//      (session.durationPrepTime.selectedHour < 9 ? Text("0\(session.durationPrepTime.selectedHour):"): Text("\(session.durationPrepTime.selectedHour):")) + (session.durationPrepTime.selectedMin < 9 ? Text("0\(session.durationPrepTime.selectedMin):"): Text("\(session.durationPrepTime.selectedMin):"))
+//      + (session.durationPrepTime.selectedSecond < 9 ? Text("0\(session.durationPrepTime.selectedSecond)"): Text("\(session.durationPrepTime.selectedSecond)"))
+      
+//        Text(String(format: "%.1f mins", session.duration))
+    }
+}
+}
+
+
+
 struct SessionRow: View {
 var session: UserMedSets
 
@@ -39,7 +60,11 @@ var body: some View {
 
 
 class UserMedSets: ObservableObject, Identifiable {
-// var id = UUID()
+// var id = Date().currentTimeMillis()
+   var id: Int
+   init(id: Int){
+      self.id = id
+   }
 @Published var med_name: String = "My Meditation Name"
 @Published var total_med_time: Int = 12
 @Published var note: String = "start it in the morining"
@@ -62,5 +87,5 @@ class UserMedSets: ObservableObject, Identifiable {
    @ObservedObject var durationMedTime = SelectedDuration()
    @ObservedObject var durationIntervalTime = SelectedDuration()
    @ObservedObject var durationRestTime = SelectedDuration()
-
+   
 }

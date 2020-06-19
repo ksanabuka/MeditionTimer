@@ -8,14 +8,17 @@ provides-top-level:
 provides-nominal:
 - "12CoreDataToDo22NavigationConfiguratorV"
 provides-member:
+- ["10Foundation4DateV", ""]
 - ["s13OpaquePointerV", ""]
 - ["12CoreDataToDo22NavigationConfiguratorV", ""]
+- ["10Foundation4DateV", "currentTimeMillis"]
 - ["s13OpaquePointerV", "vibrate"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!="
 - !private "%"
 - !private "&&"
+- !private "*"
 - !private "+"
 - !private "/"
 - !private "<"
@@ -27,11 +30,14 @@ depends-top-level:
 - !private "AudioServicesPlaySystemSound"
 - "Bool"
 - !private "BooleanLiteralType"
+- "Date"
 - !private "FloatLiteralType"
 - "Int"
+- "Int64"
 - !private "IntegerLiteralType"
 - "MusicDeviceComponent"
 - "NavigationConfigurator"
+- "Sessn"
 - "String"
 - !private "StringLiteralType"
 - "TernaryPrecedence"
@@ -39,7 +45,6 @@ depends-top-level:
 - "UIViewController"
 - "UIViewControllerRepresentable"
 - "UIViewControllerRepresentableContext"
-- "UserMedSets"
 - "Void"
 - "computeTotalMedTime"
 - "countDownString"
@@ -48,37 +53,73 @@ depends-top-level:
 - !private "kSystemSoundID_Vibrate"
 - !private "||"
 depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
 - !private ["SK", "init"]
+- !private ["Sz", "init"]
 - !private ["s7CVarArgP", "AudioServicesPlaySystemSound"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "kSystemSoundID_Vibrate"]
 - !private ["s7CVarArgP", "navigationController"]
 - !private ["Sl", "init"]
+- !private ["SL", "Int64"]
 - !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
 - !private ["s28CustomDebugStringConvertibleP", "AudioServicesPlaySystemSound"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "kSystemSoundID_Vibrate"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "Int64"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- ["10Foundation4DateV", "Int64"]
+- ["10Foundation4DateV", "currentTimeMillis"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["Se", "Int64"]
 - !private ["Se", "init"]
+- !private ["Se", "med_time"]
+- !private ["Se", "prep_time"]
+- !private ["Se", "rest_time"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["SE", "Int64"]
 - !private ["SE", "init"]
+- !private ["SE", "med_time"]
+- !private ["SE", "prep_time"]
+- !private ["SE", "rest_time"]
+- !private ["SE", "timeIntervalSince1970"]
 - !private ["SQ", "AudioServicesPlaySystemSound"]
+- !private ["SQ", "Int64"]
 - !private ["SQ", "init"]
 - !private ["SQ", "kSystemSoundID_Vibrate"]
+- !private ["SQ", "med_time"]
 - !private ["SQ", "navigationController"]
+- !private ["SQ", "prep_time"]
+- !private ["SQ", "rest_time"]
+- !private ["SQ", "timeIntervalSince1970"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
 - !private ["SH", "AudioServicesPlaySystemSound"]
+- !private ["SH", "Int64"]
 - !private ["SH", "init"]
 - !private ["SH", "kSystemSoundID_Vibrate"]
+- !private ["SH", "med_time"]
 - !private ["SH", "navigationController"]
+- !private ["SH", "prep_time"]
+- !private ["SH", "rest_time"]
+- !private ["SH", "timeIntervalSince1970"]
 - !private ["s12IdentifiableP", "med_time"]
 - !private ["s12IdentifiableP", "prep_time"]
 - !private ["s12IdentifiableP", "rest_time"]
+- !private ["s5Int64V", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "init"]
@@ -111,14 +152,21 @@ depends-member:
 - ["12CoreDataToDo22NavigationConfiguratorV", "makeCoordinator"]
 - ["12CoreDataToDo22NavigationConfiguratorV", "makeUIViewController"]
 - ["12CoreDataToDo22NavigationConfiguratorV", "updateUIViewController"]
-- !private ["7Combine16ObservableObjectP", "med_time"]
-- !private ["7Combine16ObservableObjectP", "prep_time"]
-- !private ["7Combine16ObservableObjectP", "rest_time"]
+- !private ["Sj", "init"]
 - !private ["s13OpaquePointerV", "AudioServicesPlaySystemSound"]
 - !private ["s13OpaquePointerV", "kSystemSoundID_Vibrate"]
 - ["s13OpaquePointerV", "vibrate"]
 - !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "Int64"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SIMDScalarP", "init"]
 - !private ["ST", "init"]
+- !private ["12CoreDataToDo5SessnV", "med_time"]
+- !private ["12CoreDataToDo5SessnV", "prep_time"]
+- !private ["12CoreDataToDo5SessnV", "rest_time"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
 - !private ["SS", "init"]
 - !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -160,9 +208,6 @@ depends-member:
 - ["7SwiftUI29UIViewControllerRepresentableP", "makeCoordinator"]
 - ["7SwiftUI29UIViewControllerRepresentableP", "makeUIViewController"]
 - ["7SwiftUI29UIViewControllerRepresentableP", "updateUIViewController"]
-- !private ["12CoreDataToDo11UserMedSetsC", "med_time"]
-- !private ["12CoreDataToDo11UserMedSetsC", "prep_time"]
-- !private ["12CoreDataToDo11UserMedSetsC", "rest_time"]
 - ["7SwiftUI4ViewP", "Body"]
 - ["7SwiftUI4ViewP", "Coordinator"]
 - !private ["7SwiftUI4ViewP", "UIViewController"]
@@ -180,33 +225,47 @@ depends-member:
 - ["7SwiftUI4ViewP", "makeCoordinator"]
 - ["7SwiftUI4ViewP", "makeUIViewController"]
 - ["7SwiftUI4ViewP", "updateUIViewController"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Int64"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
 - !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["s21_ObjectiveCBridgeableP", "Int64"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
 - !private "SK"
+- !private "Sz"
 - !private "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
 - !private "Se"
 - !private "SE"
 - !private "SQ"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
 - !private "SH"
 - !private "s12IdentifiableP"
+- !private "s5Int64V"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "So8NSCodingP"
@@ -214,10 +273,16 @@ depends-nominal:
 - !private "So8NSObjectC"
 - !private "So8NSObjectP"
 - "12CoreDataToDo22NavigationConfiguratorV"
-- !private "7Combine16ObservableObjectP"
+- !private "Sj"
 - "s13OpaquePointerV"
 - !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
 - !private "ST"
+- !private "12CoreDataToDo5SessnV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
 - !private "SS"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
@@ -233,13 +298,16 @@ depends-nominal:
 - !private "So23UIUserActivityRestoringP"
 - !private "So16UIViewControllerC"
 - "7SwiftUI29UIViewControllerRepresentableP"
-- !private "12CoreDataToDo11UserMedSetsC"
 - "7SwiftUI4ViewP"
+- !private "s15_CVarArgAlignedP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
 - !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -308,4 +376,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "52345269802d61b67e1e0b76f55e7aaa"
+interface-hash: "a0d5b4f91b73b1eab6ba88d6a0b53d96"

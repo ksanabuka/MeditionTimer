@@ -1,0 +1,1049 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeView"
+- "ContentView"
+- "ImagePickerView"
+- "DummyView"
+- "ContentView_Previews"
+provides-nominal:
+- "12CoreDataToDo8HomeViewV"
+- "12CoreDataToDo11ContentViewV"
+- "12CoreDataToDo15ImagePickerViewV"
+- "12CoreDataToDo15ImagePickerViewV11CoordinatorC"
+- "12CoreDataToDo9DummyViewV"
+- "12CoreDataToDo20ContentView_PreviewsV"
+provides-member:
+- ["12CoreDataToDo8HomeViewV", ""]
+- ["12CoreDataToDo11ContentViewV", ""]
+- ["12CoreDataToDo15ImagePickerViewV", ""]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", ""]
+- ["12CoreDataToDo9DummyViewV", ""]
+- ["So7UIImageC", ""]
+- ["12CoreDataToDo20ContentView_PreviewsV", ""]
+- ["So7UIImageC", "imageWithColor"]
+provides-dynamic-lookup:
+- "imagePickerController"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Button"
+- !private "CGRect"
+- "CastingPrecedence"
+- !private "Color"
+- "ContentView"
+- "ContentView_Previews"
+- !private "Divider"
+- "DummyView"
+- "FloatLiteralType"
+- !private "HStack"
+- "HomeView"
+- !private "Image"
+- "ImagePickerView"
+- "IntegerLiteralType"
+- !private "List"
+- !private "MyToDo"
+- "NSObject"
+- !private "NavigationLink"
+- "PreviewProvider"
+- !private "Spacer"
+- "State"
+- "StringLiteralType"
+- !private "Text"
+- !private "Toggle"
+- "UIButton"
+- "UIColor"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetCurrentContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIImage"
+- "UIImagePickerController"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- "UIViewController"
+- "UIViewControllerRepresentable"
+- "UIViewControllerRepresentableContext"
+- "UIViewRepresentable"
+- "UIViewRepresentableContext"
+- "View"
+- !private "print"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "height"]
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "width"]
+- !private ["SK", "originalImage"]
+- !private ["Sb", "toggle"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["7SwiftUI6ButtonV", "sheet"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["So11CGBlendModeV", "normal"]
+- !private ["So12CGContextRefa", "clip"]
+- !private ["So12CGContextRefa", "fill"]
+- !private ["So12CGContextRefa", "scaleBy"]
+- !private ["So12CGContextRefa", "setBlendMode"]
+- !private ["So12CGContextRefa", "translateBy"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- ["s7CVarArgP", "InfoKey"]
+- !private ["s7CVarArgP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s7CVarArgP", "UIGraphicsEndImageContext"]
+- !private ["s7CVarArgP", "UIGraphicsGetCurrentContext"]
+- !private ["s7CVarArgP", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "imagePickerController"]
+- ["s7CVarArgP", "imagePickerControllerDidCancel"]
+- ["s7CVarArgP", "imageWithColor"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "navigationController"]
+- ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s7CVarArgP", "parent"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "setFill"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toggle"]
+- !private ["Sl", "originalImage"]
+- !private ["Sl", "subscript"]
+- !private ["7SwiftUI5ColorV", "black"]
+- !private ["SL", "originalImage"]
+- ["12CoreDataToDo11ContentViewV", "$allowShaking"]
+- ["12CoreDataToDo11ContentViewV", "$autolock"]
+- ["12CoreDataToDo11ContentViewV", "$imageInBlackBox"]
+- ["12CoreDataToDo11ContentViewV", "$isShowingImagePicker"]
+- ["12CoreDataToDo11ContentViewV", "Body"]
+- !private ["12CoreDataToDo11ContentViewV", "Button"]
+- !private ["12CoreDataToDo11ContentViewV", "Color"]
+- !private ["12CoreDataToDo11ContentViewV", "Divider"]
+- !private ["12CoreDataToDo11ContentViewV", "HStack"]
+- !private ["12CoreDataToDo11ContentViewV", "HomeView"]
+- !private ["12CoreDataToDo11ContentViewV", "Image"]
+- !private ["12CoreDataToDo11ContentViewV", "ImagePickerView"]
+- !private ["12CoreDataToDo11ContentViewV", "List"]
+- !private ["12CoreDataToDo11ContentViewV", "MyToDo"]
+- !private ["12CoreDataToDo11ContentViewV", "NavigationLink"]
+- !private ["12CoreDataToDo11ContentViewV", "Spacer"]
+- ["12CoreDataToDo11ContentViewV", "State"]
+- !private ["12CoreDataToDo11ContentViewV", "Text"]
+- !private ["12CoreDataToDo11ContentViewV", "Toggle"]
+- ["12CoreDataToDo11ContentViewV", "UIColor"]
+- ["12CoreDataToDo11ContentViewV", "UIImage"]
+- ["12CoreDataToDo11ContentViewV", "View"]
+- ["12CoreDataToDo11ContentViewV", "_Default_Body"]
+- !private ["12CoreDataToDo11ContentViewV", "_allowShaking"]
+- !private ["12CoreDataToDo11ContentViewV", "_autolock"]
+- !private ["12CoreDataToDo11ContentViewV", "_imageInBlackBox"]
+- !private ["12CoreDataToDo11ContentViewV", "_isShowingImagePicker"]
+- ["12CoreDataToDo11ContentViewV", "_makeView"]
+- ["12CoreDataToDo11ContentViewV", "_makeViewList"]
+- ["12CoreDataToDo11ContentViewV", "allowShaking"]
+- ["12CoreDataToDo11ContentViewV", "autolock"]
+- ["12CoreDataToDo11ContentViewV", "body"]
+- ["12CoreDataToDo11ContentViewV", "deinit"]
+- ["12CoreDataToDo11ContentViewV", "imageInBlackBox"]
+- ["12CoreDataToDo11ContentViewV", "init"]
+- ["12CoreDataToDo11ContentViewV", "isShowingImagePicker"]
+- !private ["12CoreDataToDo20ContentView_PreviewsV", "ContentView"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "Previews"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "View"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "_Default_Previews"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "_platform"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "_previews"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "deinit"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "init"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "platform"]
+- ["12CoreDataToDo20ContentView_PreviewsV", "previews"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "ImagePickerView"]
+- !private ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "UIImage"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "UIImagePickerController"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "deinit"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "imagePickerController"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "imagePickerControllerDidCancel"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "init"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "navigationController"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "navigationControllerSupportedInterfaceOrientations"]
+- ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "parent"]
+- !private ["12CoreDataToDo15ImagePickerViewV11CoordinatorC", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- ["s28CustomDebugStringConvertibleP", "InfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsGetCurrentContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerController"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
+- ["s28CustomDebugStringConvertibleP", "imageWithColor"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "navigationController"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s28CustomDebugStringConvertibleP", "originalImage"]
+- !private ["s28CustomDebugStringConvertibleP", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "setFill"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "originalImage"]
+- !private ["s17CustomReflectableP", "red"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toggle"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- ["s23CustomStringConvertibleP", "InfoKey"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsGetCurrentContext"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "imagePickerController"]
+- ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
+- ["s23CustomStringConvertibleP", "imageWithColor"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "navigationController"]
+- ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s23CustomStringConvertibleP", "originalImage"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "setFill"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toggle"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "originalImage"]
+- !private ["Se", "red"]
+- !private ["Se", "subscript"]
+- !private ["Se", "toggle"]
+- !private ["Se", "width"]
+- !private ["SD", "subscript"]
+- !private ["7SwiftUI7DividerV", "init"]
+- ["12CoreDataToDo9DummyViewV", "Body"]
+- ["12CoreDataToDo9DummyViewV", "Coordinator"]
+- ["12CoreDataToDo9DummyViewV", "DummyView"]
+- ["12CoreDataToDo9DummyViewV", "UIButton"]
+- ["12CoreDataToDo9DummyViewV", "UIViewRepresentableContext"]
+- ["12CoreDataToDo9DummyViewV", "UIViewType"]
+- ["12CoreDataToDo9DummyViewV", "_Default_Body"]
+- ["12CoreDataToDo9DummyViewV", "_Default_Coordinator"]
+- ["12CoreDataToDo9DummyViewV", "_Default_UIViewType"]
+- ["12CoreDataToDo9DummyViewV", "_identifiedViewTree"]
+- ["12CoreDataToDo9DummyViewV", "_makeView"]
+- ["12CoreDataToDo9DummyViewV", "_makeViewList"]
+- ["12CoreDataToDo9DummyViewV", "_overrideLayoutTraits"]
+- ["12CoreDataToDo9DummyViewV", "_overrideSizeThatFits"]
+- ["12CoreDataToDo9DummyViewV", "body"]
+- ["12CoreDataToDo9DummyViewV", "deinit"]
+- ["12CoreDataToDo9DummyViewV", "dismantleUIView"]
+- ["12CoreDataToDo9DummyViewV", "init"]
+- ["12CoreDataToDo9DummyViewV", "makeCoordinator"]
+- ["12CoreDataToDo9DummyViewV", "makeUIView"]
+- ["12CoreDataToDo9DummyViewV", "updateUIView"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "originalImage"]
+- !private ["SE", "red"]
+- !private ["SE", "subscript"]
+- !private ["SE", "toggle"]
+- !private ["SE", "width"]
+- !private ["SQ", "CGRect"]
+- ["SQ", "InfoKey"]
+- !private ["SQ", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["SQ", "UIGraphicsEndImageContext"]
+- !private ["SQ", "UIGraphicsGetCurrentContext"]
+- !private ["SQ", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "black"]
+- !private ["SQ", "cgImage"]
+- !private ["SQ", "clip"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "fill"]
+- !private ["SQ", "height"]
+- ["SQ", "imagePickerController"]
+- ["SQ", "imagePickerControllerDidCancel"]
+- ["SQ", "imageWithColor"]
+- ["SQ", "init"]
+- ["SQ", "navigationController"]
+- ["SQ", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SQ", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "originalImage"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "print"]
+- !private ["SQ", "red"]
+- !private ["SQ", "resizable"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "scaleBy"]
+- !private ["SQ", "scaledToFit"]
+- !private ["SQ", "setBlendMode"]
+- !private ["SQ", "setFill"]
+- !private ["SQ", "setTitle"]
+- !private ["SQ", "size"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toggle"]
+- !private ["SQ", "translateBy"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "red"]
+- !private ["7SwiftUI7GestureP", "red"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "CGRect"]
+- ["SH", "InfoKey"]
+- !private ["SH", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["SH", "UIGraphicsEndImageContext"]
+- !private ["SH", "UIGraphicsGetCurrentContext"]
+- !private ["SH", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "black"]
+- !private ["SH", "cgImage"]
+- !private ["SH", "clip"]
+- !private ["SH", "delegate"]
+- !private ["SH", "fill"]
+- ["SH", "imagePickerController"]
+- ["SH", "imagePickerControllerDidCancel"]
+- ["SH", "imageWithColor"]
+- ["SH", "init"]
+- ["SH", "navigationController"]
+- ["SH", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SH", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SH", "normal"]
+- !private ["SH", "originalImage"]
+- !private ["SH", "parent"]
+- !private ["SH", "print"]
+- !private ["SH", "red"]
+- !private ["SH", "scale"]
+- !private ["SH", "scaleBy"]
+- !private ["SH", "setBlendMode"]
+- !private ["SH", "setFill"]
+- !private ["SH", "setTitle"]
+- !private ["SH", "size"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toggle"]
+- !private ["SH", "translateBy"]
+- ["12CoreDataToDo8HomeViewV", "Body"]
+- !private ["12CoreDataToDo8HomeViewV", "Text"]
+- ["12CoreDataToDo8HomeViewV", "View"]
+- ["12CoreDataToDo8HomeViewV", "_Default_Body"]
+- ["12CoreDataToDo8HomeViewV", "_makeView"]
+- ["12CoreDataToDo8HomeViewV", "_makeViewList"]
+- ["12CoreDataToDo8HomeViewV", "body"]
+- ["12CoreDataToDo8HomeViewV", "deinit"]
+- ["12CoreDataToDo8HomeViewV", "init"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI5ImageV", "resizable"]
+- !private ["7SwiftUI5ImageV", "scaledToFit"]
+- ["12CoreDataToDo15ImagePickerViewV", "$isPresented"]
+- ["12CoreDataToDo15ImagePickerViewV", "$selectedImage"]
+- ["12CoreDataToDo15ImagePickerViewV", "Binding"]
+- ["12CoreDataToDo15ImagePickerViewV", "Body"]
+- ["12CoreDataToDo15ImagePickerViewV", "Bool"]
+- ["12CoreDataToDo15ImagePickerViewV", "Coordinator"]
+- ["12CoreDataToDo15ImagePickerViewV", "ImagePickerView"]
+- ["12CoreDataToDo15ImagePickerViewV", "NSObject"]
+- ["12CoreDataToDo15ImagePickerViewV", "UIImage"]
+- ["12CoreDataToDo15ImagePickerViewV", "UIImagePickerController"]
+- ["12CoreDataToDo15ImagePickerViewV", "UIImagePickerControllerDelegate"]
+- ["12CoreDataToDo15ImagePickerViewV", "UINavigationControllerDelegate"]
+- ["12CoreDataToDo15ImagePickerViewV", "UIViewController"]
+- ["12CoreDataToDo15ImagePickerViewV", "UIViewControllerRepresentableContext"]
+- ["12CoreDataToDo15ImagePickerViewV", "UIViewControllerType"]
+- ["12CoreDataToDo15ImagePickerViewV", "_Default_Body"]
+- ["12CoreDataToDo15ImagePickerViewV", "_Default_UIViewControllerType"]
+- ["12CoreDataToDo15ImagePickerViewV", "_identifiedViewTree"]
+- !private ["12CoreDataToDo15ImagePickerViewV", "_isPresented"]
+- ["12CoreDataToDo15ImagePickerViewV", "_makeView"]
+- ["12CoreDataToDo15ImagePickerViewV", "_makeViewList"]
+- !private ["12CoreDataToDo15ImagePickerViewV", "_selectedImage"]
+- ["12CoreDataToDo15ImagePickerViewV", "body"]
+- ["12CoreDataToDo15ImagePickerViewV", "deinit"]
+- ["12CoreDataToDo15ImagePickerViewV", "dismantleUIViewController"]
+- ["12CoreDataToDo15ImagePickerViewV", "init"]
+- ["12CoreDataToDo15ImagePickerViewV", "isPresented"]
+- ["12CoreDataToDo15ImagePickerViewV", "makeCoordinator"]
+- ["12CoreDataToDo15ImagePickerViewV", "makeUIViewController"]
+- !private ["12CoreDataToDo15ImagePickerViewV", "print"]
+- ["12CoreDataToDo15ImagePickerViewV", "selectedImage"]
+- ["12CoreDataToDo15ImagePickerViewV", "updateUIViewController"]
+- !private ["SD5IndexV", "originalImage"]
+- !private ["So30UIImagePickerControllerInfoKeya", "originalImage"]
+- !private ["7SwiftUI4ListV", "init"]
+- !private ["s25LosslessStringConvertibleP", "toggle"]
+- !private ["12CoreDataToDo02MycD0V", "deinit"]
+- !private ["12CoreDataToDo02MycD0V", "init"]
+- !private ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "InfoKey"]
+- !private ["So8NSCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSCodingP", "UIGraphicsEndImageContext"]
+- !private ["So8NSCodingP", "UIGraphicsGetCurrentContext"]
+- !private ["So8NSCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSCodingP", "imageWithColor"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "scale"]
+- !private ["So8NSCodingP", "setFill"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "size"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "setFill"]
+- ["So26NSExtensionRequestHandlingP", "InfoKey"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So21NSItemProviderReadingP", "CGRect"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsGetCurrentContext"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderReadingP", "cgImage"]
+- ["So21NSItemProviderReadingP", "imageWithColor"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "scale"]
+- !private ["So21NSItemProviderReadingP", "setFill"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "CGRect"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsGetCurrentContext"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderWritingP", "cgImage"]
+- ["So21NSItemProviderWritingP", "imageWithColor"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "scale"]
+- !private ["So21NSItemProviderWritingP", "setFill"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "ImagePickerView"]
+- ["So8NSObjectC", "InfoKey"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectC", "UIGraphicsEndImageContext"]
+- !private ["So8NSObjectC", "UIGraphicsGetCurrentContext"]
+- !private ["So8NSObjectC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImagePickerController"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "cgImage"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "imagePickerController"]
+- ["So8NSObjectC", "imagePickerControllerDidCancel"]
+- ["So8NSObjectC", "imageWithColor"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So8NSObjectC", "parent"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "red"]
+- !private ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectC", "setFill"]
+- !private ["So8NSObjectC", "setTitle"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "InfoKey"]
+- !private ["So8NSObjectP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectP", "UIGraphicsEndImageContext"]
+- !private ["So8NSObjectP", "UIGraphicsGetCurrentContext"]
+- !private ["So8NSObjectP", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "cgImage"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "imagePickerController"]
+- ["So8NSObjectP", "imagePickerControllerDidCancel"]
+- ["So8NSObjectP", "imageWithColor"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "navigationController"]
+- ["So8NSObjectP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectP", "parent"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "red"]
+- !private ["So8NSObjectP", "scale"]
+- !private ["So8NSObjectP", "setFill"]
+- !private ["So8NSObjectP", "setTitle"]
+- !private ["So8NSObjectP", "size"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So14NSSecureCodingP", "UIGraphicsEndImageContext"]
+- !private ["So14NSSecureCodingP", "UIGraphicsGetCurrentContext"]
+- !private ["So14NSSecureCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- ["So14NSSecureCodingP", "imageWithColor"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "scale"]
+- !private ["So14NSSecureCodingP", "setFill"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["Sq", "red"]
+- !private ["7SwiftUI15PreviewProviderP", "ContentView"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["Sk", "originalImage"]
+- !private ["Sn", "originalImage"]
+- !private ["SX", "originalImage"]
+- !private ["SY", "normal"]
+- !private ["SY", "originalImage"]
+- !private ["ST", "originalImage"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["7SwiftUI10ShapeStyleP", "black"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- !private ["So14UIControlStateV", "normal"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI6ToggleV", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsEndImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsGetCurrentContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "cgImage"]
+- ["So29UIAccessibilityIdentificationP", "imageWithColor"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "scale"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- ["So21UIAppearanceContainerP", "InfoKey"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So8UIButtonC", "backgroundColor"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "setTitle"]
+- ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "setFill"]
+- ["So18UIContentContainerP", "InfoKey"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So9UIControlC", "backgroundColor"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- ["So18UIFocusEnvironmentP", "InfoKey"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "setTitle"]
+- !private ["So7UIImageC", "CGRect"]
+- ["So7UIImageC", "UIColor"]
+- !private ["So7UIImageC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So7UIImageC", "UIGraphicsEndImageContext"]
+- !private ["So7UIImageC", "UIGraphicsGetCurrentContext"]
+- !private ["So7UIImageC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So7UIImageC", "UIImage"]
+- !private ["So7UIImageC", "cgImage"]
+- ["So7UIImageC", "imageWithColor"]
+- ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "scale"]
+- !private ["So7UIImageC", "size"]
+- ["So23UIImagePickerControllerC", "InfoKey"]
+- !private ["So23UIImagePickerControllerC", "delegate"]
+- !private ["So23UIImagePickerControllerC", "init"]
+- ["So31UIImagePickerControllerDelegateP", ""]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerController"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So31UIImagePickerControllerDelegateP", "init"]
+- ["So31UIImagePickerControllerDelegateP", "navigationController"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So31UIImagePickerControllerDelegateP", "parent"]
+- !private ["So31UIImagePickerControllerDelegateP", "print"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsEndImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsGetCurrentContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "imageWithColor"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "scale"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "setTitle"]
+- ["So22UINavigationControllerC", "InfoKey"]
+- !private ["So22UINavigationControllerC", "delegate"]
+- !private ["So22UINavigationControllerC", "init"]
+- ["So30UINavigationControllerDelegateP", ""]
+- ["So30UINavigationControllerDelegateP", "imagePickerController"]
+- ["So30UINavigationControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So30UINavigationControllerDelegateP", "init"]
+- ["So30UINavigationControllerDelegateP", "navigationController"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UINavigationControllerDelegateP", "parent"]
+- !private ["So30UINavigationControllerDelegateP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "InfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- ["So11UIResponderC", "InfoKey"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "setTitle"]
+- ["So30UIResponderStandardEditActionsP", "InfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- ["So16UIStateRestoringP", "InfoKey"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So18UITraitEnvironmentP", "InfoKey"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- ["So23UIUserActivityRestoringP", "InfoKey"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "setTitle"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "setTitle"]
+- ["So16UIViewControllerC", "InfoKey"]
+- !private ["So16UIViewControllerC", "delegate"]
+- !private ["So16UIViewControllerC", "init"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Coordinator"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "UIImagePickerController"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", ""]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_identifiedViewTree"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_makeView"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_makeViewList"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "dismantleUIViewController"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "init"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "isPresented"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "makeCoordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "makeUIViewController"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "print"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "selectedImage"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "updateUIViewController"]
+- !private ["7SwiftUI36UIViewControllerRepresentableContextV", "coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIButton"]
+- ["7SwiftUI19UIViewRepresentableP", "UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", ""]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", "_identifiedViewTree"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeView"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeViewList"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
+- ["7SwiftUI19UIViewRepresentableP", "body"]
+- ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
+- ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
+- ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
+- !private ["7SwiftUI4ViewP", "$allowShaking"]
+- !private ["7SwiftUI4ViewP", "$autolock"]
+- !private ["7SwiftUI4ViewP", "$imageInBlackBox"]
+- !private ["7SwiftUI4ViewP", "$isShowingImagePicker"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- !private ["7SwiftUI4ViewP", "Divider"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "HomeView"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- !private ["7SwiftUI4ViewP", "ImagePickerView"]
+- !private ["7SwiftUI4ViewP", "List"]
+- !private ["7SwiftUI4ViewP", "MyToDo"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "Toggle"]
+- !private ["7SwiftUI4ViewP", "UIButton"]
+- ["7SwiftUI4ViewP", "UIColor"]
+- ["7SwiftUI4ViewP", "UIImage"]
+- !private ["7SwiftUI4ViewP", "UIImagePickerController"]
+- ["7SwiftUI4ViewP", "UIViewControllerType"]
+- ["7SwiftUI4ViewP", "UIViewType"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_Coordinator"]
+- ["7SwiftUI4ViewP", "_Default_UIViewControllerType"]
+- ["7SwiftUI4ViewP", "_Default_UIViewType"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
+- ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
+- !private ["7SwiftUI4ViewP", "black"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "border"]
+- !private ["7SwiftUI4ViewP", "clipped"]
+- ["7SwiftUI4ViewP", "dismantleUIView"]
+- ["7SwiftUI4ViewP", "dismantleUIViewController"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "imageInBlackBox"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "isPresented"]
+- !private ["7SwiftUI4ViewP", "isShowingImagePicker"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIView"]
+- ["7SwiftUI4ViewP", "makeUIViewController"]
+- !private ["7SwiftUI4ViewP", "print"]
+- !private ["7SwiftUI4ViewP", "red"]
+- !private ["7SwiftUI4ViewP", "resizable"]
+- !private ["7SwiftUI4ViewP", "scaledToFit"]
+- !private ["7SwiftUI4ViewP", "selectedImage"]
+- !private ["7SwiftUI4ViewP", "sheet"]
+- ["7SwiftUI4ViewP", "updateUIView"]
+- ["7SwiftUI4ViewP", "updateUIViewController"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["14CoreFoundation9_CFObjectP", "clip"]
+- !private ["14CoreFoundation9_CFObjectP", "fill"]
+- !private ["14CoreFoundation9_CFObjectP", "scaleBy"]
+- !private ["14CoreFoundation9_CFObjectP", "setBlendMode"]
+- !private ["14CoreFoundation9_CFObjectP", "translateBy"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "setFill"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsEndImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsGetCurrentContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- ["s26_ExpressibleByImageLiteralP", "imageWithColor"]
+- ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "scale"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "originalImage"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "InfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsEndImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsGetCurrentContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imageWithColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGRect"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "InfoKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIGraphicsEndImageContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIGraphicsGetCurrentContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cgImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePickerController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePickerControllerDidCancel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageWithColor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "red"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setFill"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setTitle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "originalImage"]
+- !private ["s21_ObjectiveCBridgeableP", "red"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toggle"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["7SwiftUI16_PreviewProviderP", "ContentView"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["s20_SwiftNewtypeWrapperP", "originalImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- !private "SK"
+- !private "Sb"
+- !private "7SwiftUI6ButtonV"
+- !private "So15CALayerDelegateP"
+- !private "So11CGBlendModeV"
+- !private "So12CGContextRefa"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "7SwiftUI5ColorV"
+- !private "SL"
+- "12CoreDataToDo11ContentViewV"
+- "12CoreDataToDo20ContentView_PreviewsV"
+- "12CoreDataToDo15ImagePickerViewV11CoordinatorC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "7SwiftUI7DividerV"
+- "12CoreDataToDo9DummyViewV"
+- "7SwiftUI15DynamicPropertyP"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI6HStackV"
+- "SH"
+- "12CoreDataToDo8HomeViewV"
+- !private "7SwiftUI5ImageV"
+- "12CoreDataToDo15ImagePickerViewV"
+- !private "SD5IndexV"
+- !private "So30UIImagePickerControllerInfoKeya"
+- !private "7SwiftUI4ListV"
+- !private "s25LosslessStringConvertibleP"
+- !private "12CoreDataToDo02MycD0V"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "7SwiftUI14NavigationLinkV"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "7SwiftUI15PreviewProviderP"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "So14UIControlStateV"
+- "7SwiftUI5StateV"
+- !private "7SwiftUI4TextV"
+- !private "7SwiftUI6ToggleV"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So7UIImageC"
+- "So23UIImagePickerControllerC"
+- "So31UIImagePickerControllerDelegateP"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- "So22UINavigationControllerC"
+- "So30UINavigationControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "7SwiftUI29UIViewControllerRepresentableP"
+- !private "7SwiftUI36UIViewControllerRepresentableContextV"
+- "7SwiftUI19UIViewRepresentableP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreData.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/simd.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f8dbafc24d45dfcc8f082690ae882049"

@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ToDoItem"
+provides-nominal:
+- "12CoreDataToDo0cD4ItemC"
+provides-member:
+- ["12CoreDataToDo0cD4ItemC", ""]
+- ["12CoreDataToDo0cD4ItemC", "getAllToDoItems"]
+provides-dynamic-lookup:
+- "createdAt"
+- "title"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Date"
+- "Identifiable"
+- "NSFetchRequest"
+- "NSManagedObject"
+- !private "NSSortDescriptor"
+- "String"
+- !private "StringLiteralType"
+- "ToDoItem"
+depends-member:
+- ["s7CVarArgP", "ID"]
+- !private ["s7CVarArgP", "NSSortDescriptor"]
+- !private ["s7CVarArgP", "ToDoItem"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "_Default_ID"]
+- !private ["s7CVarArgP", "fetchRequest"]
+- ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sortDescriptors"]
+- ["s28CustomDebugStringConvertibleP", "ID"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSortDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "ToDoItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_ID"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchRequest"]
+- ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sortDescriptors"]
+- ["s23CustomStringConvertibleP", "ID"]
+- !private ["s23CustomStringConvertibleP", "NSSortDescriptor"]
+- !private ["s23CustomStringConvertibleP", "ToDoItem"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ID"]
+- !private ["s23CustomStringConvertibleP", "fetchRequest"]
+- ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sortDescriptors"]
+- ["SQ", "ID"]
+- !private ["SQ", "NSSortDescriptor"]
+- !private ["SQ", "ToDoItem"]
+- ["SQ", ""]
+- ["SQ", "_Default_ID"]
+- !private ["SQ", "fetchRequest"]
+- ["SQ", "id"]
+- !private ["SQ", "init"]
+- !private ["SQ", "sortDescriptors"]
+- ["SH", "ID"]
+- !private ["SH", "NSSortDescriptor"]
+- !private ["SH", "ToDoItem"]
+- ["SH", ""]
+- ["SH", "_Default_ID"]
+- !private ["SH", "fetchRequest"]
+- ["SH", "id"]
+- !private ["SH", "init"]
+- !private ["SH", "sortDescriptors"]
+- ["s12IdentifiableP", "ID"]
+- !private ["s12IdentifiableP", "NSSortDescriptor"]
+- !private ["s12IdentifiableP", "ToDoItem"]
+- ["s12IdentifiableP", ""]
+- ["s12IdentifiableP", "_Default_ID"]
+- !private ["s12IdentifiableP", "fetchRequest"]
+- ["s12IdentifiableP", "id"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "sortDescriptors"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "sortDescriptors"]
+- !private ["So14NSFetchRequestC", "sortDescriptors"]
+- ["So20NSFetchRequestResultP", "ID"]
+- !private ["So20NSFetchRequestResultP", "NSSortDescriptor"]
+- !private ["So20NSFetchRequestResultP", "ToDoItem"]
+- ["So20NSFetchRequestResultP", ""]
+- ["So20NSFetchRequestResultP", "_Default_ID"]
+- !private ["So20NSFetchRequestResultP", "fetchRequest"]
+- ["So20NSFetchRequestResultP", "id"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- ["So15NSManagedObjectC", "Date"]
+- ["So15NSManagedObjectC", "ID"]
+- ["So15NSManagedObjectC", "NSFetchRequest"]
+- !private ["So15NSManagedObjectC", "NSSortDescriptor"]
+- ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", "ToDoItem"]
+- ["So15NSManagedObjectC", ""]
+- ["So15NSManagedObjectC", "_Default_ID"]
+- ["So15NSManagedObjectC", "createdAt"]
+- !private ["So15NSManagedObjectC", "fetchRequest"]
+- ["So15NSManagedObjectC", "getAllToDoItems"]
+- ["So15NSManagedObjectC", "id"]
+- ["So15NSManagedObjectC", "init"]
+- ["So15NSManagedObjectC", "title"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "ID"]
+- ["So8NSObjectC", "NSFetchRequest"]
+- !private ["So8NSObjectC", "NSSortDescriptor"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "ToDoItem"]
+- ["So8NSObjectC", "_Default_ID"]
+- ["So8NSObjectC", "createdAt"]
+- !private ["So8NSObjectC", "fetchRequest"]
+- ["So8NSObjectC", "getAllToDoItems"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "sortDescriptors"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectP", "ID"]
+- !private ["So8NSObjectP", "NSSortDescriptor"]
+- !private ["So8NSObjectP", "ToDoItem"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_Default_ID"]
+- !private ["So8NSObjectP", "fetchRequest"]
+- ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "sortDescriptors"]
+- !private ["So24NSPersistentStoreRequestC", "sortDescriptors"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So16NSSortDescriptorC", "init"]
+- ["7Combine16ObservableObjectP", "ID"]
+- !private ["7Combine16ObservableObjectP", "NSSortDescriptor"]
+- !private ["7Combine16ObservableObjectP", "ToDoItem"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ID"]
+- !private ["7Combine16ObservableObjectP", "fetchRequest"]
+- ["7Combine16ObservableObjectP", "id"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- ["12CoreDataToDo0cD4ItemC", "Date"]
+- ["12CoreDataToDo0cD4ItemC", "ID"]
+- ["12CoreDataToDo0cD4ItemC", "NSFetchRequest"]
+- !private ["12CoreDataToDo0cD4ItemC", "NSSortDescriptor"]
+- ["12CoreDataToDo0cD4ItemC", "String"]
+- ["12CoreDataToDo0cD4ItemC", "ToDoItem"]
+- ["12CoreDataToDo0cD4ItemC", "_Default_ID"]
+- ["12CoreDataToDo0cD4ItemC", "createdAt"]
+- ["12CoreDataToDo0cD4ItemC", "deinit"]
+- !private ["12CoreDataToDo0cD4ItemC", "fetchRequest"]
+- ["12CoreDataToDo0cD4ItemC", "getAllToDoItems"]
+- ["12CoreDataToDo0cD4ItemC", "id"]
+- ["12CoreDataToDo0cD4ItemC", "init"]
+- ["12CoreDataToDo0cD4ItemC", "title"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSortDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ToDoItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_ID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sortDescriptors"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSSortDescriptor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ToDoItem"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_Default_ID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchRequest"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sortDescriptors"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "s12IdentifiableP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSFetchRequestC"
+- "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So14NSSecureCodingP"
+- !private "So16NSSortDescriptorC"
+- "7Combine16ObservableObjectP"
+- "12CoreDataToDo0cD4ItemC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreData.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/simd.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c3e5e8d8421bfadc0b282e2bbba907a6"
