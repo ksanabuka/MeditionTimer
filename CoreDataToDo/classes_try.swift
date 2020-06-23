@@ -13,9 +13,9 @@ import Foundation
 
 struct SessnUI: Hashable, Codable, Identifiable {
    var id: Int
-   var med_name: String
-   var total_med_time: Int
-   var med_note: String
+//   var med_name: String
+//   var total_med_time: Int
+//   var med_note: String
 
 }
 
@@ -42,10 +42,10 @@ struct Sessn: Hashable, Codable, Identifiable {
 }
 func toSessionListData() -> [Sessn]{
    
-   return [Sessn(id: 1, med_name: "ses1", total_med_time: 13, med_note: "note1", prep_time: 3, med_time: 9, interval_time: 3, rest_time: 1, prep_chime: 1, repeat_prep_chime: 2, start_med_chime: 2, repeat_start_med_chime: 1, interval_chime: 2, repeat_interval_chime: 2, end_med_chime: 2, repeat_end_med_chime: 2, end_rest_chime: 2, repeat_end_rest_chime: 2), Sessn(id: 2, med_name: "ses2", total_med_time: 13, med_note: "note2", prep_time: 3, med_time: 9, interval_time: 3, rest_time: 1, prep_chime: 1, repeat_prep_chime: 2, start_med_chime: 2, repeat_start_med_chime: 1, interval_chime: 2, repeat_interval_chime: 2, end_med_chime: 2, repeat_end_med_chime: 2, end_rest_chime: 2, repeat_end_rest_chime: 2)]
+   return [Sessn(id: 0, med_name: "ses1", total_med_time: 13, med_note: "note1", prep_time: 3, med_time: 9, interval_time: 3, rest_time: 1, prep_chime: 1, repeat_prep_chime: 2, start_med_chime: 2, repeat_start_med_chime: 1, interval_chime: 2, repeat_interval_chime: 2, end_med_chime: 2, repeat_end_med_chime: 2, end_rest_chime: 2, repeat_end_rest_chime: 2), Sessn(id: 1, med_name: "ses2", total_med_time: 13, med_note: "note2", prep_time: 3, med_time: 9, interval_time: 3, rest_time: 1, prep_chime: 1, repeat_prep_chime: 2, start_med_chime: 2, repeat_start_med_chime: 1, interval_chime: 2, repeat_interval_chime: 2, end_med_chime: 2, repeat_end_med_chime: 2, end_rest_chime: 2, repeat_end_rest_chime: 2)]
 }
 func toSessionListDataUI() -> [SessnUI]{
-   return [SessnUI(id: 1, med_name: "My nameUI 1", total_med_time: 12, med_note: "NoteUI 1"), SessnUI(id: 2, med_name: "My nameUI 2", total_med_time: 12, med_note: "NoteUI 2")]
+   return [SessnUI(id: 0), SessnUI(id: 1)]
 }
 
 class DataRep: ObservableObject  {
@@ -60,6 +60,5 @@ class DataRep: ObservableObject  {
 
     @Published var sessionList : [Sessn] = toSessionListData()
     var sessionListUI : [SessnUI] = toSessionListDataUI()
-   var sessionListUI1 : [Int] = [0, 1]
 
  }

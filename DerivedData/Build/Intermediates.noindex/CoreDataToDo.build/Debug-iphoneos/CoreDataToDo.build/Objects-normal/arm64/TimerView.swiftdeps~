@@ -538,7 +538,6 @@ depends-member:
 - !private ["7SwiftUI6VStackV", "foregroundColor"]
 - !private ["7SwiftUI6VStackV", "frame"]
 - !private ["7SwiftUI6VStackV", "init"]
-- !private ["7SwiftUI6VStackV", "padding"]
 - !private ["7SwiftUI16VectorArithmeticP", "all"]
 - !private ["7SwiftUI4ViewP", "$player"]
 - ["7SwiftUI4ViewP", "Body"]

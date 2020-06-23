@@ -33,27 +33,22 @@ struct SessionsView: View {
 List {
    
    ForEach(allSession.sessionListUI, id: \.self){ session in
+      
+      
       NavigationLink(destination: TimerView()
 //         .navigationBarTitle(Text(self.allSession.sessionList[0].med_name), displayMode: .inline)
          .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation().navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
-      
-                        SessionRow1(session: self.allSession.sessionList[0])
+            SessionRow1(session: self.allSession.sessionList[session.id])
       }
+      
+      
+      
+      
       }.onDelete(perform: delete)
 
-//            ForEach(allSession.sessionListUI.indices){ i in
-//               NavigationLink(destination: TimerView()
-//                  .navigationBarTitle(Text(self.allSession.sessionList[i].med_name), displayMode: .inline)
-//                  .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation().navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
-//
-//                     SessionRow1(session: self.allSession.sessionList[i])
-//               }
-//               }.onDelete(perform: delete)
 }
          .onAppear{
             
-            self.allSession.sessionListUI[0].med_name = self.allSession.sessionList[0].med_name
-            self.allSession.sessionListUI[0].med_note = self.allSession.sessionList[0].med_note
 
 
             print("1       !!!")
@@ -72,7 +67,7 @@ List {
             }
         }
 
-            .navigationBarTitle(Text("Meditations"), displayMode: .inline)
+            .navigationBarTitle(Text("My meditations"), displayMode: .inline)
             .navigationBarItems(leading: NavigationLink("Set", destination: ContentView()) , trailing: NavigationLink("Add", destination: EditMeditation().navigationBarTitle(Text("Add New Session"), displayMode: .inline)))
          
       }
@@ -84,10 +79,7 @@ List {
              print("On appear - 1 launch")
             
             
-            self.allSession.sessionListUI[0].med_name = self.udUserMedSets.med_name
-            self.allSession.sessionListUI[0].med_note = self.udUserMedSets.med_note
 
-            
             
             self.allSession.sessionList[0].med_time = self.udUserMedSets.med_time
              self.allSession.sessionList[0].interval_time = self.udUserMedSets.interval_time
