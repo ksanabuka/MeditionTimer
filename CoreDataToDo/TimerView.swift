@@ -86,11 +86,14 @@ struct TimerView: View {
 var body: some View {
 NavigationView {
     VStack {
+      
         Spacer()
         VStack(alignment: .center) {
             Group {
-                HStack() {
-                    Spacer()
+               Text(self.allSession.sessionList[0].med_name).font(.largeTitle).multilineTextAlignment(.center).foregroundColor(.white).padding()
+
+
+                  
                     VStack {
                      Text(giveSessionPart(userMedSets: self.allSession.sessionList[0], counter: self.counter)).multilineTextAlignment(.trailing)
                         
@@ -99,7 +102,7 @@ NavigationView {
 //                     Text("totalMeditationTime...: \(self.allSession.sessionList[0].prep_time + self.allSession.sessionList[0].med_time + self.allSession.sessionList[0].rest_time)!")
 
                     }.foregroundColor(Color.white)
-                }
+                
     VStack {
       Text("\(countDownString(seconds: self.allSession.sessionList[0].total_med_time))").onReceive(timer2){ _ in
          
@@ -207,7 +210,6 @@ NavigationView {
                     }
 
                 }
-                .padding()
             }
             .padding(.all)
 

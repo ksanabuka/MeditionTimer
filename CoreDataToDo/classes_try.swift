@@ -60,4 +60,6 @@ class DataRep: ObservableObject  {
 
     @Published var sessionList : [Sessn] = toSessionListData()
     var sessionListUI : [SessnUI] = toSessionListDataUI()
+   var sessionListUI1 : [Int] = [0, 1]
+
  }

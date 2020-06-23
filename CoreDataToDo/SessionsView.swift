@@ -18,7 +18,9 @@ struct SessionsView: View {
    @State var firstLaunch = 1
    
    func delete(at offsets: IndexSet) {
+      allSession.sessionListUI.remove(atOffsets: offsets)
       allSession.sessionList.remove(atOffsets: offsets)
+      print(allSession.sessionListUI, allSession.sessionList)
    }
    @ObservedObject var udUserMedSets = udUserMeditationSettings()
 
@@ -28,16 +30,26 @@ struct SessionsView: View {
 
       NavigationView {
                
-         List {
-            ForEach(allSession.sessionListUI, id: \.self){ session in
-               NavigationLink(destination: TimerView()
-                  .navigationBarTitle(Text(session.med_name), displayMode: .inline)
-                  .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation().navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
-               
-                                 SessionRow1(session: session)
-               }
-               }.onDelete(perform: delete)
-         }
+List {
+   
+   ForEach(allSession.sessionListUI, id: \.self){ session in
+      NavigationLink(destination: TimerView()
+//         .navigationBarTitle(Text(self.allSession.sessionList[0].med_name), displayMode: .inline)
+         .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation().navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
+      
+                        SessionRow1(session: self.allSession.sessionList[0])
+      }
+      }.onDelete(perform: delete)
+
+//            ForEach(allSession.sessionListUI.indices){ i in
+//               NavigationLink(destination: TimerView()
+//                  .navigationBarTitle(Text(self.allSession.sessionList[i].med_name), displayMode: .inline)
+//                  .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation().navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
+//
+//                     SessionRow1(session: self.allSession.sessionList[i])
+//               }
+//               }.onDelete(perform: delete)
+}
          .onAppear{
             
             self.allSession.sessionListUI[0].med_name = self.allSession.sessionList[0].med_name

@@ -16,7 +16,7 @@ depends-top-level:
 - !private "AssignmentPrecedence"
 - "Binding"
 - "BooleanLiteralType"
-- !private "ChimePicker1"
+- !private "ChimePicker"
 - "DataRep"
 - "EditMeditation"
 - "EditMeditation_Previews"
@@ -41,7 +41,6 @@ depends-top-level:
 - !private "TimePicker"
 - "UnicodeScalarType"
 - !private "UserDefaults"
-- "UserMedSets"
 - "View"
 - !private "print"
 - "udUserMeditationSettings"
@@ -89,8 +88,8 @@ depends-member:
 - !private ["s7CVarArgP", "standard"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s12CaseIterableP", "trailing"]
-- !private ["12CoreDataToDo12ChimePicker1V", "deinit"]
-- !private ["12CoreDataToDo12ChimePicker1V", "init"]
+- !private ["12CoreDataToDo11ChimePickerV", "deinit"]
+- !private ["12CoreDataToDo11ChimePickerV", "init"]
 - !private ["Sl", "end_med_chime"]
 - !private ["Sl", "end_rest_chime"]
 - !private ["Sl", "interval_chime"]
@@ -215,11 +214,10 @@ depends-member:
 - ["12CoreDataToDo14EditMeditationV", "$showingDetail"]
 - !private ["12CoreDataToDo14EditMeditationV", "$showingTimer"]
 - ["12CoreDataToDo14EditMeditationV", "$udUserMedSets"]
-- ["12CoreDataToDo14EditMeditationV", "$userMedSets1"]
 - ["12CoreDataToDo14EditMeditationV", "$userMedSets2"]
 - ["12CoreDataToDo14EditMeditationV", "Binding"]
 - ["12CoreDataToDo14EditMeditationV", "Body"]
-- !private ["12CoreDataToDo14EditMeditationV", "ChimePicker1"]
+- !private ["12CoreDataToDo14EditMeditationV", "ChimePicker"]
 - ["12CoreDataToDo14EditMeditationV", "DataRep"]
 - ["12CoreDataToDo14EditMeditationV", "Environment"]
 - ["12CoreDataToDo14EditMeditationV", "EnvironmentObject"]
@@ -236,7 +234,6 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "TextField"]
 - !private ["12CoreDataToDo14EditMeditationV", "TimePicker"]
 - !private ["12CoreDataToDo14EditMeditationV", "UserDefaults"]
-- ["12CoreDataToDo14EditMeditationV", "UserMedSets"]
 - ["12CoreDataToDo14EditMeditationV", "View"]
 - ["12CoreDataToDo14EditMeditationV", "_Default_Body"]
 - ["12CoreDataToDo14EditMeditationV", "_makeView"]
@@ -245,7 +242,6 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "_showingDetail"]
 - !private ["12CoreDataToDo14EditMeditationV", "_showingTimer"]
 - !private ["12CoreDataToDo14EditMeditationV", "_udUserMedSets"]
-- !private ["12CoreDataToDo14EditMeditationV", "_userMedSets1"]
 - !private ["12CoreDataToDo14EditMeditationV", "_userMedSets2"]
 - ["12CoreDataToDo14EditMeditationV", "body"]
 - ["12CoreDataToDo14EditMeditationV", "deinit"]
@@ -256,7 +252,6 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "showingTimer"]
 - ["12CoreDataToDo14EditMeditationV", "udUserMedSets"]
 - ["12CoreDataToDo14EditMeditationV", "udUserMeditationSettings"]
-- ["12CoreDataToDo14EditMeditationV", "userMedSets1"]
 - ["12CoreDataToDo14EditMeditationV", "userMedSets2"]
 - !private ["12CoreDataToDo23EditMeditation_PreviewsV", "EditMeditation"]
 - ["12CoreDataToDo23EditMeditation_PreviewsV", "Previews"]
@@ -399,22 +394,22 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "end_rest_chime"]
 - ["7Combine16ObservableObjectP", "init"]
 - !private ["7Combine16ObservableObjectP", "interval_chime"]
-- !private ["7Combine16ObservableObjectP", "interval_time"]
-- !private ["7Combine16ObservableObjectP", "med_name"]
-- !private ["7Combine16ObservableObjectP", "med_time"]
-- !private ["7Combine16ObservableObjectP", "prep_chime"]
-- !private ["7Combine16ObservableObjectP", "prep_time"]
+- !private ["7Combine16ObservableObjectP", "interval_time_1"]
+- !private ["7Combine16ObservableObjectP", "med_name_1"]
+- !private ["7Combine16ObservableObjectP", "med_time_1"]
+- !private ["7Combine16ObservableObjectP", "prep_chime_1"]
+- !private ["7Combine16ObservableObjectP", "prep_time_1"]
 - !private ["7Combine16ObservableObjectP", "repeat_end_med_chime"]
 - !private ["7Combine16ObservableObjectP", "repeat_end_rest_chime"]
 - !private ["7Combine16ObservableObjectP", "repeat_interval_chime"]
-- !private ["7Combine16ObservableObjectP", "repeat_prep_chime"]
-- !private ["7Combine16ObservableObjectP", "repeat_start_med_chime"]
-- !private ["7Combine16ObservableObjectP", "rest_time"]
+- !private ["7Combine16ObservableObjectP", "repeat_prep_chime_1"]
+- !private ["7Combine16ObservableObjectP", "repeat_start_med_chime_1"]
+- !private ["7Combine16ObservableObjectP", "rest_time_1"]
 - !private ["7Combine16ObservableObjectP", "selectedHour"]
 - !private ["7Combine16ObservableObjectP", "selectedMin"]
 - !private ["7Combine16ObservableObjectP", "selectedSecond"]
 - !private ["7Combine16ObservableObjectP", "sessionList"]
-- !private ["7Combine16ObservableObjectP", "start_med_chime"]
+- !private ["7Combine16ObservableObjectP", "start_med_chime_1"]
 - !private ["7Combine16ObservableObjectP", "toSeconds"]
 - ["7SwiftUI14ObservedObjectV", "init"]
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
@@ -511,10 +506,9 @@ depends-member:
 - !private ["12CoreDataToDo10TimePickerV", "init"]
 - !private ["So14NSUserDefaultsC", "set"]
 - !private ["So14NSUserDefaultsC", "standard"]
-- ["12CoreDataToDo11UserMedSetsC", "deinit"]
 - !private ["7SwiftUI4ViewP", "$userMedSets2"]
 - ["7SwiftUI4ViewP", "Body"]
-- !private ["7SwiftUI4ViewP", "ChimePicker1"]
+- !private ["7SwiftUI4ViewP", "ChimePicker"]
 - !private ["7SwiftUI4ViewP", "Form"]
 - !private ["7SwiftUI4ViewP", "Group"]
 - !private ["7SwiftUI4ViewP", "HStack"]
@@ -589,18 +583,18 @@ depends-member:
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_rest_chime"]
 - ["12CoreDataToDo24udUserMeditationSettingsC", "init"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_chime"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_time"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_name"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_time"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_time_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_name_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_time_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time_1"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_med_chime"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_rest_chime"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_interval_chime"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_start_med_chime"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "rest_time"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_start_med_chime_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "rest_time_1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime_1"]
 depends-nominal:
 - !private "Sa"
 - !private "s10ArraySliceV"
@@ -608,7 +602,7 @@ depends-nominal:
 - !private "7SwiftUI7BindingV"
 - !private "s7CVarArgP"
 - !private "s12CaseIterableP"
-- !private "12CoreDataToDo12ChimePicker1V"
+- !private "12CoreDataToDo11ChimePickerV"
 - !private "Sl"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
@@ -658,7 +652,6 @@ depends-nominal:
 - !private "s16TextOutputStreamP"
 - !private "12CoreDataToDo10TimePickerV"
 - !private "So14NSUserDefaultsC"
-- "12CoreDataToDo11UserMedSetsC"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
 - !private "7SwiftUI17EnvironmentObjectV7WrapperV"
@@ -736,4 +729,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c1b90aeaf3c35e3d63262ccdc4463900"
+interface-hash: "cffc10a99f4eeeac8e62502e37302455"

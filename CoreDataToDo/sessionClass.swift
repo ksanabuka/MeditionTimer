@@ -19,7 +19,7 @@ struct Session: Identifiable {
 }
 
 struct SessionRow1: View {
-var session: SessnUI
+var session: Sessn
 
 var body: some View {
     HStack {

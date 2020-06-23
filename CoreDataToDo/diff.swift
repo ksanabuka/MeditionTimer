@@ -45,7 +45,7 @@ func giveSessionPart(userMedSets: Sessn, counter: Int ) -> String {
 }
 // 3661 -Ю 1-1-1
 func countDownString(seconds: Int) -> String {
-return (String(format: "%02d:%02d:%02d", seconds / 3600, seconds / 60, seconds % 60))
+return (String(format: "%02d:%02d:%02d", seconds / 3600, seconds % 3600 / 60, seconds % 60))
 }
 
 func inMeditationPart(userMedSets: Sessn, counter: Int ) -> Bool {

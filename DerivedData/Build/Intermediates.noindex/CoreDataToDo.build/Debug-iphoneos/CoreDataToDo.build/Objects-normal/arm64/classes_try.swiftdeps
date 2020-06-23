@@ -19,11 +19,11 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "Codable"
 - "DataRep"
-- !private "FloatLiteralType"
+- "FloatLiteralType"
 - "Hashable"
 - "Identifiable"
 - "Int"
-- !private "IntegerLiteralType"
+- "IntegerLiteralType"
 - "ObservableObject"
 - "ObservedObject"
 - "Published"
@@ -75,6 +75,7 @@ depends-member:
 - ["12CoreDataToDo0B3RepC", "$durationRestTime1"]
 - ["12CoreDataToDo0B3RepC", "$durationRestTime2"]
 - ["12CoreDataToDo0B3RepC", "$sessionList"]
+- ["12CoreDataToDo0B3RepC", "Int"]
 - ["12CoreDataToDo0B3RepC", "ObjectWillChangePublisher"]
 - ["12CoreDataToDo0B3RepC", "ObservedObject"]
 - ["12CoreDataToDo0B3RepC", "Published"]
@@ -104,6 +105,7 @@ depends-member:
 - ["12CoreDataToDo0B3RepC", "objectWillChange"]
 - ["12CoreDataToDo0B3RepC", "sessionList"]
 - ["12CoreDataToDo0B3RepC", "sessionListUI"]
+- ["12CoreDataToDo0B3RepC", "sessionListUI1"]
 - ["12CoreDataToDo0B3RepC", "toSessionListData"]
 - ["12CoreDataToDo0B3RepC", "toSessionListDataUI"]
 - ["Se", "=="]
@@ -385,6 +387,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
@@ -408,4 +411,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "fee0f9fdd4683b5d57a8e8355ba21197"
+interface-hash: "7ad3bcc6f2db613cd96fb1243538daa7"

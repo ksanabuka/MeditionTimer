@@ -24,7 +24,7 @@ struct EditMeditation: View {
 //    @EnvironmentObject var userMedSets: UserMedSets
    
    
-   @EnvironmentObject var userMedSets1: UserMedSets
+   //@EnvironmentObject var userMedSets1: UserMedSets
 
 
     @ObservedObject var udUserMedSets = udUserMeditationSettings()
