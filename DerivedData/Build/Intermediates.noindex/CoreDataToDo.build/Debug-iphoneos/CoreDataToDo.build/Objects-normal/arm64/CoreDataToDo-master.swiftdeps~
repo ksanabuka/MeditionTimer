@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "af44de3699592bfdfd7e4423997dfc91"
-build_time: [1592951259, 71395000]
+build_time: [1592952266, 267974000]
 inputs:
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/MyToDo.swift": [1592246566, 8770470]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/AppDelegate.swift": [1585707776, 553846242]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/diff.swift": [1592950059, 683070759]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/classes_try.swift": [1592950550, 982573154]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItemView.swift": [1575489790, 198234141]
-  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SessionsView.swift": [1592951258, 997608712]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SessionsView.swift": [1592952266, 192333395]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SceneDelegate.swift": [1592338366, 169612507]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/udClass.swift": [1592853727, 100271029]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItem.swift": [1575413044, 124926915]

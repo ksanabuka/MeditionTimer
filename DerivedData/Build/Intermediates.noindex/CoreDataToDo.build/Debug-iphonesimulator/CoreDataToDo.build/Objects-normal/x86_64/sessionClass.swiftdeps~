@@ -32,7 +32,7 @@ depends-top-level:
 - "Session"
 - "SessionRow"
 - "SessionRow1"
-- "SessnUI"
+- "Sessn"
 - !private "Spacer"
 - "String"
 - "StringLiteralType"
@@ -217,7 +217,7 @@ depends-member:
 - ["12CoreDataToDo10SessionRowV", "session"]
 - ["12CoreDataToDo11SessionRow1V", "Body"]
 - !private ["12CoreDataToDo11SessionRow1V", "HStack"]
-- ["12CoreDataToDo11SessionRow1V", "SessnUI"]
+- ["12CoreDataToDo11SessionRow1V", "Sessn"]
 - !private ["12CoreDataToDo11SessionRow1V", "Spacer"]
 - !private ["12CoreDataToDo11SessionRow1V", "Text"]
 - !private ["12CoreDataToDo11SessionRow1V", "VStack"]
@@ -229,8 +229,8 @@ depends-member:
 - ["12CoreDataToDo11SessionRow1V", "deinit"]
 - ["12CoreDataToDo11SessionRow1V", "init"]
 - ["12CoreDataToDo11SessionRow1V", "session"]
-- !private ["12CoreDataToDo7SessnUIV", "med_name"]
-- !private ["12CoreDataToDo7SessnUIV", "med_note"]
+- !private ["12CoreDataToDo5SessnV", "med_name"]
+- !private ["12CoreDataToDo5SessnV", "med_note"]
 - !private ["7SwiftUI10ShapeStyleP", "gray"]
 - !private ["7SwiftUI6SpacerV", "init"]
 - !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
@@ -363,7 +363,7 @@ depends-nominal:
 - "12CoreDataToDo7SessionV"
 - "12CoreDataToDo10SessionRowV"
 - "12CoreDataToDo11SessionRow1V"
-- !private "12CoreDataToDo7SessnUIV"
+- !private "12CoreDataToDo5SessnV"
 - !private "7SwiftUI10ShapeStyleP"
 - !private "7SwiftUI6SpacerV"
 - !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
@@ -440,4 +440,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f22c8264d9b39456800b9fa6f8121228"
+interface-hash: "75d1c6346ba295a8978099359a3353be"

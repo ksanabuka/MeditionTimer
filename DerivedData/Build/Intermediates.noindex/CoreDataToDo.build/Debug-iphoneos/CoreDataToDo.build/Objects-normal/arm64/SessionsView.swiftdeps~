@@ -19,6 +19,7 @@ depends-top-level:
 - "EnvironmentObject"
 - "FloatLiteralType"
 - !private "ForEach"
+- !private "Group"
 - !private "Image"
 - "IndexSet"
 - "IntegerLiteralType"
@@ -49,9 +50,13 @@ depends-member:
 - !private ["12CoreDataToDo11ContentViewV", "init"]
 - !private ["10Foundation15ContiguousBytesP", "remove"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
 - !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "none"]
 - !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "some"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "remove"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -71,6 +76,7 @@ depends-member:
 - !private ["Se", "interval_time"]
 - !private ["Se", "med_name"]
 - !private ["Se", "med_time"]
+- !private ["Se", "none"]
 - !private ["Se", "prep_chime"]
 - !private ["Se", "prep_time"]
 - !private ["Se", "remove"]
@@ -80,6 +86,7 @@ depends-member:
 - !private ["Se", "repeat_prep_chime"]
 - !private ["Se", "repeat_start_med_chime"]
 - !private ["Se", "rest_time"]
+- !private ["Se", "some"]
 - !private ["Se", "start_med_chime"]
 - !private ["Se", "subscript"]
 - !private ["Se", "total_med_time"]
@@ -97,6 +104,7 @@ depends-member:
 - !private ["SE", "interval_time"]
 - !private ["SE", "med_name"]
 - !private ["SE", "med_time"]
+- !private ["SE", "none"]
 - !private ["SE", "prep_chime"]
 - !private ["SE", "prep_time"]
 - !private ["SE", "remove"]
@@ -106,6 +114,7 @@ depends-member:
 - !private ["SE", "repeat_prep_chime"]
 - !private ["SE", "repeat_start_med_chime"]
 - !private ["SE", "rest_time"]
+- !private ["SE", "some"]
 - !private ["SE", "start_med_chime"]
 - !private ["SE", "subscript"]
 - !private ["SE", "total_med_time"]
@@ -119,6 +128,7 @@ depends-member:
 - !private ["SQ", "interval_time"]
 - !private ["SQ", "med_name"]
 - !private ["SQ", "med_time"]
+- !private ["SQ", "none"]
 - !private ["SQ", "prep_chime"]
 - !private ["SQ", "prep_time"]
 - !private ["SQ", "remove"]
@@ -128,13 +138,19 @@ depends-member:
 - !private ["SQ", "repeat_prep_chime"]
 - !private ["SQ", "repeat_start_med_chime"]
 - !private ["SQ", "rest_time"]
+- !private ["SQ", "some"]
 - !private ["SQ", "start_med_chime"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "total_med_time"]
 - !private ["s25ExpressibleByArrayLiteralP", "remove"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
 - !private ["7SwiftUI7ForEachV", "init"]
 - !private ["7SwiftUI7ForEachV", "onDelete"]
+- !private ["7SwiftUI7GestureP", "none"]
+- !private ["7SwiftUI7GestureP", "some"]
+- !private ["7SwiftUI5GroupV", "init"]
 - !private ["SH", "end_med_chime"]
 - !private ["SH", "end_rest_chime"]
 - !private ["SH", "id"]
@@ -143,6 +159,7 @@ depends-member:
 - !private ["SH", "interval_time"]
 - !private ["SH", "med_name"]
 - !private ["SH", "med_time"]
+- !private ["SH", "none"]
 - !private ["SH", "prep_chime"]
 - !private ["SH", "prep_time"]
 - !private ["SH", "remove"]
@@ -152,6 +169,7 @@ depends-member:
 - !private ["SH", "repeat_prep_chime"]
 - !private ["SH", "repeat_start_med_chime"]
 - !private ["SH", "rest_time"]
+- !private ["SH", "some"]
 - !private ["SH", "start_med_chime"]
 - !private ["SH", "subscript"]
 - !private ["SH", "total_med_time"]
@@ -209,6 +227,8 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "start_med_chime"]
 - ["7SwiftUI14ObservedObjectV", "init"]
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
+- !private ["Sq", "none"]
+- !private ["Sq", "some"]
 - !private ["Sk", "remove"]
 - !private ["Sk", "subscript"]
 - !private ["Sm", "remove"]
@@ -230,6 +250,7 @@ depends-member:
 - !private ["12CoreDataToDo12SessionsViewV", "EditMeditation"]
 - ["12CoreDataToDo12SessionsViewV", "EnvironmentObject"]
 - !private ["12CoreDataToDo12SessionsViewV", "ForEach"]
+- !private ["12CoreDataToDo12SessionsViewV", "Group"]
 - !private ["12CoreDataToDo12SessionsViewV", "Image"]
 - ["12CoreDataToDo12SessionsViewV", "IndexSet"]
 - !private ["12CoreDataToDo12SessionsViewV", "List"]
@@ -286,6 +307,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "ContentView"]
 - !private ["7SwiftUI4ViewP", "EditMeditation"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "Group"]
 - !private ["7SwiftUI4ViewP", "Image"]
 - !private ["7SwiftUI4ViewP", "List"]
 - !private ["7SwiftUI4ViewP", "NavigationLink"]
@@ -305,12 +327,15 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "navigationBarItems"]
 - !private ["7SwiftUI4ViewP", "navigationBarTitle"]
+- !private ["7SwiftUI4ViewP", "none"]
 - !private ["7SwiftUI4ViewP", "onAppear"]
 - !private ["7SwiftUI4ViewP", "onDelete"]
 - !private ["7SwiftUI4ViewP", "print"]
+- !private ["7SwiftUI4ViewP", "some"]
 - !private ["7SwiftUI4ViewP", "udUserMedSets"]
 - ["7SwiftUI4ViewP", "udUserMeditationSettings"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
 - !private ["s14_ArrayProtocolP", "remove"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "remove"]
@@ -319,7 +344,9 @@ depends-member:
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
 - !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["12CoreDataToDo24udUserMeditationSettingsC", "deinit"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_med_chime"]
@@ -359,7 +386,10 @@ depends-nominal:
 - "7SwiftUI17EnvironmentObjectV"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "7SwiftUI7ForEachV"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI5GroupV"
 - !private "SH"
 - !private "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
@@ -370,6 +400,7 @@ depends-nominal:
 - !private "7SwiftUI14NavigationViewV"
 - "7Combine16ObservableObjectP"
 - "7SwiftUI14ObservedObjectV"
+- !private "Sq"
 - !private "Sk"
 - !private "Sm"
 - !private "12CoreDataToDo16SelectedDurationC"

@@ -36,18 +36,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
          var userMedSets2 = DataRep()
 
-         var userMedSets = UserMedSets(id: 1)
-         var userMedSets1 = UserMedSets(id: 2)
+//         var userMedSets = UserMedSets(id: 1)
+//         var userMedSets1 = UserMedSets(id: 2)
 
 
          //3
 
          let contentView = SessionsView()
             
-            .environmentObject(userMedSets)
+//            .environmentObject(userMedSets)
             .environmentObject(userMedSets2)
 
-         .environmentObject(userMedSets1)
+//         .environmentObject(userMedSets1)
             .environment(\.managedObjectContext, managedObjectContext)
 //            let contentView = ContentView()
 

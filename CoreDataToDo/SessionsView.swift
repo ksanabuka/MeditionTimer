@@ -20,7 +20,6 @@ struct SessionsView: View {
    func delete(at offsets: IndexSet) {
       allSession.sessionListUI.remove(atOffsets: offsets)
       allSession.sessionList.remove(atOffsets: offsets)
-      print(allSession.sessionListUI, allSession.sessionList)
    }
    @ObservedObject var udUserMedSets = udUserMeditationSettings()
 
@@ -34,16 +33,15 @@ List {
    
    ForEach(allSession.sessionListUI, id: \.self){ session in
       
-      
-      NavigationLink(destination: TimerView()
+      Group {
+         if self.allSession.sessionList[session.id].active == 1 {
+            NavigationLink(destination: TimerView(uiId: session.id)
 //         .navigationBarTitle(Text(self.allSession.sessionList[0].med_name), displayMode: .inline)
          .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation().navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
             SessionRow1(session: self.allSession.sessionList[session.id])
       }
-      
-      
-      
-      
+         }
+      }
       }.onDelete(perform: delete)
 
 }
