@@ -6,14 +6,9 @@ import Combine
 
 
 struct SessionsView: View {
-//    @EnvironmentObject var userMedSets: UserMedSets
    
    @EnvironmentObject var allSession: DataRep
 
-   
-//   @EnvironmentObject var userMedSets1: UserMedSets
-
-//   @State var allSessions: [UserMedSets] = [UserMedSets(id: 1), UserMedSets(id: 2)]
    
    @State var firstLaunch = 1
    
@@ -34,11 +29,11 @@ List {
    ForEach(allSession.sessionListUI, id: \.self){ session in
       
       Group {
-         if self.allSession.sessionList[session.id].active == 1 {
-            NavigationLink(destination: TimerView(uiId: session.id)
+         if self.allSession.getIntParametrByUIid(uiId: session.id, requiredParam: "active") == 1 {
+            NavigationLink(destination: TimerView(uiId: self.allSession.getIntParametrByUIid(uiId: session.id, requiredParam: "indexInList"))
 //         .navigationBarTitle(Text(self.allSession.sessionList[0].med_name), displayMode: .inline)
-         .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation(uiId: 0).navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
-            SessionRow1(session: self.allSession.sessionList[session.id])
+         .navigationBarItems(trailing: NavigationLink("Edit", destination: EditMeditation(sessnInx: self.allSession.getIntParametrByUIid(uiId: session.id, requiredParam: "indexInList")).navigationBarTitle(Text("Edit"), displayMode: .inline)))) {
+            SessionRow1(session: self.allSession.sessionList[self.allSession.getIntParametrByUIid(uiId: session.id, requiredParam: "indexInList")])
       }
          }
       }
@@ -47,8 +42,7 @@ List {
 }
          .onAppear{
             
-
-
+            
             print("1       !!!")
          }
         .contextMenu {
@@ -66,7 +60,7 @@ List {
         }
 
             .navigationBarTitle(Text("My meditations"), displayMode: .inline)
-            .navigationBarItems(leading: NavigationLink("Set", destination: ContentView()) , trailing: NavigationLink("Add", destination: EditMeditation(uiId: 0).navigationBarTitle(Text("Add New Session"), displayMode: .inline)))
+            .navigationBarItems(leading: NavigationLink("Set", destination: ContentView()) , trailing: NavigationLink("Add", destination: EditMeditation(sessnInx: 0).navigationBarTitle(Text("Add New Session"), displayMode: .inline)))
          
       }
       .onAppear {

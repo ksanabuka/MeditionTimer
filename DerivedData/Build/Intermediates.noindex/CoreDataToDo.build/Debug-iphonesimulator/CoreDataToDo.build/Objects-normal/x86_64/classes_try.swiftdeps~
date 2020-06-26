@@ -16,6 +16,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
+- !private "??"
+- "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "Codable"
 - "DataRep"
@@ -32,10 +34,20 @@ depends-top-level:
 - "SessnUI"
 - "String"
 - !private "StringLiteralType"
+- !private "print"
 - "toSessionListData"
 - "toSessionListDataUI"
 - !private "~="
 depends-member:
+- !private ["Sa", "filter"]
+- !private ["Sa", "firstIndex"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "filter"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "firstIndex"]
+- !private ["s7CVarArgP", "subscript"]
 - ["s9CodingKeyP", "=="]
 - !private ["s9CodingKeyP", ""]
 - ["s9CodingKeyP", "_rawHashValue"]
@@ -46,26 +58,44 @@ depends-member:
 - ["s9CodingKeyP", "init"]
 - ["s9CodingKeyP", "intValue"]
 - ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "=="]
 - !private ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
 - ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
 - ["s28CustomDebugStringConvertibleP", "hash"]
 - ["s28CustomDebugStringConvertibleP", "hashValue"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "intValue"]
 - ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
 - ["s23CustomStringConvertibleP", "=="]
 - !private ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "_rawHashValue"]
 - ["s23CustomStringConvertibleP", "debugDescription"]
 - ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
 - ["s23CustomStringConvertibleP", "hash"]
 - ["s23CustomStringConvertibleP", "hashValue"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "intValue"]
 - ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
 - ["12CoreDataToDo0B3RepC", "$durationIntervalTime1"]
 - ["12CoreDataToDo0B3RepC", "$durationIntervalTime2"]
 - ["12CoreDataToDo0B3RepC", "$durationMedTime1"]
@@ -75,12 +105,14 @@ depends-member:
 - ["12CoreDataToDo0B3RepC", "$durationRestTime1"]
 - ["12CoreDataToDo0B3RepC", "$durationRestTime2"]
 - ["12CoreDataToDo0B3RepC", "$sessionList"]
+- ["12CoreDataToDo0B3RepC", "Int"]
 - ["12CoreDataToDo0B3RepC", "ObjectWillChangePublisher"]
 - ["12CoreDataToDo0B3RepC", "ObservedObject"]
 - ["12CoreDataToDo0B3RepC", "Published"]
 - ["12CoreDataToDo0B3RepC", "SelectedDuration"]
 - ["12CoreDataToDo0B3RepC", "Sessn"]
 - ["12CoreDataToDo0B3RepC", "SessnUI"]
+- ["12CoreDataToDo0B3RepC", "String"]
 - ["12CoreDataToDo0B3RepC", "_Default_ObjectWillChangePublisher"]
 - !private ["12CoreDataToDo0B3RepC", "_durationIntervalTime1"]
 - !private ["12CoreDataToDo0B3RepC", "_durationIntervalTime2"]
@@ -100,8 +132,10 @@ depends-member:
 - ["12CoreDataToDo0B3RepC", "durationPrepTime2"]
 - ["12CoreDataToDo0B3RepC", "durationRestTime1"]
 - ["12CoreDataToDo0B3RepC", "durationRestTime2"]
+- ["12CoreDataToDo0B3RepC", "getIntParametrByUIid"]
 - ["12CoreDataToDo0B3RepC", "init"]
 - ["12CoreDataToDo0B3RepC", "objectWillChange"]
+- !private ["12CoreDataToDo0B3RepC", "print"]
 - ["12CoreDataToDo0B3RepC", "sessionList"]
 - ["12CoreDataToDo0B3RepC", "sessionListUI"]
 - ["12CoreDataToDo0B3RepC", "toSessionListData"]
@@ -111,9 +145,12 @@ depends-member:
 - ["Se", ""]
 - ["Se", "_Default_ID"]
 - ["Se", "_rawHashValue"]
+- !private ["Se", "active"]
 - ["Se", "encode"]
 - !private ["Se", "end_med_chime"]
 - !private ["Se", "end_rest_chime"]
+- !private ["Se", "filter"]
+- !private ["Se", "firstIndex"]
 - ["Se", "hash"]
 - ["Se", "hashValue"]
 - ["Se", "id"]
@@ -132,6 +169,7 @@ depends-member:
 - !private ["Se", "repeat_start_med_chime"]
 - !private ["Se", "rest_time"]
 - !private ["Se", "start_med_chime"]
+- !private ["Se", "subscript"]
 - !private ["Se", "total_med_time"]
 - !private ["Se", "udId"]
 - !private ["Se", "uiId"]
@@ -143,9 +181,12 @@ depends-member:
 - ["SE", ""]
 - ["SE", "_Default_ID"]
 - ["SE", "_rawHashValue"]
+- !private ["SE", "active"]
 - ["SE", "encode"]
 - !private ["SE", "end_med_chime"]
 - !private ["SE", "end_rest_chime"]
+- !private ["SE", "filter"]
+- !private ["SE", "firstIndex"]
 - ["SE", "hash"]
 - ["SE", "hashValue"]
 - ["SE", "id"]
@@ -164,6 +205,7 @@ depends-member:
 - !private ["SE", "repeat_start_med_chime"]
 - !private ["SE", "rest_time"]
 - !private ["SE", "start_med_chime"]
+- !private ["SE", "subscript"]
 - !private ["SE", "total_med_time"]
 - !private ["SE", "udId"]
 - !private ["SE", "uiId"]
@@ -173,11 +215,14 @@ depends-member:
 - ["SQ", ""]
 - ["SQ", "_Default_ID"]
 - ["SQ", "_rawHashValue"]
+- !private ["SQ", "active"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
 - ["SQ", "encode"]
 - !private ["SQ", "end_med_chime"]
 - !private ["SQ", "end_rest_chime"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "firstIndex"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SQ", "id"]
@@ -198,19 +243,26 @@ depends-member:
 - !private ["SQ", "rest_time"]
 - !private ["SQ", "start_med_chime"]
 - ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
 - !private ["SQ", "total_med_time"]
 - !private ["SQ", "udId"]
 - !private ["SQ", "uiId"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - ["SH", "=="]
 - ["SH", "ID"]
 - ["SH", ""]
 - ["SH", "_Default_ID"]
 - ["SH", "_rawHashValue"]
+- !private ["SH", "active"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
 - ["SH", "encode"]
 - !private ["SH", "end_med_chime"]
 - !private ["SH", "end_rest_chime"]
+- !private ["SH", "filter"]
+- !private ["SH", "firstIndex"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - ["SH", "id"]
@@ -231,6 +283,7 @@ depends-member:
 - !private ["SH", "rest_time"]
 - !private ["SH", "start_med_chime"]
 - ["SH", "stringValue"]
+- !private ["SH", "subscript"]
 - !private ["SH", "total_med_time"]
 - !private ["SH", "udId"]
 - !private ["SH", "uiId"]
@@ -240,6 +293,7 @@ depends-member:
 - ["s12IdentifiableP", ""]
 - ["s12IdentifiableP", "_Default_ID"]
 - ["s12IdentifiableP", "_rawHashValue"]
+- !private ["s12IdentifiableP", "active"]
 - ["s12IdentifiableP", "encode"]
 - !private ["s12IdentifiableP", "end_med_chime"]
 - !private ["s12IdentifiableP", "end_rest_chime"]
@@ -268,6 +322,12 @@ depends-member:
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["SM", "filter"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
 - ["7Combine16ObservableObjectP", "SelectedDuration"]
 - ["7Combine16ObservableObjectP", ""]
@@ -275,6 +335,7 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "_sessionList"]
 - ["7Combine16ObservableObjectP", "init"]
 - ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "print"]
 - !private ["7Combine16ObservableObjectP", "sessionList"]
 - ["7Combine16ObservableObjectP", "toSessionListData"]
 - ["7Combine16ObservableObjectP", "toSessionListDataUI"]
@@ -282,8 +343,17 @@ depends-member:
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
 - ["7Combine9PublishedV", "init"]
 - ["7Combine9PublishedV", "wrappedValue"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "firstIndex"]
+- !private ["Sm", "subscript"]
 - ["12CoreDataToDo16SelectedDurationC", "deinit"]
 - ["12CoreDataToDo16SelectedDurationC", "init"]
+- !private ["ST", "filter"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "subscript"]
 - ["12CoreDataToDo5SessnV", "=="]
 - ["12CoreDataToDo5SessnV", "ID"]
 - ["12CoreDataToDo5SessnV", "Int"]
@@ -291,6 +361,7 @@ depends-member:
 - ["12CoreDataToDo5SessnV", "_Default_ID"]
 - ["12CoreDataToDo5SessnV", "__derived_struct_equals"]
 - ["12CoreDataToDo5SessnV", "_rawHashValue"]
+- ["12CoreDataToDo5SessnV", "active"]
 - ["12CoreDataToDo5SessnV", "deinit"]
 - ["12CoreDataToDo5SessnV", "encode"]
 - ["12CoreDataToDo5SessnV", "end_med_chime"]
@@ -328,10 +399,32 @@ depends-member:
 - ["12CoreDataToDo7SessnUIV", "hashValue"]
 - ["12CoreDataToDo7SessnUIV", "id"]
 - ["12CoreDataToDo7SessnUIV", "init"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
 - "s9CodingKeyP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - "12CoreDataToDo0B3RepC"
 - "Se"
 - !private "s7DecoderP"
@@ -339,6 +432,7 @@ depends-nominal:
 - "SE"
 - !private "s7EncoderP"
 - "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
 - "SH"
 - !private "s6HasherV"
 - "s12IdentifiableP"
@@ -346,12 +440,22 @@ depends-nominal:
 - !private "s30KeyedDecodingContainerProtocolP"
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "7Combine16ObservableObjectP"
 - "7SwiftUI14ObservedObjectV"
 - "7Combine9PublishedV"
+- !private "Sk"
+- !private "Sm"
 - "12CoreDataToDo16SelectedDurationC"
+- !private "ST"
 - "12CoreDataToDo5SessnV"
 - "12CoreDataToDo7SessnUIV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -417,4 +521,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3526f25963f511267d896e87d6af5f8f"
+interface-hash: "024f82847a750384443ed339bada72ce"

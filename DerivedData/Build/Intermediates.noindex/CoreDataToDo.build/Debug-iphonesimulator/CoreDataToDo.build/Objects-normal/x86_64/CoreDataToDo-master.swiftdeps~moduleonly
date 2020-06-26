@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "897973a54c687a47e95d1b104cfe62ec"
-build_time: [1593199083, 371733000]
+build_time: [1593215164, 506166000]
 inputs:
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/MyToDo.swift": [1592246566, 8770470]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/AppDelegate.swift": [1585707776, 553846242]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/diff.swift": [1592950059, 683070759]
-  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/classes_try.swift": [1593028430, 439413606]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/classes_try.swift": [1593213506, 18622043]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItemView.swift": [1575489790, 198234141]
-  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SessionsView.swift": [1593198763, 825032994]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SessionsView.swift": [1593213870, 396149448]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/SceneDelegate.swift": [1593027949, 781492471]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/udClass.swift": [1593033369, 265699973]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ToDoItem.swift": [1575413044, 124926915]
@@ -16,6 +16,6 @@ inputs:
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/ChimePicker.swift": [1592590662, 75167407]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/navigationLinkToTimePicker.swift": [1593195952, 914397737]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/TimePicker.swift": [1592514558, 33723865]
-  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/EditMeditation.swift": [1593199083, 204533444]
+  "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/EditMeditation.swift": [1593215164, 370804413]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/CoreDataToDo/sessionClass.swift": [1592934973, 362079381]
   "/Users/oksanka/Documents/Projects/CoreDataToDo/avMediaClass.swift": [1592593975, 152812189]

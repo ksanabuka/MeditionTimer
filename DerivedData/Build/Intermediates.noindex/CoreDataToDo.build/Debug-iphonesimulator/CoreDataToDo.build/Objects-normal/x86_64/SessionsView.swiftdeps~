@@ -39,35 +39,27 @@ depends-top-level:
 depends-member:
 - !private ["Sa", "remove"]
 - !private ["Sa", "subscript"]
-- !private ["s10ArraySliceV", "active"]
-- !private ["SK", "active"]
 - !private ["SK", "remove"]
 - !private ["SK", "subscript"]
 - !private ["7SwiftUI6ButtonV", "init"]
 - !private ["s7CVarArgP", "remove"]
 - !private ["s7CVarArgP", "subscript"]
-- !private ["Sl", "active"]
 - !private ["Sl", "remove"]
 - !private ["Sl", "subscript"]
 - !private ["12CoreDataToDo11ContentViewV", "deinit"]
 - !private ["12CoreDataToDo11ContentViewV", "init"]
-- !private ["10Foundation15ContiguousBytesP", "active"]
 - !private ["10Foundation15ContiguousBytesP", "remove"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
-- !private ["s28CustomDebugStringConvertibleP", "active"]
 - !private ["s28CustomDebugStringConvertibleP", "none"]
 - !private ["s28CustomDebugStringConvertibleP", "remove"]
 - !private ["s28CustomDebugStringConvertibleP", "some"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
-- !private ["s17CustomReflectableP", "active"]
 - !private ["s17CustomReflectableP", "none"]
 - !private ["s17CustomReflectableP", "remove"]
 - !private ["s17CustomReflectableP", "some"]
 - !private ["s17CustomReflectableP", "subscript"]
-- !private ["s23CustomStringConvertibleP", "active"]
 - !private ["s23CustomStringConvertibleP", "remove"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
-- !private ["10Foundation12DataProtocolP", "active"]
 - !private ["10Foundation12DataProtocolP", "remove"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - ["12CoreDataToDo0B3RepC", "deinit"]
@@ -75,9 +67,9 @@ depends-member:
 - !private ["12CoreDataToDo0B3RepC", "durationMedTime1"]
 - !private ["12CoreDataToDo0B3RepC", "durationPrepTime1"]
 - !private ["12CoreDataToDo0B3RepC", "durationRestTime1"]
+- !private ["12CoreDataToDo0B3RepC", "getIntParametrByUIid"]
 - !private ["12CoreDataToDo0B3RepC", "sessionList"]
 - !private ["12CoreDataToDo0B3RepC", "sessionListUI"]
-- !private ["Se", "active"]
 - !private ["Se", "end_med_chime"]
 - !private ["Se", "end_rest_chime"]
 - !private ["Se", "id"]
@@ -106,7 +98,6 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "deinit"]
 - !private ["12CoreDataToDo14EditMeditationV", "init"]
 - !private ["12CoreDataToDo14EditMeditationV", "navigationBarTitle"]
-- !private ["SE", "active"]
 - !private ["SE", "end_med_chime"]
 - !private ["SE", "end_rest_chime"]
 - !private ["SE", "id"]
@@ -129,7 +120,6 @@ depends-member:
 - !private ["SE", "subscript"]
 - !private ["SE", "total_med_time"]
 - ["7SwiftUI17EnvironmentObjectV", "init"]
-- !private ["SQ", "active"]
 - !private ["SQ", "end_med_chime"]
 - !private ["SQ", "end_rest_chime"]
 - !private ["SQ", "id"]
@@ -153,7 +143,6 @@ depends-member:
 - !private ["SQ", "start_med_chime"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "total_med_time"]
-- !private ["s25ExpressibleByArrayLiteralP", "active"]
 - !private ["s25ExpressibleByArrayLiteralP", "remove"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s23ExpressibleByNilLiteralP", "none"]
@@ -163,7 +152,6 @@ depends-member:
 - !private ["7SwiftUI7GestureP", "none"]
 - !private ["7SwiftUI7GestureP", "some"]
 - !private ["7SwiftUI5GroupV", "init"]
-- !private ["SH", "active"]
 - !private ["SH", "end_med_chime"]
 - !private ["SH", "end_rest_chime"]
 - !private ["SH", "id"]
@@ -186,7 +174,6 @@ depends-member:
 - !private ["SH", "start_med_chime"]
 - !private ["SH", "subscript"]
 - !private ["SH", "total_med_time"]
-- !private ["s12IdentifiableP", "active"]
 - !private ["s12IdentifiableP", "end_med_chime"]
 - !private ["s12IdentifiableP", "end_rest_chime"]
 - !private ["s12IdentifiableP", "id"]
@@ -205,10 +192,8 @@ depends-member:
 - !private ["s12IdentifiableP", "start_med_chime"]
 - !private ["s12IdentifiableP", "total_med_time"]
 - !private ["7SwiftUI5ImageV", "init"]
-- !private ["s20LazySequenceProtocolP", "active"]
 - !private ["7SwiftUI4ListV", "init"]
 - !private ["7SwiftUI4ListV", "onAppear"]
-- !private ["SM", "active"]
 - !private ["SM", "remove"]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "remove"]
@@ -222,6 +207,7 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "durationRestTime1"]
 - !private ["7Combine16ObservableObjectP", "end_med_chime1"]
 - !private ["7Combine16ObservableObjectP", "end_rest_chime1"]
+- !private ["7Combine16ObservableObjectP", "getIntParametrByUIid"]
 - ["7Combine16ObservableObjectP", "init"]
 - !private ["7Combine16ObservableObjectP", "interval_chime1"]
 - !private ["7Combine16ObservableObjectP", "interval_time1"]
@@ -245,16 +231,13 @@ depends-member:
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
 - !private ["Sq", "none"]
 - !private ["Sq", "some"]
-- !private ["Sk", "active"]
 - !private ["Sk", "remove"]
 - !private ["Sk", "subscript"]
-- !private ["Sm", "active"]
 - !private ["Sm", "remove"]
 - !private ["Sm", "subscript"]
 - !private ["12CoreDataToDo16SelectedDurationC", "selectedHour"]
 - !private ["12CoreDataToDo16SelectedDurationC", "selectedMin"]
 - !private ["12CoreDataToDo16SelectedDurationC", "selectedSecond"]
-- !private ["ST", "active"]
 - !private ["ST", "remove"]
 - !private ["ST", "subscript"]
 - !private ["12CoreDataToDo11SessionRow1V", "deinit"]
@@ -296,7 +279,6 @@ depends-member:
 - !private ["12CoreDataToDo12SessionsViewV", "print"]
 - ["12CoreDataToDo12SessionsViewV", "udUserMedSets"]
 - ["12CoreDataToDo12SessionsViewV", "udUserMeditationSettings"]
-- !private ["12CoreDataToDo5SessnV", "active"]
 - !private ["12CoreDataToDo5SessnV", "end_med_chime"]
 - !private ["12CoreDataToDo5SessnV", "end_rest_chime"]
 - !private ["12CoreDataToDo5SessnV", "interval_chime"]
@@ -315,7 +297,6 @@ depends-member:
 - !private ["12CoreDataToDo5SessnV", "total_med_time"]
 - !private ["12CoreDataToDo7SessnUIV", "deinit"]
 - !private ["12CoreDataToDo7SessnUIV", "id"]
-- !private ["s5SliceV", "active"]
 - ["7SwiftUI5StateV", "init"]
 - ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["7SwiftUI4TextV", "init"]
@@ -357,10 +338,8 @@ depends-member:
 - ["7SwiftUI4ViewP", "udUserMeditationSettings"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildIf"]
-- !private ["s14_ArrayProtocolP", "active"]
 - !private ["s14_ArrayProtocolP", "remove"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s24_DestructorSafeContainerP", "active"]
 - !private ["s24_DestructorSafeContainerP", "remove"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s19_HasContiguousBytesP", "remove"]
@@ -390,7 +369,6 @@ depends-member:
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime1"]
 depends-nominal:
 - !private "Sa"
-- !private "s10ArraySliceV"
 - !private "SK"
 - !private "7SwiftUI6ButtonV"
 - !private "s7CVarArgP"
@@ -417,7 +395,6 @@ depends-nominal:
 - !private "SH"
 - !private "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
-- !private "s20LazySequenceProtocolP"
 - !private "7SwiftUI4ListV"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
@@ -434,7 +411,6 @@ depends-nominal:
 - "12CoreDataToDo12SessionsViewV"
 - !private "12CoreDataToDo5SessnV"
 - !private "12CoreDataToDo7SessnUIV"
-- !private "s5SliceV"
 - "7SwiftUI5StateV"
 - !private "7SwiftUI4TextV"
 - !private "12CoreDataToDo9TimerViewV"
