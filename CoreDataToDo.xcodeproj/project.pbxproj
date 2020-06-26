@@ -23,6 +23,7 @@
 		C36279DC23A0814200111220 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36279DB23A0814200111220 /* TimePicker.swift */; };
 		C3627A0423A19C4000111220 /* bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3627A0323A19C4000111220 /* bells.mp3 */; };
 		C373C379249D3AC80058B158 /* avMediaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373C378249D3AC80058B158 /* avMediaClass.swift */; };
+		C377405924A671C10043C369 /* navigationLinkToTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377405824A671C10043C369 /* navigationLinkToTimePicker.swift */; };
 		C37EE8012497F1F20006CF92 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EE8002497F1F20006CF92 /* SessionsView.swift */; };
 		C37EE8032497F3420006CF92 /* sessionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EE8022497F3420006CF92 /* sessionClass.swift */; };
 		C37EE82924994D1D0006CF92 /* classes_try.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EE82824994D1D0006CF92 /* classes_try.swift */; };
@@ -54,6 +55,7 @@
 		C36279DB23A0814200111220 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 		C3627A0323A19C4000111220 /* bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bells.mp3; sourceTree = "<group>"; };
 		C373C378249D3AC80058B158 /* avMediaClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avMediaClass.swift; sourceTree = "<group>"; };
+		C377405824A671C10043C369 /* navigationLinkToTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationLinkToTimePicker.swift; sourceTree = "<group>"; };
 		C37EE8002497F1F20006CF92 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
 		C37EE8022497F3420006CF92 /* sessionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessionClass.swift; sourceTree = "<group>"; };
 		C37EE82824994D1D0006CF92 /* classes_try.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes_try.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				C35D26292397185D00C0DDB6 /* AppDelegate.swift */,
 				C35D262B2397185D00C0DDB6 /* SceneDelegate.swift */,
 				C36279D923A060EB00111220 /* EditMeditation.swift */,
+				C377405824A671C10043C369 /* navigationLinkToTimePicker.swift */,
 				C37EE82A249960030006CF92 /* udClass.swift */,
 				C37EE8002497F1F20006CF92 /* SessionsView.swift */,
 				C37EE82824994D1D0006CF92 /* classes_try.swift */,
@@ -224,6 +227,7 @@
 				C35D26312397185D00C0DDB6 /* ContentView.swift in Sources */,
 				C36279B0239EF37700111220 /* TimerView.swift in Sources */,
 				C31B73B62488178F0078FB9E /* ChimePicker.swift in Sources */,
+				C377405924A671C10043C369 /* navigationLinkToTimePicker.swift in Sources */,
 				C35D262F2397185D00C0DDB6 /* CoreDataToDo.xcdatamodeld in Sources */,
 				C36279DC23A0814200111220 /* TimePicker.swift in Sources */,
 				C36279DA23A060EB00111220 /* EditMeditation.swift in Sources */,
