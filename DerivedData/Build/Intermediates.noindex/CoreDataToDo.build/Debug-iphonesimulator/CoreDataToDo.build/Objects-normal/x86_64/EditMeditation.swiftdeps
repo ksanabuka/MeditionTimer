@@ -301,7 +301,7 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "_udAllMeds"]
 - ["12CoreDataToDo14EditMeditationV", "allMeds"]
 - ["12CoreDataToDo14EditMeditationV", "body"]
-- ["12CoreDataToDo14EditMeditationV", "compoareListToUdUpdateUd"]
+- ["12CoreDataToDo14EditMeditationV", "compareListToUdUpdateUd"]
 - ["12CoreDataToDo14EditMeditationV", "deinit"]
 - ["12CoreDataToDo14EditMeditationV", "init"]
 - ["12CoreDataToDo14EditMeditationV", "navigationLinkToTimePicker"]
@@ -600,6 +600,7 @@ depends-member:
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - !private ["7SwiftUI4ViewP", "allMeds"]
 - ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "compareListToUdUpdateUd"]
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "multilineTextAlignment"]
 - !private ["7SwiftUI4ViewP", "navigationLinkToTimePicker"]
@@ -826,4 +827,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a5d8b58fb3e5730d38bb21b3c8ccaf5c"
+interface-hash: "d0b1d07c5f6c924c2d50f121fe3a2c9d"
