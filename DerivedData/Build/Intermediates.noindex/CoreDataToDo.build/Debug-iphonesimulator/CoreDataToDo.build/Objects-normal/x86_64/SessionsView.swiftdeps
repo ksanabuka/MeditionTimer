@@ -12,7 +12,6 @@ depends-top-level:
 - !private "/"
 - !private "=="
 - !private "AssignmentPrecedence"
-- !private "Button"
 - !private "ContentView"
 - "DataRep"
 - !private "EditMeditation"
@@ -20,7 +19,6 @@ depends-top-level:
 - "FloatLiteralType"
 - !private "ForEach"
 - !private "Group"
-- !private "Image"
 - "IndexSet"
 - "IntegerLiteralType"
 - !private "List"
@@ -41,7 +39,6 @@ depends-member:
 - !private ["Sa", "subscript"]
 - !private ["SK", "remove"]
 - !private ["SK", "subscript"]
-- !private ["7SwiftUI6ButtonV", "init"]
 - !private ["s7CVarArgP", "remove"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["Sl", "remove"]
@@ -63,10 +60,10 @@ depends-member:
 - !private ["10Foundation12DataProtocolP", "remove"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - ["12CoreDataToDo0B3RepC", "deinit"]
-- !private ["12CoreDataToDo0B3RepC", "durationIntervalTime1"]
-- !private ["12CoreDataToDo0B3RepC", "durationMedTime1"]
-- !private ["12CoreDataToDo0B3RepC", "durationPrepTime1"]
-- !private ["12CoreDataToDo0B3RepC", "durationRestTime1"]
+- !private ["12CoreDataToDo0B3RepC", "durationIntervalTime0"]
+- !private ["12CoreDataToDo0B3RepC", "durationMedTime0"]
+- !private ["12CoreDataToDo0B3RepC", "durationPrepTime0"]
+- !private ["12CoreDataToDo0B3RepC", "durationRestTime0"]
 - !private ["12CoreDataToDo0B3RepC", "getIntParametrByUIid"]
 - !private ["12CoreDataToDo0B3RepC", "sessionList"]
 - !private ["12CoreDataToDo0B3RepC", "sessionListUI"]
@@ -191,7 +188,6 @@ depends-member:
 - !private ["s12IdentifiableP", "rest_time"]
 - !private ["s12IdentifiableP", "start_med_chime"]
 - !private ["s12IdentifiableP", "total_med_time"]
-- !private ["7SwiftUI5ImageV", "init"]
 - !private ["7SwiftUI4ListV", "init"]
 - !private ["7SwiftUI4ListV", "onAppear"]
 - !private ["SM", "remove"]
@@ -201,32 +197,32 @@ depends-member:
 - !private ["7SwiftUI14NavigationLinkV", "init"]
 - !private ["7SwiftUI14NavigationViewV", "init"]
 - !private ["7SwiftUI14NavigationViewV", "onAppear"]
-- !private ["7Combine16ObservableObjectP", "durationIntervalTime1"]
-- !private ["7Combine16ObservableObjectP", "durationMedTime1"]
-- !private ["7Combine16ObservableObjectP", "durationPrepTime1"]
-- !private ["7Combine16ObservableObjectP", "durationRestTime1"]
-- !private ["7Combine16ObservableObjectP", "end_med_chime1"]
-- !private ["7Combine16ObservableObjectP", "end_rest_chime1"]
+- !private ["7Combine16ObservableObjectP", "durationIntervalTime0"]
+- !private ["7Combine16ObservableObjectP", "durationMedTime0"]
+- !private ["7Combine16ObservableObjectP", "durationPrepTime0"]
+- !private ["7Combine16ObservableObjectP", "durationRestTime0"]
+- !private ["7Combine16ObservableObjectP", "end_med_chime0"]
+- !private ["7Combine16ObservableObjectP", "end_rest_chime0"]
 - !private ["7Combine16ObservableObjectP", "getIntParametrByUIid"]
 - ["7Combine16ObservableObjectP", "init"]
-- !private ["7Combine16ObservableObjectP", "interval_chime1"]
-- !private ["7Combine16ObservableObjectP", "interval_time1"]
-- !private ["7Combine16ObservableObjectP", "med_name1"]
-- !private ["7Combine16ObservableObjectP", "med_time1"]
-- !private ["7Combine16ObservableObjectP", "prep_chime1"]
-- !private ["7Combine16ObservableObjectP", "prep_time1"]
-- !private ["7Combine16ObservableObjectP", "repeat_end_med_chime1"]
-- !private ["7Combine16ObservableObjectP", "repeat_end_rest_chime1"]
-- !private ["7Combine16ObservableObjectP", "repeat_interval_chime1"]
-- !private ["7Combine16ObservableObjectP", "repeat_prep_chime1"]
-- !private ["7Combine16ObservableObjectP", "repeat_start_med_chime1"]
-- !private ["7Combine16ObservableObjectP", "rest_time1"]
+- !private ["7Combine16ObservableObjectP", "interval_chime0"]
+- !private ["7Combine16ObservableObjectP", "interval_time0"]
+- !private ["7Combine16ObservableObjectP", "med_name0"]
+- !private ["7Combine16ObservableObjectP", "med_time0"]
+- !private ["7Combine16ObservableObjectP", "prep_chime0"]
+- !private ["7Combine16ObservableObjectP", "prep_time0"]
+- !private ["7Combine16ObservableObjectP", "repeat_end_med_chime0"]
+- !private ["7Combine16ObservableObjectP", "repeat_end_rest_chime0"]
+- !private ["7Combine16ObservableObjectP", "repeat_interval_chime0"]
+- !private ["7Combine16ObservableObjectP", "repeat_prep_chime0"]
+- !private ["7Combine16ObservableObjectP", "repeat_start_med_chime0"]
+- !private ["7Combine16ObservableObjectP", "rest_time0"]
 - !private ["7Combine16ObservableObjectP", "selectedHour"]
 - !private ["7Combine16ObservableObjectP", "selectedMin"]
 - !private ["7Combine16ObservableObjectP", "selectedSecond"]
 - !private ["7Combine16ObservableObjectP", "sessionList"]
 - !private ["7Combine16ObservableObjectP", "sessionListUI"]
-- !private ["7Combine16ObservableObjectP", "start_med_chime1"]
+- !private ["7Combine16ObservableObjectP", "start_med_chime0"]
 - ["7SwiftUI14ObservedObjectV", "init"]
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
 - !private ["Sq", "none"]
@@ -246,14 +242,12 @@ depends-member:
 - ["12CoreDataToDo12SessionsViewV", "$firstLaunch"]
 - ["12CoreDataToDo12SessionsViewV", "$udUserMedSets"]
 - ["12CoreDataToDo12SessionsViewV", "Body"]
-- !private ["12CoreDataToDo12SessionsViewV", "Button"]
 - !private ["12CoreDataToDo12SessionsViewV", "ContentView"]
 - ["12CoreDataToDo12SessionsViewV", "DataRep"]
 - !private ["12CoreDataToDo12SessionsViewV", "EditMeditation"]
 - ["12CoreDataToDo12SessionsViewV", "EnvironmentObject"]
 - !private ["12CoreDataToDo12SessionsViewV", "ForEach"]
 - !private ["12CoreDataToDo12SessionsViewV", "Group"]
-- !private ["12CoreDataToDo12SessionsViewV", "Image"]
 - ["12CoreDataToDo12SessionsViewV", "IndexSet"]
 - !private ["12CoreDataToDo12SessionsViewV", "List"]
 - !private ["12CoreDataToDo12SessionsViewV", "NavigationLink"]
@@ -305,12 +299,10 @@ depends-member:
 - !private ["12CoreDataToDo9TimerViewV", "navigationBarItems"]
 - !private ["7SwiftUI17NavigationBarItemV16TitleDisplayModeO", "inline"]
 - ["7SwiftUI4ViewP", "Body"]
-- !private ["7SwiftUI4ViewP", "Button"]
 - !private ["7SwiftUI4ViewP", "ContentView"]
 - !private ["7SwiftUI4ViewP", "EditMeditation"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
 - !private ["7SwiftUI4ViewP", "Group"]
-- !private ["7SwiftUI4ViewP", "Image"]
 - !private ["7SwiftUI4ViewP", "List"]
 - !private ["7SwiftUI4ViewP", "NavigationLink"]
 - !private ["7SwiftUI4ViewP", "NavigationView"]
@@ -323,7 +315,6 @@ depends-member:
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - !private ["7SwiftUI4ViewP", "allSession"]
 - ["7SwiftUI4ViewP", "body"]
-- !private ["7SwiftUI4ViewP", "contextMenu"]
 - !private ["7SwiftUI4ViewP", "delete"]
 - !private ["7SwiftUI4ViewP", "firstLaunch"]
 - !private ["7SwiftUI4ViewP", "init"]
@@ -351,26 +342,25 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "some"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["12CoreDataToDo24udUserMeditationSettingsC", "deinit"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_med_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_rest_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_med_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_rest_chime0"]
 - ["12CoreDataToDo24udUserMeditationSettingsC", "init"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_time1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_name1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_time1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_med_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_rest_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_interval_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_start_med_chime1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "rest_time1"]
-- !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_time0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_name0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_time0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_med_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_rest_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_interval_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_start_med_chime0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "rest_time0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime0"]
 depends-nominal:
 - !private "Sa"
 - !private "SK"
-- !private "7SwiftUI6ButtonV"
 - !private "s7CVarArgP"
 - !private "Sl"
 - !private "12CoreDataToDo11ContentViewV"
@@ -394,7 +384,6 @@ depends-nominal:
 - !private "7SwiftUI5GroupV"
 - !private "SH"
 - !private "s12IdentifiableP"
-- !private "7SwiftUI5ImageV"
 - !private "7SwiftUI4ListV"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"

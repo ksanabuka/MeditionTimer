@@ -14,7 +14,7 @@ import Combine
 
 struct TimerView: View {
     
-   var uiId: Int
+   var indxLst: Int
 
     @Environment(\.managedObjectContext) var managedObjectContext
     @State var paused = true
@@ -40,48 +40,6 @@ struct TimerView: View {
    @State var intervalCounter = 0
    @State var myInervalCounter = 0
     
-//   func playChimeVibrate(chimeName: Int, repeatPlay: Int) {
-//
-//      var name: String
-//      var type: String
-//      switch chimeName {
-//      case 0:
-//         name = ""
-//         type = ""
-//      case 1:
-//      name = "bells"
-//      type = "mp3"
-//      case 2:
-//         name = "bowl"
-//         type = "mp3"
-//      case 3:
-//         name = "clap"
-//         type = "wav"
-//      case 4:
-//         name = "cymbal"
-//         type = "wav"
-//      case 5:
-//         name = "wooden"
-//         type = "wav"
-//      case 6:
-//         name = "bells2"
-//         type = "mp3"
-//
-//      default:
-//         name = ""
-//         type = ""
-//      }
-//   if (name != "")
-//   {
-//         print(name)
-//         let url = Bundle.main.path(forResource: name, ofType: type)
-//            self.player = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: url!))
-//         self.player.numberOfLoops = repeatPlay
-//            self.player.play()
-//       //  MusicDeviceComponent.vibrate()
-//
-//      }
-//   }
    
    
 var body: some View {
@@ -91,76 +49,74 @@ NavigationView {
         Spacer()
         VStack(alignment: .center) {
             Group {
-               Text(self.allSession.sessionList[self.uiId].med_name).font(.largeTitle).multilineTextAlignment(.center).foregroundColor(.white).padding()
+               Text(self.allSession.sessionList[self.indxLst].med_name).font(.largeTitle).multilineTextAlignment(.center).foregroundColor(.white).padding()
 
 
                   
                     VStack {
-                     Text(giveSessionPart(userMedSets: self.allSession.sessionList[self.uiId], counter: self.counter)).multilineTextAlignment(.trailing)
+                     Text(giveSessionPart(userMedSets: self.allSession.sessionList[self.indxLst], counter: self.counter)).multilineTextAlignment(.trailing)
                         
 
-//                     Text("Med_Name is \(self.allSession.sessionList[self.uiId].med_name)")
-//                     Text("totalMeditationTime...: \(self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time)!")
 
                     }.foregroundColor(Color.white)
                 
     VStack {
-      Text("\(countDownString(seconds: self.allSession.sessionList[self.uiId].total_med_time))").onReceive(timer2){ _ in
+      Text("\(countDownString(seconds: self.allSession.sessionList[self.indxLst].total_med_time))").onReceive(timer2){ _ in
          
-         if (self.counter >= 0 && self.paused == false && self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time > 0 && self.counter < self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time)
+         if (self.counter >= 0 && self.paused == false && self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time > 0 && self.counter < self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time)
          {
-         if (self.counter == 0 && self.paused == false && self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time > 0)
+         if (self.counter == 0 && self.paused == false && self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time > 0)
          {
-            print("beginning of non empty session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
+            print("beginning of non empty session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
          }
-         if (self.counter == 0 && self.allSession.sessionList[self.uiId].prep_time != 0)
+         if (self.counter == 0 && self.allSession.sessionList[self.indxLst].prep_time != 0)
          {
-            print(" beginning of Prep Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
+            print(" beginning of Prep Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
             
-            MyAVPlayer(chimeName: self.allSession.sessionList[self.uiId].prep_chime, repeatPlay: self.allSession.sessionList[self.uiId].repeat_prep_chime, player: self.$player).playChimeVibrate()
+            MyAVPlayer(chimeName: self.allSession.sessionList[self.indxLst].prep_chime, repeatPlay: self.allSession.sessionList[self.indxLst].repeat_prep_chime, player: self.$player).playChimeVibrate()
 
 //            self.playChimeVibrate(chimeName: self.allSession.sessionList[self.uiId].prep_chime, repeatPlay: self.allSession.sessionList[self.uiId].repeat_prep_chime)
          }
                   
-         if (self.counter == self.allSession.sessionList[self.uiId].prep_time && self.allSession.sessionList[self.uiId].med_time != 0) {
+         if (self.counter == self.allSession.sessionList[self.indxLst].prep_time && self.allSession.sessionList[self.indxLst].med_time != 0) {
             self.myInervalCounter = 0
-            print(" beginning med Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
+            print(" beginning med Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
            
             
-            MyAVPlayer(chimeName: self.allSession.sessionList[self.uiId].start_med_chime, repeatPlay: self.allSession.sessionList[self.uiId].repeat_start_med_chime, player: self.$player).playChimeVibrate()
+            MyAVPlayer(chimeName: self.allSession.sessionList[self.indxLst].start_med_chime, repeatPlay: self.allSession.sessionList[self.indxLst].repeat_start_med_chime, player: self.$player).playChimeVibrate()
 
             }
-           if inMeditationPart(userMedSets: self.allSession.sessionList[self.uiId], counter: self.counter)
+           if inMeditationPart(userMedSets: self.allSession.sessionList[self.indxLst], counter: self.counter)
            {
-            print("In med Session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
-            if (self.allSession.sessionList[self.uiId].interval_time > 0) {
-               if self.myInervalCounter == self.allSession.sessionList[self.uiId].interval_time && self.counter < self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time {
-                  print("BUUM In med Session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
+            print("In med Session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
+            if (self.allSession.sessionList[self.indxLst].interval_time > 0) {
+               if self.myInervalCounter == self.allSession.sessionList[self.indxLst].interval_time && self.counter < self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time {
+                  print("BUUM In med Session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
                  
                   
-                  MyAVPlayer(chimeName: self.allSession.sessionList[self.uiId].interval_chime, repeatPlay: self.allSession.sessionList[self.uiId].repeat_interval_chime, player: self.$player).playChimeVibrate()
+                  MyAVPlayer(chimeName: self.allSession.sessionList[self.indxLst].interval_chime, repeatPlay: self.allSession.sessionList[self.indxLst].repeat_interval_chime, player: self.$player).playChimeVibrate()
 
                   
                   self.myInervalCounter = 0
                }
                self.myInervalCounter += 1
             }}
-            if (self.counter == self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time && self.allSession.sessionList[self.uiId].rest_time != 0) {
-               print(" beginning Rest Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
+            if (self.counter == self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time && self.allSession.sessionList[self.indxLst].rest_time != 0) {
+               print(" beginning Rest Time at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
               
-               MyAVPlayer(chimeName: self.allSession.sessionList[self.uiId].end_med_chime, repeatPlay: self.allSession.sessionList[self.uiId].repeat_end_med_chime, player: self.$player).playChimeVibrate()
+               MyAVPlayer(chimeName: self.allSession.sessionList[self.indxLst].end_med_chime, repeatPlay: self.allSession.sessionList[self.indxLst].repeat_end_med_chime, player: self.$player).playChimeVibrate()
 
             }
             
             self.counter += 1
-            self.allSession.sessionList[self.uiId].total_med_time -= 1
+            self.allSession.sessionList[self.indxLst].total_med_time -= 1
          }
          
-         else if (self.counter == self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time && self.paused == false && (self.allSession.sessionList[self.uiId].rest_time != 0 || self.allSession.sessionList[self.uiId].med_time != 0 || self.allSession.sessionList[self.uiId].prep_time != 0))
+         else if (self.counter == self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time && self.paused == false && (self.allSession.sessionList[self.indxLst].rest_time != 0 || self.allSession.sessionList[self.indxLst].med_time != 0 || self.allSession.sessionList[self.indxLst].prep_time != 0))
          {
-            print(" End of nonempty session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.uiId].total_med_time)")
+            print(" End of nonempty session at c: \(self.counter) \t cds: \(self.allSession.sessionList[self.indxLst].total_med_time)")
        
-            MyAVPlayer(chimeName: self.allSession.sessionList[self.uiId].end_rest_chime, repeatPlay: self.allSession.sessionList[self.uiId].repeat_end_rest_chime, player: self.$player).playChimeVibrate()
+            MyAVPlayer(chimeName: self.allSession.sessionList[self.indxLst].end_rest_chime, repeatPlay: self.allSession.sessionList[self.indxLst].repeat_end_rest_chime, player: self.$player).playChimeVibrate()
 
                   
             
@@ -169,10 +125,10 @@ NavigationView {
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                self.paused = true
-      self.allSession.sessionList[self.uiId].total_med_time =         self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time
+      self.allSession.sessionList[self.indxLst].total_med_time =         self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time
             }}
          
-         self.medPart = giveSessionPart(userMedSets: self.allSession.sessionList[self.uiId], counter: self.counter)
+         self.medPart = giveSessionPart(userMedSets: self.allSession.sessionList[self.indxLst], counter: self.counter)
 
          
          
@@ -202,9 +158,9 @@ NavigationView {
             .gesture(TapGesture().onEnded() {
                     self.paused = true
 
-               self.allSession.sessionList[self.uiId].total_med_time = self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time
+               self.allSession.sessionList[self.indxLst].total_med_time = self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time
                self.counter = 0
-               self.medPart = giveSessionPart(userMedSets: self.allSession.sessionList[self.uiId], counter: self.counter)
+               self.medPart = giveSessionPart(userMedSets: self.allSession.sessionList[self.indxLst], counter: self.counter)
 
 
             })
@@ -312,9 +268,9 @@ NavigationView {
 //      print("On appear - NOT 1 launch")
 //
 //   }
-   self.intervalCounter = (self.allSession.sessionList[self.uiId].interval_time > 0 && self.allSession.sessionList[self.uiId].interval_time < self.allSession.sessionList[self.uiId].med_time) ? self.allSession.sessionList[self.uiId].med_time / self.allSession.sessionList[self.uiId].interval_time : 0
+   self.intervalCounter = (self.allSession.sessionList[self.indxLst].interval_time > 0 && self.allSession.sessionList[self.indxLst].interval_time < self.allSession.sessionList[self.indxLst].med_time) ? self.allSession.sessionList[self.indxLst].med_time / self.allSession.sessionList[self.indxLst].interval_time : 0
    
-   self.allSession.sessionList[self.uiId].total_med_time = self.allSession.sessionList[self.uiId].prep_time + self.allSession.sessionList[self.uiId].med_time + self.allSession.sessionList[self.uiId].rest_time
+   self.allSession.sessionList[self.indxLst].total_med_time = self.allSession.sessionList[self.indxLst].prep_time + self.allSession.sessionList[self.indxLst].med_time + self.allSession.sessionList[self.indxLst].rest_time
 
    
 

@@ -52,14 +52,14 @@ func toSessionListDataUI() -> [SessnUI]{
 }
 
 class DataRep: ObservableObject  {
+   @ObservedObject var durationPrepTime0 = SelectedDuration()
+   @ObservedObject var durationMedTime0 = SelectedDuration()
+   @ObservedObject var durationIntervalTime0 = SelectedDuration()
+   @ObservedObject var durationRestTime0 = SelectedDuration()
    @ObservedObject var durationPrepTime1 = SelectedDuration()
    @ObservedObject var durationMedTime1 = SelectedDuration()
    @ObservedObject var durationIntervalTime1 = SelectedDuration()
    @ObservedObject var durationRestTime1 = SelectedDuration()
-   @ObservedObject var durationPrepTime2 = SelectedDuration()
-   @ObservedObject var durationMedTime2 = SelectedDuration()
-   @ObservedObject var durationIntervalTime2 = SelectedDuration()
-   @ObservedObject var durationRestTime2 = SelectedDuration()
 
     @Published var sessionList : [Sessn] = toSessionListData()
     var sessionListUI : [SessnUI] = toSessionListDataUI()
@@ -71,8 +71,62 @@ class DataRep: ObservableObject  {
       switch requiredParam {
          case "indexInList":
             return (sessionList.firstIndex(where: {$0.uiId == uiId}) ?? -1)
-            
- 
+        
+         case "durationRestTime":
+               selectedSessionsArray = sessionList.filter({$0.uiId == uiId})
+               let udId: Int = selectedSessionsArray[0].udId
+               switch udId {
+               case 0:
+                 return DataRep().durationRestTime0.toSeconds()
+               case 1:
+                 return DataRep().durationRestTime1.toSeconds()
+               default:
+                 print ("My default -1 at getIntParametrByUIid")
+                 return (-1)
+               }
+
+         
+      case "durationIntervalTime":
+            selectedSessionsArray = sessionList.filter({$0.uiId == uiId})
+            let udId: Int = selectedSessionsArray[0].udId
+            switch udId {
+            case 0:
+              return DataRep().durationIntervalTime0.toSeconds()
+            case 1:
+              return DataRep().durationIntervalTime1.toSeconds()
+            default:
+              print ("My default -1 at getIntParametrByUIid")
+              return (-1)
+            }
+
+         
+ case "durationPrepTime":
+    selectedSessionsArray = sessionList.filter({$0.uiId == uiId})
+    let udId: Int = selectedSessionsArray[0].udId
+    switch udId {
+    case 0:
+      return DataRep().durationPrepTime0.toSeconds()
+    case 1:
+      return DataRep().durationPrepTime1.toSeconds()
+    default:
+      print ("My default -1 at getIntParametrByUIid")
+      return (-1)
+    }
+    case "durationMedTime":
+       selectedSessionsArray = sessionList.filter({$0.uiId == uiId})
+       let udId: Int = selectedSessionsArray[0].udId
+       switch udId {
+       case 0:
+         return DataRep().durationMedTime0.toSeconds()
+       case 1:
+         return DataRep().durationMedTime1.toSeconds()
+       default:
+         print ("My default -1 at getIntParametrByUIid")
+         return (-1)
+       }
+
+
+         
          case "active":
             selectedSessionsArray = sessionList.filter({$0.uiId == uiId})
            return selectedSessionsArray[0].active
