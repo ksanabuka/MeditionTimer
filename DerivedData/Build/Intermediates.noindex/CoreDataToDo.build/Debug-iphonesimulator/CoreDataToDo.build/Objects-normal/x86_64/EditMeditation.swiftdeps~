@@ -11,7 +11,7 @@ depends-top-level:
 - !private "+"
 - !private "<"
 - !private "=="
-- !private "AssignmentPrecedence"
+- "AssignmentPrecedence"
 - "Binding"
 - "BooleanLiteralType"
 - !private "ChimePicker"
@@ -29,6 +29,7 @@ depends-top-level:
 - "ObservedObject"
 - "PresentationMode"
 - !private "Section"
+- !private "SelectedDuration"
 - !private "Spacer"
 - "State"
 - "String"
@@ -95,6 +96,7 @@ depends-member:
 - !private ["7SwiftUI7BindingV", "selectedSecond"]
 - !private ["7SwiftUI7BindingV", "start_med_chime"]
 - !private ["7SwiftUI7BindingV", "subscript"]
+- !private ["7SwiftUI7BindingV", "toSeconds"]
 - !private ["s7CVarArgP", "set"]
 - !private ["s7CVarArgP", "standard"]
 - !private ["s7CVarArgP", "subscript"]
@@ -221,6 +223,7 @@ depends-member:
 - !private ["12CoreDataToDo0B3RepC", "durationIntervalTime1"]
 - !private ["12CoreDataToDo0B3RepC", "durationMedTime0"]
 - !private ["12CoreDataToDo0B3RepC", "durationMedTime1"]
+- !private ["12CoreDataToDo0B3RepC", "durationPrepTime"]
 - !private ["12CoreDataToDo0B3RepC", "durationPrepTime0"]
 - !private ["12CoreDataToDo0B3RepC", "durationPrepTime1"]
 - !private ["12CoreDataToDo0B3RepC", "durationRestTime0"]
@@ -246,6 +249,7 @@ depends-member:
 - !private ["Se", "udId"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["7SwiftUI15DynamicPropertyP", "durationPrepTime"]
 - !private ["7SwiftUI15DynamicPropertyP", "end_med_chime"]
 - !private ["7SwiftUI15DynamicPropertyP", "end_rest_chime"]
 - ["7SwiftUI15DynamicPropertyP", "init"]
@@ -262,6 +266,7 @@ depends-member:
 - !private ["7SwiftUI15DynamicPropertyP", "selectedSecond"]
 - !private ["7SwiftUI15DynamicPropertyP", "start_med_chime"]
 - !private ["7SwiftUI15DynamicPropertyP", "subscript"]
+- !private ["7SwiftUI15DynamicPropertyP", "toSeconds"]
 - ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - ["12CoreDataToDo14EditMeditationV", "$allMeds"]
 - ["12CoreDataToDo14EditMeditationV", "$showingDetail"]
@@ -281,6 +286,7 @@ depends-member:
 - ["12CoreDataToDo14EditMeditationV", "ObservedObject"]
 - ["12CoreDataToDo14EditMeditationV", "PresentationMode"]
 - !private ["12CoreDataToDo14EditMeditationV", "Section"]
+- !private ["12CoreDataToDo14EditMeditationV", "SelectedDuration"]
 - !private ["12CoreDataToDo14EditMeditationV", "Spacer"]
 - ["12CoreDataToDo14EditMeditationV", "State"]
 - ["12CoreDataToDo14EditMeditationV", "String"]
@@ -299,6 +305,7 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "_udAllMeds"]
 - ["12CoreDataToDo14EditMeditationV", "allMeds"]
 - ["12CoreDataToDo14EditMeditationV", "body"]
+- ["12CoreDataToDo14EditMeditationV", "compoareListToUdUpdateUd"]
 - ["12CoreDataToDo14EditMeditationV", "deinit"]
 - ["12CoreDataToDo14EditMeditationV", "init"]
 - ["12CoreDataToDo14EditMeditationV", "navigationLinkToTimePicker"]
@@ -329,6 +336,7 @@ depends-member:
 - !private ["SE", "udId"]
 - ["7SwiftUI11EnvironmentV", "init"]
 - ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- !private ["7SwiftUI17EnvironmentObjectV", "durationPrepTime"]
 - ["7SwiftUI17EnvironmentObjectV", "init"]
 - ["7SwiftUI17EnvironmentValuesV", "presentationMode"]
 - !private ["SQ", "end_med_chime"]
@@ -441,29 +449,47 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "durationIntervalTime1"]
 - !private ["7Combine16ObservableObjectP", "durationMedTime0"]
 - !private ["7Combine16ObservableObjectP", "durationMedTime1"]
+- !private ["7Combine16ObservableObjectP", "durationPrepTime"]
 - !private ["7Combine16ObservableObjectP", "durationPrepTime0"]
 - !private ["7Combine16ObservableObjectP", "durationPrepTime1"]
 - !private ["7Combine16ObservableObjectP", "durationRestTime0"]
 - !private ["7Combine16ObservableObjectP", "durationRestTime1"]
+- !private ["7Combine16ObservableObjectP", "end_med_chime0"]
 - !private ["7Combine16ObservableObjectP", "end_med_chime1"]
+- !private ["7Combine16ObservableObjectP", "end_rest_chime0"]
 - !private ["7Combine16ObservableObjectP", "end_rest_chime1"]
 - ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "interval_chime0"]
 - !private ["7Combine16ObservableObjectP", "interval_chime1"]
+- !private ["7Combine16ObservableObjectP", "interval_time0"]
 - !private ["7Combine16ObservableObjectP", "interval_time1"]
+- !private ["7Combine16ObservableObjectP", "med_name0"]
 - !private ["7Combine16ObservableObjectP", "med_name1"]
+- !private ["7Combine16ObservableObjectP", "med_note0"]
+- !private ["7Combine16ObservableObjectP", "med_note1"]
+- !private ["7Combine16ObservableObjectP", "med_time0"]
 - !private ["7Combine16ObservableObjectP", "med_time1"]
+- !private ["7Combine16ObservableObjectP", "prep_chime0"]
 - !private ["7Combine16ObservableObjectP", "prep_chime1"]
+- !private ["7Combine16ObservableObjectP", "prep_time0"]
 - !private ["7Combine16ObservableObjectP", "prep_time1"]
+- !private ["7Combine16ObservableObjectP", "repeat_end_med_chime0"]
 - !private ["7Combine16ObservableObjectP", "repeat_end_med_chime1"]
+- !private ["7Combine16ObservableObjectP", "repeat_end_rest_chime0"]
 - !private ["7Combine16ObservableObjectP", "repeat_end_rest_chime1"]
+- !private ["7Combine16ObservableObjectP", "repeat_interval_chime0"]
 - !private ["7Combine16ObservableObjectP", "repeat_interval_chime1"]
+- !private ["7Combine16ObservableObjectP", "repeat_prep_chime0"]
 - !private ["7Combine16ObservableObjectP", "repeat_prep_chime1"]
+- !private ["7Combine16ObservableObjectP", "repeat_start_med_chime0"]
 - !private ["7Combine16ObservableObjectP", "repeat_start_med_chime1"]
+- !private ["7Combine16ObservableObjectP", "rest_time0"]
 - !private ["7Combine16ObservableObjectP", "rest_time1"]
 - !private ["7Combine16ObservableObjectP", "selectedHour"]
 - !private ["7Combine16ObservableObjectP", "selectedMin"]
 - !private ["7Combine16ObservableObjectP", "selectedSecond"]
 - !private ["7Combine16ObservableObjectP", "sessionList"]
+- !private ["7Combine16ObservableObjectP", "start_med_chime0"]
 - !private ["7Combine16ObservableObjectP", "start_med_chime1"]
 - !private ["7Combine16ObservableObjectP", "toSeconds"]
 - ["7SwiftUI14ObservedObjectV", "init"]
@@ -594,6 +620,7 @@ depends-member:
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationIntervalTime1"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationMedTime0"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationMedTime1"]
+- !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationPrepTime"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationPrepTime0"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationPrepTime1"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationRestTime0"]
@@ -644,21 +671,38 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["12CoreDataToDo24udUserMeditationSettingsC", "deinit"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_med_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_med_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_rest_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "end_rest_chime1"]
 - ["12CoreDataToDo24udUserMeditationSettingsC", "init"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_time0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "interval_time1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_name0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_name1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_note0"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_note1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_time0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "med_time1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "prep_time1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_med_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_med_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_rest_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_end_rest_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_interval_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_interval_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_prep_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_start_med_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "repeat_start_med_chime1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "rest_time0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "rest_time1"]
+- !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime0"]
 - !private ["12CoreDataToDo24udUserMeditationSettingsC", "start_med_chime1"]
 depends-nominal:
 - !private "Sa"
@@ -789,4 +833,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f12f3bdae97b305497a8caa5f7abe05d"
+interface-hash: "a5d8b58fb3e5730d38bb21b3c8ccaf5c"

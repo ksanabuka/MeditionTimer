@@ -19,11 +19,11 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "Codable"
 - "DataRep"
-- "FloatLiteralType"
+- !private "FloatLiteralType"
 - "Hashable"
 - "Identifiable"
 - "Int"
-- "IntegerLiteralType"
+- !private "IntegerLiteralType"
 - "ObservableObject"
 - "ObservedObject"
 - "Published"
@@ -75,7 +75,6 @@ depends-member:
 - ["12CoreDataToDo0B3RepC", "$durationRestTime1"]
 - ["12CoreDataToDo0B3RepC", "$durationRestTime2"]
 - ["12CoreDataToDo0B3RepC", "$sessionList"]
-- ["12CoreDataToDo0B3RepC", "Int"]
 - ["12CoreDataToDo0B3RepC", "ObjectWillChangePublisher"]
 - ["12CoreDataToDo0B3RepC", "ObservedObject"]
 - ["12CoreDataToDo0B3RepC", "Published"]
@@ -105,7 +104,6 @@ depends-member:
 - ["12CoreDataToDo0B3RepC", "objectWillChange"]
 - ["12CoreDataToDo0B3RepC", "sessionList"]
 - ["12CoreDataToDo0B3RepC", "sessionListUI"]
-- ["12CoreDataToDo0B3RepC", "sessionListUI1"]
 - ["12CoreDataToDo0B3RepC", "toSessionListData"]
 - ["12CoreDataToDo0B3RepC", "toSessionListDataUI"]
 - ["Se", "=="]
@@ -407,4 +405,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9140b93b00773051b279e20721826447"
+interface-hash: "280ea7abfd8565b9f58bdfb48b2daf68"

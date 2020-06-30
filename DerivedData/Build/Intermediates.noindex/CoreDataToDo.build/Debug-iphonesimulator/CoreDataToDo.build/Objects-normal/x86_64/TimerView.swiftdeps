@@ -660,6 +660,7 @@ depends-member:
 - ["12CoreDataToDo9TimerViewV", "firstLaunch"]
 - !private ["12CoreDataToDo9TimerViewV", "giveSessionPart"]
 - !private ["12CoreDataToDo9TimerViewV", "inMeditationPart"]
+- ["12CoreDataToDo9TimerViewV", "indxLst"]
 - ["12CoreDataToDo9TimerViewV", "init"]
 - ["12CoreDataToDo9TimerViewV", "intervalCounter"]
 - ["12CoreDataToDo9TimerViewV", "managedObjectContext"]
@@ -671,7 +672,6 @@ depends-member:
 - ["12CoreDataToDo9TimerViewV", "timer2"]
 - ["12CoreDataToDo9TimerViewV", "udUserMedSets"]
 - ["12CoreDataToDo9TimerViewV", "udUserMeditationSettings"]
-- ["12CoreDataToDo9TimerViewV", "uiId"]
 - ["12CoreDataToDo9TimerViewV", "userMedSets"]
 - !private ["So29UIAccessibilityIdentificationP", "barTintColor"]
 - !private ["So29UIAccessibilityIdentificationP", "titleTextAttributes"]
@@ -763,6 +763,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "gesture"]
 - !private ["7SwiftUI4ViewP", "giveSessionPart"]
 - !private ["7SwiftUI4ViewP", "inMeditationPart"]
+- !private ["7SwiftUI4ViewP", "indxLst"]
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "intervalCounter"]
 - !private ["7SwiftUI4ViewP", "largeTitle"]
@@ -780,7 +781,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "scaledToFit"]
 - !private ["7SwiftUI4ViewP", "timer2"]
 - ["7SwiftUI4ViewP", "udUserMeditationSettings"]
-- !private ["7SwiftUI4ViewP", "uiId"]
 - !private ["7SwiftUI4ViewP", "white"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["s14_ArrayProtocolP", "end_med_chime"]
@@ -1066,4 +1066,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8bce75488c9068aa214048924898f4d6"
+interface-hash: "1c010422b13f9678b4339a13aa1672a5"

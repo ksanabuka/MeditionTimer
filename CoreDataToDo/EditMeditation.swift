@@ -16,17 +16,14 @@ import Combine
 
 
 
+
+
 struct EditMeditation: View {
    
    var sessnInx: Int
    
    @EnvironmentObject var allMeds: DataRep
 
-
-//    @EnvironmentObject var userMedSets: UserMedSets
-   
-   
-   //@EnvironmentObject var userMedSets1: UserMedSets
 
 
     @ObservedObject var udAllMeds = udUserMeditationSettings()
@@ -185,6 +182,256 @@ struct EditMeditation: View {
       }
    }
     
+   func compareListToUdUpdateUd(sessnInx: Int, parameter: String) {
+      
+      var durationPrepTime: SelectedDuration
+      var durationMedTime: SelectedDuration
+      var durationIntervalTime: SelectedDuration
+      var durationRestTime: SelectedDuration
+      
+      var med_name: String
+      var med_note: String
+      var prep_time: Int
+      var med_time: Int
+      var interval_time: Int
+      var rest_time: Int
+      var prep_chime: Int
+      var repeat_prep_chime: Int
+      var start_med_chime: Int
+      var repeat_start_med_chime: Int
+      var interval_chime: Int
+      var repeat_interval_chime: Int
+      var end_med_chime: Int
+      var repeat_end_med_chime: Int
+      var end_rest_chime: Int
+      var repeat_end_rest_chime: Int
+
+      
+      var k_med_name: String
+      var k_med_note: String
+      var k_prep_time: String
+      var k_med_time: String
+      var k_interval_time: String
+      var k_rest_time: String
+      var k_prep_chime: String
+      var k_repeat_prep_chime: String
+      var k_start_med_chime: String
+      var k_repeat_start_med_chime: String
+      var k_interval_chime: String
+      var k_repeat_interval_chime: String
+      var k_end_med_chime: String
+      var k_repeat_end_med_chime: String
+      var k_end_rest_chime: String
+      var k_repeat_end_rest_chime: String
+
+      
+      
+      let udId: Int = self.allMeds.sessionList[sessnInx].udId
+      switch udId {
+      case 0:
+         durationPrepTime = self.allMeds.durationPrepTime0
+         durationMedTime = self.allMeds.durationMedTime0
+         durationIntervalTime  = self.allMeds.durationIntervalTime0
+         durationRestTime = self.allMeds.durationRestTime0
+         
+         med_name = self.udAllMeds.med_name0
+         med_note = self.udAllMeds.med_note0
+         prep_time = self.udAllMeds.prep_time0
+         med_time = self.udAllMeds.med_time0
+         interval_time = self.udAllMeds.interval_time0
+         rest_time = self.udAllMeds.rest_time0
+         prep_chime = self.udAllMeds.prep_chime0
+         repeat_prep_chime = self.udAllMeds.repeat_prep_chime0
+         start_med_chime = self.udAllMeds.start_med_chime0
+         repeat_start_med_chime = self.udAllMeds.repeat_start_med_chime0
+         interval_chime = self.udAllMeds.interval_chime0
+         repeat_interval_chime = self.udAllMeds.repeat_interval_chime0
+         end_med_chime = self.udAllMeds.end_med_chime0
+         repeat_end_med_chime = self.udAllMeds.repeat_end_med_chime0
+         end_rest_chime = self.udAllMeds.end_rest_chime0
+         repeat_end_rest_chime = self.udAllMeds.repeat_end_rest_chime0
+
+         k_med_name = "k_med_name0"
+         k_med_note = "k_med_note0"
+         k_prep_time = "k_prep_time0"
+         k_med_time = "k_med_time0"
+         k_interval_time = "k_interval_time0"
+         k_rest_time = "k_rest_time0"
+         k_prep_chime = "k_prep_chime0"
+         k_repeat_prep_chime = "k_repeat_prep_chime0"
+         k_start_med_chime = "k_start_med_chime0"
+         k_repeat_start_med_chime = "k_repeat_start_med_chime0"
+         k_interval_chime = "k_interval_chime0"
+         k_repeat_interval_chime = "k_repeat_interval_chime0"
+         k_end_med_chime = "k_end_med_chime0"
+         k_repeat_end_med_chime = "k_repeat_end_med_chime0"
+         k_end_rest_chime = "k_end_rest_chime0"
+         k_repeat_end_rest_chime = "k_repeat_end_rest_chime0"
+
+      
+      case 1:
+         durationPrepTime = self.allMeds.durationPrepTime1
+         durationMedTime = self.allMeds.durationMedTime1
+         durationIntervalTime  = self.allMeds.durationIntervalTime1
+         durationRestTime = self.allMeds.durationRestTime1
+         
+         med_name = self.udAllMeds.med_name1
+         med_note = self.udAllMeds.med_note1
+         prep_time = self.udAllMeds.prep_time1
+         med_time = self.udAllMeds.med_time1
+         interval_time = self.udAllMeds.interval_time1
+         rest_time = self.udAllMeds.rest_time1
+         prep_chime = self.udAllMeds.prep_chime1
+         repeat_prep_chime = self.udAllMeds.repeat_prep_chime1
+         start_med_chime = self.udAllMeds.start_med_chime1
+         repeat_start_med_chime = self.udAllMeds.repeat_start_med_chime1
+         interval_chime = self.udAllMeds.interval_chime1
+         repeat_interval_chime = self.udAllMeds.repeat_interval_chime1
+         end_med_chime = self.udAllMeds.end_med_chime1
+         repeat_end_med_chime = self.udAllMeds.repeat_end_med_chime1
+         end_rest_chime = self.udAllMeds.end_rest_chime1
+         repeat_end_rest_chime = self.udAllMeds.repeat_end_rest_chime1
+
+         k_med_name = "k_med_name1"
+         k_med_note = "k_med_note1"
+         k_prep_time = "k_prep_time1"
+         k_med_time = "k_med_time1"
+         k_interval_time = "k_interval_time1"
+         k_rest_time = "k_rest_time1"
+         k_prep_chime = "k_prep_chime1"
+         k_repeat_prep_chime = "k_repeat_prep_chime1"
+         k_start_med_chime = "k_start_med_chime1"
+         k_repeat_start_med_chime = "k_repeat_start_med_chime1"
+         k_interval_chime = "k_interval_chime1"
+         k_repeat_interval_chime = "k_repeat_interval_chime1"
+         k_end_med_chime = "k_end_med_chime1"
+         k_repeat_end_med_chime = "k_repeat_end_med_chime1"
+         k_end_rest_chime = "k_end_rest_chime1"
+         k_repeat_end_rest_chime = "k_repeat_end_rest_chime1"
+
+      
+      default:
+         print("My default switch udId in compoareListToUdUpdateUd")
+         durationPrepTime = self.allMeds.durationPrepTime0
+         durationMedTime = self.allMeds.durationMedTime0
+         durationIntervalTime  = self.allMeds.durationIntervalTime0
+         durationRestTime = self.allMeds.durationRestTime0
+         
+         med_name = self.udAllMeds.med_name0
+         med_note = self.udAllMeds.med_note0
+         prep_time = self.udAllMeds.prep_time0
+         med_time = self.udAllMeds.med_time0
+         interval_time = self.udAllMeds.interval_time0
+         rest_time = self.udAllMeds.rest_time0
+         prep_chime = self.udAllMeds.prep_chime0
+         repeat_prep_chime = self.udAllMeds.repeat_prep_chime0
+         start_med_chime = self.udAllMeds.start_med_chime0
+         repeat_start_med_chime = self.udAllMeds.repeat_start_med_chime0
+         interval_chime = self.udAllMeds.interval_chime0
+         repeat_interval_chime = self.udAllMeds.repeat_interval_chime0
+         end_med_chime = self.udAllMeds.end_med_chime0
+         repeat_end_med_chime = self.udAllMeds.repeat_end_med_chime0
+         end_rest_chime = self.udAllMeds.end_rest_chime0
+         repeat_end_rest_chime = self.udAllMeds.repeat_end_rest_chime0
+
+         k_med_name = "k_med_name0"
+         k_med_note = "k_med_note0"
+         k_prep_time = "k_prep_time0"
+         k_med_time = "k_med_time0"
+         k_interval_time = "k_interval_time0"
+         k_rest_time = "k_rest_time0"
+         k_prep_chime = "k_prep_chime0"
+         k_repeat_prep_chime = "k_repeat_prep_chime0"
+         k_start_med_chime = "k_start_med_chime0"
+         k_repeat_start_med_chime = "k_repeat_start_med_chime0"
+         k_interval_chime = "k_interval_chime0"
+         k_repeat_interval_chime = "k_repeat_interval_chime0"
+         k_end_med_chime = "k_end_med_chime0"
+         k_repeat_end_med_chime = "k_repeat_end_med_chime0"
+         k_end_rest_chime = "k_end_rest_chime0"
+         k_repeat_end_rest_chime = "k_repeat_end_rest_chime0"
+
+      }
+      
+        if (self.allMeds.sessionList[sessnInx].med_name !=    med_name)
+                   { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].med_name) , forKey: k_med_name)
+                      print("OD:med_name & ud_med_name: \(self.allMeds.sessionList[sessnInx].med_name) \t \(   med_name)")
+
+                   }
+             if self.allMeds.sessionList[sessnInx].prep_chime !=    prep_chime
+             { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].prep_chime) , forKey: k_prep_chime)
+                   print("prep_chime_in & ud_prep_chime: \(self.allMeds.sessionList[sessnInx].prep_chime) \t \(   prep_chime)")}
+            
+             if (self.allMeds.sessionList[sessnInx].repeat_prep_chime !=    repeat_prep_chime)
+                { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].repeat_prep_chime) , forKey: k_repeat_prep_chime)
+                   print("OD:repeat_prep_chime & ud_repeat_prep_chime: \(self.allMeds.sessionList[sessnInx].repeat_prep_chime) \t \(   repeat_prep_chime)")
+                }
+                   
+             if self.allMeds.sessionList[sessnInx].start_med_chime !=    start_med_chime
+                { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].start_med_chime) , forKey: k_start_med_chime)
+                      print("start_med_chime & ud_start_med_chime \(self.allMeds.sessionList[sessnInx].start_med_chime) \t \(   start_med_chime)")}
+               
+                if (self.allMeds.sessionList[sessnInx].repeat_start_med_chime !=    repeat_start_med_chime)
+                   { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].repeat_start_med_chime) , forKey: k_repeat_start_med_chime)
+                      print("OD:repeat_start_med_chime & ud_repeat_start_med_chime: \(self.allMeds.sessionList[sessnInx].repeat_start_med_chime) \t \(   repeat_start_med_chime)")
+                   }
+             
+             
+                    if self.allMeds.sessionList[sessnInx].interval_chime !=    interval_chime
+                       { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].interval_chime) , forKey: k_interval_chime)
+                             print("interval_chime & ud_interval_chime: \(self.allMeds.sessionList[sessnInx].interval_chime) \t \(   interval_chime)")}
+                      
+                       if (self.allMeds.sessionList[sessnInx].repeat_interval_chime !=    repeat_interval_chime)
+                          { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].repeat_interval_chime) , forKey: k_repeat_interval_chime)
+                             print("OD:repeat_interval_chime & ud_repeat_interval_chime: \(self.allMeds.sessionList[sessnInx].repeat_interval_chime) \t \(   repeat_interval_chime)")
+                          }
+                    
+             
+                    if self.allMeds.sessionList[sessnInx].end_med_chime !=    end_med_chime
+                       { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].end_med_chime) , forKey: k_end_med_chime)
+                             print("end_med_chime & ud_end_med_chime: \(self.allMeds.sessionList[sessnInx].end_med_chime) \t \(   end_med_chime)")}
+                      
+                       if (self.allMeds.sessionList[sessnInx].repeat_end_med_chime !=    repeat_end_med_chime)
+                          { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].repeat_end_med_chime) , forKey: k_repeat_end_med_chime)
+                             print("OD:repeat_end_med_chime & ud_repeat_end_med_chime: \(self.allMeds.sessionList[sessnInx].repeat_end_med_chime) \t \(   repeat_end_med_chime)")
+                          }
+                    
+             
+                    if self.allMeds.sessionList[sessnInx].end_rest_chime !=    end_rest_chime
+                       { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].end_rest_chime) , forKey: k_end_rest_chime)
+                             print("end_rest_chime & ud_end_rest_chime: \(self.allMeds.sessionList[sessnInx].end_rest_chime) \t \(   end_rest_chime)")}
+                      
+                       if (self.allMeds.sessionList[sessnInx].repeat_end_rest_chime !=    repeat_end_rest_chime)
+                          { UserDefaults.standard.set((self.allMeds.sessionList[sessnInx].repeat_end_rest_chime) , forKey: k_repeat_end_rest_chime)
+                             print("OD:repeat_end_rest_chime & ud_repeat_end_rest_chime: \(self.allMeds.sessionList[sessnInx].repeat_end_rest_chime) \t \(   repeat_end_rest_chime)")
+                          }
+                    
+ 
+ 
+ if (durationPrepTime.toSeconds() !=    prep_time)
+    { UserDefaults.standard.set(durationPrepTime.toSeconds() , forKey: k_prep_time)
+       print("OD:prep_time & ud_prep_time: \(durationPrepTime.toSeconds() ) \t \(   prep_time)")
+
+ }
+
+ if (durationMedTime.toSeconds() !=    med_time)
+    { UserDefaults.standard.set(durationMedTime.toSeconds() , forKey: k_med_time)
+       print("OD:med_time & ud_med_time: \(durationMedTime.toSeconds() ) \t \(   med_time)")
+
+ }
+ if (durationIntervalTime.toSeconds() !=    interval_time)
+    { UserDefaults.standard.set(durationIntervalTime.toSeconds() , forKey: k_interval_time)
+       print("OD:interval_time & ud_interval_time: \(durationIntervalTime.toSeconds() ) \t \(   interval_time)")
+
+ }
+ if (durationRestTime.toSeconds() !=    rest_time)
+    { UserDefaults.standard.set(durationRestTime.toSeconds() , forKey: k_rest_time)
+       print("OD:rest_time & ud_rest_time: \(durationRestTime.toSeconds() ) \t \(   rest_time)")
+
+ }
+
+
+   }
     
     var body: some View {
         Group {
