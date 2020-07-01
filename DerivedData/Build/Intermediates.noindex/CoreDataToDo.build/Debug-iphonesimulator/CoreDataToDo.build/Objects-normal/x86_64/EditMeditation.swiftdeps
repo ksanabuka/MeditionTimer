@@ -312,6 +312,7 @@ depends-member:
 - !private ["12CoreDataToDo14EditMeditationV", "showingTimer"]
 - ["12CoreDataToDo14EditMeditationV", "udAllMeds"]
 - ["12CoreDataToDo14EditMeditationV", "udUserMeditationSettings"]
+- ["12CoreDataToDo14EditMeditationV", "updateListTime"]
 - !private ["SE", "end_med_chime"]
 - !private ["SE", "end_rest_chime"]
 - !private ["SE", "interval_chime"]
@@ -610,6 +611,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "sessnInx"]
 - !private ["7SwiftUI4ViewP", "udAllMeds"]
 - ["7SwiftUI4ViewP", "udUserMeditationSettings"]
+- !private ["7SwiftUI4ViewP", "updateListTime"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationIntervalTime0"]
 - !private ["7SwiftUI17EnvironmentObjectV7WrapperV", "durationIntervalTime1"]
@@ -827,4 +829,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d0b1d07c5f6c924c2d50f121fe3a2c9d"
+interface-hash: "5cecfeec8a18a68b7fa16701df4f311d"

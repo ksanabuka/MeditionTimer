@@ -427,12 +427,44 @@ struct EditMeditation: View {
  if (durationRestTime.toSeconds() !=    rest_time)
     { UserDefaults.standard.set(durationRestTime.toSeconds() , forKey: k_rest_time)
        print("OD:rest_time & ud_rest_time: \(durationRestTime.toSeconds() ) \t \(   rest_time)")
-
  }
-
-
    }
     
+   func updateListTime(sessnInx: Int) {
+      var durationPrepTime: SelectedDuration
+      var durationMedTime: SelectedDuration
+      var durationIntervalTime: SelectedDuration
+      var durationRestTime: SelectedDuration
+      
+      let udId: Int = self.allMeds.sessionList[sessnInx].udId
+      switch udId {
+      case 0:
+         durationPrepTime = self.allMeds.durationPrepTime0
+         durationMedTime = self.allMeds.durationMedTime0
+         durationIntervalTime  = self.allMeds.durationIntervalTime0
+         durationRestTime = self.allMeds.durationRestTime0
+         case 1:
+            durationPrepTime = self.allMeds.durationPrepTime1
+            durationMedTime = self.allMeds.durationMedTime1
+            durationIntervalTime  = self.allMeds.durationIntervalTime1
+            durationRestTime = self.allMeds.durationRestTime1
+
+         
+         default:
+            print("My default switch udId in updateList...")
+
+            durationPrepTime = self.allMeds.durationPrepTime0
+            durationMedTime = self.allMeds.durationMedTime0
+            durationIntervalTime  = self.allMeds.durationIntervalTime0
+            durationRestTime = self.allMeds.durationRestTime0
+      }
+      
+self.allMeds.sessionList[sessnInx].prep_time = durationPrepTime.toSeconds()
+      self.allMeds.sessionList[sessnInx].med_time = durationMedTime.toSeconds()
+      self.allMeds.sessionList[sessnInx].interval_time = durationIntervalTime.toSeconds()
+      self.allMeds.sessionList[sessnInx].rest_time = durationRestTime.toSeconds()
+   }
+   
     var body: some View {
         Group {
                 Form {
@@ -478,12 +510,13 @@ struct EditMeditation: View {
                
         }
         .onDisappear{
-         self.allMeds.sessionList[self.sessnInx].prep_time = self.allMeds.durationPrepTime0.toSeconds()
-         self.allMeds.sessionList[self.sessnInx].med_time = self.allMeds.durationMedTime0.toSeconds()
-         self.allMeds.sessionList[self.sessnInx].interval_time = self.allMeds.durationIntervalTime0.toSeconds()
-         self.allMeds.sessionList[self.sessnInx].rest_time = self.allMeds.durationRestTime0.toSeconds()
+//         self.allMeds.sessionList[self.sessnInx].prep_time = self.allMeds.durationPrepTime0.toSeconds()
+//         self.allMeds.sessionList[self.sessnInx].med_time = self.allMeds.durationMedTime0.toSeconds()
+//         self.allMeds.sessionList[self.sessnInx].interval_time = self.allMeds.durationIntervalTime0.toSeconds()
+//         self.allMeds.sessionList[self.sessnInx].rest_time = self.allMeds.durationRestTime0.toSeconds()
 
-
+         self.updateListTime(sessnInx: self.sessnInx)
+         
          self.allMeds.sessionList[self.sessnInx].total_med_time = self.allMeds.sessionList[self.sessnInx].prep_time + self.allMeds.sessionList[self.sessnInx].med_time + self.allMeds.sessionList[self.sessnInx].rest_time
          
          self.compareListToUdUpdateUd(sessnInx: self.sessnInx)
